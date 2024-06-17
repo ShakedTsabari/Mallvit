@@ -1,14 +1,7 @@
-{
-  "name": "mallvit",
-  "version": "1.0.0",
-  "description": "project for degree",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "tomer&shablul",
-  "license": "ISC",
+ {
   "dependencies": {
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5",
+    "neo4j-driver": "^5.21.0",
+    "vis-network": "^9.1.9"
   }
 }

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.homepage-picture {
+    width: 100%;
+    text-align: center;
+    height: 30%; /* 30% of the viewport height */
+}
+
+.about {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background: #eacfd5; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    margin: 0 0 20px;
+}
+
+.about p {
+    margin: 0;
+}

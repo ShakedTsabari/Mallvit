@@ -208,6 +208,30 @@ const storesAyalon2 = {
         ],
         numberOfFloors: 3,
       },
+      {
+        name: "Mall 3",
+        stores: [
+         "stores[1]", // Store B
+            "stores[2]", // Store C
+        ],
+        numberOfFloors: 3,
+      },
+      {
+        name: "Mall 4",
+        stores: [
+         "stores[1]", // Store B
+            "stores[2]", // Store C
+        ],
+        numberOfFloors: 3,
+      },
+      {
+        name: "Mall 5",
+        stores: [
+         "stores[1]", // Store B
+            "stores[2]", // Store C
+        ],
+        numberOfFloors: 3,
+      },
       // Add more malls as needed
     ];
     
@@ -239,5 +263,5 @@ Object.entries(connections2).forEach(([store, neighbors]) => {
     // Instantiate sigma:
 // const container = document.getElementById('sigma-container');
 // const renderer = new sigma(graph, container);
-//     // Export the data
+    // Export the data
     export { malls , graph};
