@@ -1,0 +1,60 @@
+.card {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.card-header h4, .card-header p {
+    margin: 0;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: rgba(193, 139, 139, 0.7);
+}
+
+.card-actions a, .card-actions button {
+    color: white;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.card-actions a:hover, .card-actions button:hover {
+    color: #2d3b9b;
+}
