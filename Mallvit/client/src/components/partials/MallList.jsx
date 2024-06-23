@@ -3,7 +3,7 @@ import MallCard from './mallCard';
 import React, { useRef } from 'react';
 
 const malls = [
-    { name: 'Mall 1', address: '1234 Mall St, City, Country', src: 'C:\University\Project-Mallvit\Mallvit\Mallvit\client\src\assets\lev_hadera.png' },
+    { name: 'Ayalon Mall', address: 'Abba Hillel Silver Rd 301, Ramat Gan', src: 'C:\University\Project-Mallvit\Mallvit\Mallvit\client\src\assets\lev_hadera.png' },
     { name: 'Mall 2', address: '5678 Mall Ave, City, Country', src: 'https://source.unsplash.com/300x200/?mall' },
     { name: 'Mall 3', address: '9101 Mall Blvd, City, Country', src: 'https://source.unsplash.com/300x200/?mall' },
     { name: 'Mall 4', address: '1122 Mall Dr, City, Country', src: 'https://source.unsplash.com/300x200/?mall' },
