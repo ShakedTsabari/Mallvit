@@ -1,6 +1,81 @@
-// import sigma from 'sigma';
-// const Graph = require('graphology');
-// const graph = new Graph();
+
+const storesAyalon2 = {
+
+  "Zara": { name: "Escalator", id: 121, floor: 2 },
+  "Bershka": { name: "Bershka", id: 122, floor: 2 },
+  "Landwer": { name: "Landwer", id: 123, floor: 2 },
+  "Story": { name: "Story", id: 124, floor: 2 },
+  "Super Dry": { name: "Super Dry", id: 125, floor: 2 },
+  "The Childrens Place": { name: "The Childrens Place", id: 126, floor: 2 },
+  "Foot Locker": { name: "Foot Locker", id: 127, floor: 2 },
+  "Aldo": { name: "Aldo", id: 128, floor: 2 },
+  "Renuar": { name: "Renuar", id: 129, floor: 2 },
+  "Celio": { name: "Celio", id: 130, floor: 2 },
+  "Nike": { name: "Nike", id: 131, floor: 2 },
+  "Inter Jeans": { name: "Inter Jeans", id: 132, floor: 2 },
+  "Biga": { name: "Biga", id: 133, floor: 2 },
+  "Minana": { name: "Minana", id: 134, floor: 2 },
+  "Flying Tiger": { name: "Flying Tiger", id: 135, floor: 2 },
+  "Black": { name: "Black", id: 136, floor: 2 },
+  "Yes Planet": { name: "Yes Planet", id: 137, floor: 2 },
+  "Babylon": { name: "Babylon", id: 138, floor: 2 },
+  "H&M": { name: "H&M", id: 139, floor: 2 },
+  "Tous": { name: "Tous", id: 140, floor: 2 },
+  "Desigual": { name: "Desigual", id: 141, floor: 2 },
+  "American Eagle": { name: "American Eagle", id: 142, floor: 2 },
+  "Adidas": { name: "Adidas", id: 143, floor: 2 },
+  "Castro": { name: "Castro", id: 144, floor: 2 },
+  "Fox": { name: "Fox", id: 145, floor: 2 },
+  "Starvarius": {name: "Starvarius", id: 146, floor: 2},
+  "Elevator": { name: "Elevator", id: 147, floor: 2 },
+  // "Elevator": { name: "Elevator", id: 148, floor: 2 },
+  "Escalator": { name: "Escalator", id: 149, floor: 2 },
+
+};
+
+const malls = [ 
+  {
+    name: "Ayalon Mall",
+    stores: storesAyalon2,
+    numberOfFloors: 2,
+  },
+  {
+    name: "Mall 2",
+    stores: [
+     "stores[1]", // Store B
+        "stores[2]", // Store C
+    ],
+    numberOfFloors: 3,
+  },
+  {
+    name: "Mall 3",
+    stores: [
+     "stores[1]", // Store B
+        "stores[2]", // Store C
+    ],
+    numberOfFloors: 3,
+  },
+  {
+    name: "Mall 4",
+    stores: [
+     "stores[1]", // Store B
+        "stores[2]", // Store C
+    ],
+    numberOfFloors: 3,
+  },
+  {
+    name: "Mall 5",
+    stores: [
+     "stores[1]", // Store B
+        "stores[2]", // Store C
+    ],
+    numberOfFloors: 3,
+  },
+];
+
+export {malls};
+
+
 
 // const storesAyalon1 = {
 //     "Victory": { name: "Victory", id: 1, floor: 1 },
@@ -125,40 +200,6 @@
 //     "Escalator": { name: "Escalator", id: 120, floor: 1 },
 // };
 
-const storesAyalon2 = {
-
-    "Zara": { name: "Escalator", id: 121, floor: 2 },
-    "Bershka": { name: "Bershka", id: 122, floor: 2 },
-    "Landwer": { name: "Landwer", id: 123, floor: 2 },
-    "Story": { name: "Story", id: 124, floor: 2 },
-    "Super Dry": { name: "Super Dry", id: 125, floor: 2 },
-    "The Childrens Place": { name: "The Childrens Place", id: 126, floor: 2 },
-    "Foot Locker": { name: "Foot Locker", id: 127, floor: 2 },
-    "Aldo": { name: "Aldo", id: 128, floor: 2 },
-    "Renuar": { name: "Renuar", id: 129, floor: 2 },
-    "Celio": { name: "Celio", id: 130, floor: 2 },
-    "Nike": { name: "Nike", id: 131, floor: 2 },
-    "Inter Jeans": { name: "Inter Jeans", id: 132, floor: 2 },
-    "Biga": { name: "Biga", id: 133, floor: 2 },
-    "Minana": { name: "Minana", id: 134, floor: 2 },
-    "Flying Tiger": { name: "Flying Tiger", id: 135, floor: 2 },
-    "Black": { name: "Black", id: 136, floor: 2 },
-    "Yes Planet": { name: "Yes Planet", id: 137, floor: 2 },
-    "Babylon": { name: "Babylon", id: 138, floor: 2 },
-    "H&M": { name: "H&M", id: 139, floor: 2 },
-    "Tous": { name: "Tous", id: 140, floor: 2 },
-    "Desigual": { name: "Desigual", id: 141, floor: 2 },
-    "American Eagle": { name: "American Eagle", id: 142, floor: 2 },
-    "Adidas": { name: "Adidas", id: 143, floor: 2 },
-    "Castro": { name: "Castro", id: 144, floor: 2 },
-    "Fox": { name: "Fox", id: 145, floor: 2 },
-    "Starvarius": {name: "Starvarius", id: 146, floor: 2},
-    "Elevator": { name: "Elevator", id: 147, floor: 2 },
-    // "Elevator": { name: "Elevator", id: 148, floor: 2 },
-    "Escalator": { name: "Escalator", id: 149, floor: 2 },
-
-  };
-
 //   const connections2 = {
 //     "Zara": ["Bershka", "Starvarius"],
 //     "Starvarius": ["Elevator", "Landwer", "Zara"],
@@ -191,81 +232,10 @@ const storesAyalon2 = {
 
 
 
-//   //stores [neighborsInMall [0]]
-  
-//     // Define malls
-    const malls = [ 
-      {
-        name: "Ayalon Mall",
-        stores: storesAyalon2,
-        numberOfFloors: 2,
-      },
-      {
-        name: "Mall 2",
-        stores: [
-         "stores[1]", // Store B
-            "stores[2]", // Store C
-        ],
-        numberOfFloors: 3,
-      },
-      {
-        name: "Mall 3",
-        stores: [
-         "stores[1]", // Store B
-            "stores[2]", // Store C
-        ],
-        numberOfFloors: 3,
-      },
-      {
-        name: "Mall 4",
-        stores: [
-         "stores[1]", // Store B
-            "stores[2]", // Store C
-        ],
-        numberOfFloors: 3,
-      },
-      {
-        name: "Mall 5",
-        stores: [
-         "stores[1]", // Store B
-            "stores[2]", // Store C
-        ],
-        numberOfFloors: 3,
-      },
-      // Add more malls as needed
-    ];
-    
-    export {malls};
-//     // Adding stores as nodes
-// // Adjusting the node addition to include x and y coordinates
-// Object.keys(storesAyalon2).forEach(storeName => {
-//   graph.addNode(storeName, {
-//     ...storesAyalon2[storeName],
-//     x: Math.random(),
-//     y: Math.random(),
-//     // You might want to adjust the size and color as well
-//     size: 10,
-//     color: '#FF0' // Example color, customize as needed
-//   });
-// });
 
 
-// // Adding edges based on the connections
-// Object.entries(connections2).forEach(([store, neighbors]) => {
-//   neighbors.forEach(neighbor => {
-//     if (!graph.hasEdge(store, neighbor)) {
-//       graph.addEdge(store, neighbor, { weight: 1 });
-//     }
-//   });
-// });
 
-//     // Calculate shortest paths between stores in malls using Dijkstra's algorithm
-//     // This part would involve more complex logic and is omitted in this example
-//     // Instantiate sigma:
-// // const container = document.getElementById('sigma-container');
-// // const renderer = new sigma(graph, container);
-//     // Export the data
-//     export { malls , graph};
+
 
 
 

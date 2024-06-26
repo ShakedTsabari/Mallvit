@@ -95,7 +95,7 @@ body {
     width: 100%;
     padding: 30px;
     text-align: center;
-    background: #eacfd5; /* Light background color */
+    background-color: grey;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
