@@ -1,7 +1,7 @@
 import React from 'react';
-import './Stores.css'; 
+import './StoresPage.css'; 
 
-const Stores = ({ stores }) => {
+const StoresPage = ({ stores }) => {
     return (
         <div className="store-container">
             {stores.map((store, index) => (
@@ -20,4 +20,4 @@ const Stores = ({ stores }) => {
     );
 }
 
-export default Stores;
+export default StoresPage;
