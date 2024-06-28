@@ -1,45 +1,48 @@
-// src/pages/MallPage.jsx
-import React, { useState, Routes, Route, Outlet} from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './MallPage.css';
 import { malls } from '../../../utils/data';
 import MallHeader from './partials/MallHeader';
-import {useMall} from '../../../context/MallContext'
+import { useMall } from '../../../context/MallContext';
 import StoresPage from './StoresPage';
 import MapPage from './MapPage';
-// import { useState} from 'react';
-
+import NavBar from './partials/NavBar';
 
 const MallPage = () => {
-  const { mall } = useMall(); // Correct use of the useMall hook
-  const ayalonMall = malls.find(mall => mall.name === "Ayalon Mall");
+  const { mall } = useMall();
+  const ayalonMall = malls.find(mall => mall.name === 'Ayalon Mall');
   const handleScroll = (e) => {
     e.preventDefault();
     const nextSection = document.getElementById('next-section');
     nextSection.scrollIntoView({ behavior: 'smooth' });
   };
+
   return (
     <div>
-      <MallHeader mall={ayalonMall}></MallHeader>    
-        <main className="mall-content">
-        <div id="shops" className="shops-section">
-          <h3>Shops List</h3>
-          <ul>
-            {Object.values(ayalonMall.stores).map(store => (
-              <li key={store.id}>{store.name}</li>
-            ))}
-          </ul>
+      <MallHeader mall={mall} />
+      <a href="#next-section" className="scroll-arrow" onClick={handleScroll}>
+        <div className="scroll-arrow-circle">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 16l-6-6h12z" />
+          </svg>
         </div>
-      </main>
-
-      {/* <main className="mall-content"> */}
-        {/* <Routes> */}
-          {/* <Route index element={<div>Select a section</div>} /> */}
-          {/* <Route path="/mall/:mallName/stores" element={<StoresPage />} /> */}
-          {/* <Route path="dining" element={<DiningPage />} /> */}
-          {/* <Route path="/mall/:mallName/map" element={<MapPage />} /> */}
-          {/* <Route path="deals" element={<DealsPage />} /> */}
-        {/* </Routes> */}
-      {/* </main> */}
+      </a>
+      <div id="next-section">
+        <NavBar mall={mall} />
+        <div className="content-container">
+          <div id="about" className="about">
+            <h2>{`About ${mall.name}`}</h2>
+            <p>{mall.info}</p>
+          </div>
+          <main className="mall-content">
+            <Routes>
+              {/* <Route index element={<div>Select a section</div>} /> */}
+              <Route path="stores" element={<StoresPage mall={mall} />} />
+              <Route path="map" element={<MapPage mapSrc={mall.mapSrc} />} />
+              {/* Additional nested routes here */}
+            </Routes>
+          </main>
+        </div>
+      </div>
     </div>
   );
 };

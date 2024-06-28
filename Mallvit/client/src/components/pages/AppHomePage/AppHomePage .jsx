@@ -3,7 +3,7 @@ import './AppHomePage.css';
 import MallList from './partials/MallList';
 
 
-export default function AppHomePage({setMall}) {
+export default function AppHomePage() {
     const handleScroll = (e) => {
         e.preventDefault();
         const nextSection = document.getElementById('next-section');

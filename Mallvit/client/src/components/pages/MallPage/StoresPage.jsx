@@ -1,10 +1,12 @@
 import React from 'react';
 import './StoresPage.css'; 
+import MallHeader from './partials/MallHeader';
 
-const StoresPage = ({ stores }) => {
+const StoresPage = ({ mall }) => {
     return (
-        <div className="store-container">
-            {stores.map((store, index) => (
+        <div>
+            <div className="store-container">
+            {mall.stores.map((store, index) => (
                 <div className="store-card" key={index}>
                     <div className="store-logo">
                         {/* Assuming store.logoUrl is the URL to the store's logo */}
@@ -17,6 +19,8 @@ const StoresPage = ({ stores }) => {
                 </div>
             ))}
         </div>
+        </div>
+
     );
 }
 

@@ -91,12 +91,28 @@
   fill: white;
 }
 
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.content-container {
+  width: 70%;
+  margin: 20px auto 0;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .about {
-  width: 100%;
+  width: 90%;
   padding: 30px;
   text-align: center;
-  background: #dcdcdc; /* Light background color */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #f4f5fa;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.5);
   line-height: 1.6;
 }
 
@@ -108,56 +124,7 @@
   margin: 0;
 }
 
-.navbar {
-  background: #464242;
-  padding: 10px 0;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(200, 149, 149, 0.1);
-}
-
-.navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.navbar li {
-  margin: 0 20px;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  transition: color 0.3s;
-}
-
-.navbar a:hover {
-  color: #ffe4e4; /* Tomato color on hover */
-}
-
 .mall-content {
   padding: 20px;
-  background: #f9f9f9;
-}
-
-.mall-content {
-  margin-left: 220px; /* Adjust based on sidebar width */
-  padding: 20px;
-}
-
-.shops-section h3 {
-  margin-top: 0;
-}
-
-.shops-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.shops-section ul li {
-  margin-bottom: 5px;
+  background: #ffffff;
 }

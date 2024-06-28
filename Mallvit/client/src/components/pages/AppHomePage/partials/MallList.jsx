@@ -1,21 +1,11 @@
 import './MallList.css'
 import MallCard from './mallCard';
 import React, { useRef } from 'react';
+import { malls } from '../../../../utils/data';
 
-const malls = [
-    { name: 'Ayalon Mall', address: 'Abba Hillel Silver Rd 301, Ramat Gan', src: "https://www.azrieligroup.com/wp-content/uploads/2021/01/az_header.jpg" },
-    { name: 'Mall 2', address: '5678 Mall Ave, City, Country', src: 'https://source.unsplash.com/300x200/?mall' },
-    { name: 'Mall 3', address: '9101 Mall Blvd, City, Country', src: 'https://source.unsplash.com/300x200/?mall' },
-    { name: 'Mall 4', address: '1122 Mall Dr, City, Country', src: 'https://source.unsplash.com/300x200/?mall' },
-    { name: 'Mall 5', address: '3344 Mall Ln, City, Country', src: 'https://source.unsplash.com/300x200/?mall' },
-    { name: 'Mall 6', address: '5566 Mall Blvd, City, Country', src: 'https://source.unsplash.com/300x200/?mall' },
-    { name: 'Mall 7', address: '7788 Mall St, City, Country', src: 'https://source.unsplash.com/300x200/?mall' },
-    { name: 'Mall 8', address: '9900 Mall Ave, City, Country', src: 'https://source.unsplash.com/300x200/?mall' },
-    { name: 'Mall 9', address: '1010 Mall Blvd, City, Country', src: 'https://source.unsplash.com/300x200/?mall' },
-    { name: 'Mall 10', address: '1212 Mall Dr, City, Country', src: 'https://source.unsplash.com/300x200/?mall' }
-];
 
-export default function MallList({mallsList}){
+
+export default function MallList(){
     const scrollRef = useRef(null);
 
     const scroll = (scrollOffset) => {
