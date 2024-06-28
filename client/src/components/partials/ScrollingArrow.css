@@ -1,0 +1,39 @@
+.scroll-arrow {
+    position: absolute; /* Change to absolute to position within the section */
+    bottom: 20px; /* Position 20px from the bottom of the section */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.scroll-arrow .scroll-arrow-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: background-color 0.3s, border-color 0.3s;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-arrow svg {
+    fill: rgb(255, 255, 255);
+    width: 32px;
+    height: 32px;
+    transition: fill 0.3s;
+    /* box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.5); */
+}
+
+.scroll-arrow:hover .scroll-arrow-circle {
+    background-color: grey;
+    border-color: grey;
+}
+
+.scroll-arrow:hover svg {
+    fill: white;
+}
