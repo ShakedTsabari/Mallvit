@@ -1,13 +1,16 @@
 import { malls } from '../../../utils/data';
 import './AppHomePage.css';
-import MallList from './partials/MallList';
-
+import MallListSection from './partials/MallListSection';
+import AboutSection from './partials/AboutSection';
+import ScrollingArrow from '../../partials/ScrollingArrow';
 
 export default function AppHomePage() {
-    const handleScroll = (e) => {
+    const handleScroll = (id) => (e) => {
         e.preventDefault();
-        const nextSection = document.getElementById('next-section');
-        nextSection.scrollIntoView({ behavior: 'smooth' });
+        const nextSection = document.getElementById(id);
+        if (nextSection) {
+            nextSection.scrollIntoView({ behavior: 'smooth' });
+        }
     };
     return (
         <>
@@ -21,20 +24,22 @@ export default function AppHomePage() {
                         <source media="(min-width: 768px)" srcSet="https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/4a6e24e07e33013b5e040ead9ecbf798.yottaa.net/v~4b.315.0.0/homepage_videos/simonherodesktoppropertyphotos.gif?yocs=D_NA_" />
                         <img src="https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/4a6e24e07e33013b5e040ead9ecbf798.yottaa.net/v~4b.315.0.0/htmlcontent/SIMON.COM-HERO-MOBILE_1_20240118163812.gif?yocs=D_NA_" alt="Discover Simon" />
                     </picture>
-                    <a className="scroll-arrow" href="#next-section" title="Find Center" onClick={handleScroll}>
-                        <div className="scroll-arrow-circle">
-                            <svg role="img" aria-label="Scroll Down" width="32" height="32" viewBox="0 0 24 24">
-                                <path d="M12 16l-6-6h12z"/>
-                            </svg>
+                    <ScrollingArrow targetId="section1" tooltip="find center"/>
+                </div>
+                <div id="section1">
+                    <div className="staggered-section staggered-left">
+                        <div className="staggered-content">
+                            <MallListSection mallsList={malls} />
                         </div>
-                    </a>
+                        <ScrollingArrow targetId="section2" tooltip="scrolling down"/>
+                    </div>
                 </div>
-                <div id="next-section">
-                    <MallList mallsList={malls}></MallList>
-                </div>
-                <div className="about">
-                    <h2>About Mallvit</h2>
-                    <p>Mallvit is your ultimate indoor navigation solution for shopping malls. Navigate effortlessly through any mall and find exactly what you need with ease.</p>
+                <div id="section2">
+                    <div className="staggered-section staggered-right">
+                        <div className="staggered-content">
+                            <AboutSection />
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

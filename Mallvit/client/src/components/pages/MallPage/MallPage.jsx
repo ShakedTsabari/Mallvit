@@ -29,13 +29,12 @@ const MallPage = () => {
       <div id="next-section">
         <NavBar mall={mall} />
         <div className="content-container">
-          <div id="about" className="about">
+          <div className="about-mall">
             <h2>{`About ${mall.name}`}</h2>
             <p>{mall.info}</p>
           </div>
           <main className="mall-content">
             <Routes>
-              {/* <Route index element={<div>Select a section</div>} /> */}
               <Route path="stores" element={<StoresPage mall={mall} />} />
               <Route path="map" element={<MapPage mapSrc={mall.mapSrc} />} />
               {/* Additional nested routes here */}

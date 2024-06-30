@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #eadcdc; /* Dark background color */
+  background-color: #ffffff; /* Dark background color */
   color: #000000; /* Light text color */
 }
 
@@ -13,7 +13,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
   background-color: #2a2a2a; /* Dark code background color */
-  color: #b3b3b3; /* Light code text color */
+  color: #ffffff; /* Light code text color */
   padding: 2px 4px; /* Adjust padding for code */
   border-radius: 4px; /* Rounded corners for code */
 }
