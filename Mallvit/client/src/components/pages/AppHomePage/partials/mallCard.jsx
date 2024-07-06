@@ -8,13 +8,14 @@ export default function MallCard({ mall }) {
     const { setMall } = useMall(); // Correct use of the useMall hook
 
     function handleClick() {
+        console.log(mall);
         setMall(mall);
-        navigate(`/mall/${mall.name.replace(/\s+/g, '-').toLowerCase()}`);
+        navigate(`/malls/${mall.title}`);
     }
 
     return (
-        <div className="card" onClick={handleClick} style={{ backgroundImage: `url(${mall.src})` }}>
-            <h2>{mall.name}</h2>
+        <div className="card" onClick={handleClick} style={{ backgroundImage: `url(${mall.img})` }}>
+            <h2>{mall.title}</h2>
             <div className="card-header">
                 <p>{mall.address}</p>
             </div>

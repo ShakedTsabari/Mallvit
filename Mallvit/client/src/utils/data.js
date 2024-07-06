@@ -26,7 +26,7 @@ const storesAyalon2 = [
   { name: "Adidas", id: 143, floor: 2 },
   { name: "Castro", id: 144, floor: 2 },
   { name: "Fox", id: 145, floor: 2 },
-  {name: "Starvarius", id: 146, floor: 2},
+  { name: "Starvarius", id: 146, floor: 2},
   { name: "Elevator", id: 147, floor: 2 },
   { name: "Escalator", id: 149, floor: 2 },
 

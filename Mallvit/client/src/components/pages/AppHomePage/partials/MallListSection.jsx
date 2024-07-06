@@ -1,16 +1,36 @@
 import './MallListSection.css'
 import MallCard from './mallCard';
-import React, { useRef } from 'react';
-import { malls } from '../../../../utils/data';
+import React, { useRef, useState, useEffect } from 'react';
+// import { malls } from '../../../../utils/data';
 
 
 
 export default function MallListSection(){
+    const [malls, setMalls] = useState([]); // Initialize malls state as an empty array
     const scrollRef = useRef(null);
+    const baseUrl = 'http://localhost:3000'
 
     const scroll = (scrollOffset) => {
         scrollRef.current.scrollLeft += scrollOffset;
     };
+
+    useEffect(() => {
+        const fetchMalls = async () => {
+            try {
+                const url = baseUrl + '/malls/'
+                const response = await fetch(url); 
+                const data = await response.json();
+                console.log(data)
+                setMalls(data); // Update the malls state with fetched data
+            } catch (error) {
+                console.error('Failed to fetch malls:', error);
+            }
+        };
+
+        fetchMalls(); // Call the fetch function when the component mounts
+    }, []); // Empty dependency array means this effect will only run once after the initial render
+
+
     return (
         <>
         {/* <div className="title-section">
@@ -34,4 +54,3 @@ export default function MallListSection(){
         </>
     )
 }
-

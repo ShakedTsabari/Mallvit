@@ -1,24 +1,58 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, } from 'react-router-dom';
 import './MallPage.css';
-import { malls } from '../../../utils/data';
+// import { malls } from '../../../utils/data';
 import MallHeader from './partials/MallHeader';
 import { useMall } from '../../../context/MallContext';
-import StoresPage from './StoresPage';
-import MapPage from './MapPage';
+import StoresSection from './StoresSection';
+import MapSection from './MapSection';
+import ReviewsSection from './ReviewsSection';
 import NavBar from './partials/NavBar';
+import {useState, useEffect} from 'react';
+
 
 const MallPage = () => {
   const { mall } = useMall();
-  const ayalonMall = malls.find(mall => mall.name === 'Ayalon Mall');
+  const [reviews, setReviews] = useState([]); // State for reviews
+  const [mallObject, setMallObject] = useState({}); // Initialize mall state as an empty object
+  console.log(mall);
+  const baseUrl = 'http://localhost:3000';
+  // const ayalonMall = malls.find(mall => mall.title === 'אילון');
   const handleScroll = (e) => {
     e.preventDefault();
     const nextSection = document.getElementById('next-section');
     nextSection.scrollIntoView({ behavior: 'smooth' });
   };
+  useEffect(() => {
+    const fetchMallObject = async () => {
+        try {
+            const url = baseUrl + '/malls/' + mall.title;
+            const response = await fetch(url); 
+            const data = await response.json();
+            console.log(data)
+            setMallObject(data); // Update the malls state with fetched data
+        } catch (error) {
+            console.error('Failed to fetch malls:', error);
+        }
+    };
+    const fetchReviews = async () => {
+      try {
+        const url = baseUrl + '/malls/' + mall.title + '/reviews';
+        const response = await fetch(url);
+        const data = await response.json();
+        setReviews(data);
+      } catch (error) {
+        console.error('Failed to fetch reviews:', error);
+      }
+    };
+    fetchReviews();
+    fetchMallObject(); // Call the fetch function when the component mounts
+}, []); // Empty dependency array means this effect will only run once after the initial render
+
+
 
   return (
     <div>
-      <MallHeader mall={mall} />
+      <MallHeader mall={mallObject} />
       <a href="#next-section" className="scroll-arrow" onClick={handleScroll}>
         <div className="scroll-arrow-circle">
           <svg viewBox="0 0 24 24">
@@ -27,18 +61,18 @@ const MallPage = () => {
         </div>
       </a>
       <div id="next-section">
-        <NavBar mall={mall} />
+        <NavBar mall={mallObject} />
         <div className="content-container">
           <div className="about-mall">
-            <h2>{`About ${mall.name}`}</h2>
-            <p>{mall.info}</p>
+            <h2>{`About ${mallObject.title}`}</h2>
+            {/* <p>{mall.info}</p> */}
           </div>
           <main className="mall-content">
-            <Routes>
-              <Route path="stores" element={<StoresPage mall={mall} />} />
-              <Route path="map" element={<MapPage mapSrc={mall.mapSrc} />} />
-              {/* Additional nested routes here */}
-            </Routes>
+          <Routes>
+            <Route path="/" element={<ReviewsSection mall={mallObject} setReviews={setReviews} />} />
+            <Route path="stores" element={<StoresSection mall={mallObject} />} />
+            <Route path="map" element={<MapSection mapSrc={mallObject.mapUrl} />} />
+          </Routes>
           </main>
         </div>
       </div>

@@ -5,11 +5,11 @@ export default function MallHeader({mall}){
             <div className="hero-section">
                 <div className="hero-image">
                     <picture>
-                        <img src={mall.src} alt={mall.name} />
+                        <img src={mall.img} alt={mall.title} />
                     </picture>
                 </div>
                 <div className="hero-text">
-                <h1 className="hero-heading">{mall.name}</h1>
+                <h1 className="hero-heading">{mall.title}</h1>
                 <p className="hero-description">Welcome to the mall</p>
                 <a href="#about" className="hero-button">Learn More</a>
                 </div>

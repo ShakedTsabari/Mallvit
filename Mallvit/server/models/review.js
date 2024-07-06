@@ -4,7 +4,8 @@ const ReviewSchema = new mongoose.Schema({
     name: String,
     subject: String,
     body: String,
-    timestamp: { type: Date, default: Date.now }  // Correct way to set a default date
+    timestamp: { type: Date, default: Date.now },
+    comments: {} // {name: , comment: }
 },{ collection: 'mallsInfo' }); 
 
 const Review = mongoose.model('Review', ReviewSchema);

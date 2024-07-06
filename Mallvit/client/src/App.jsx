@@ -11,7 +11,7 @@ function App() {
       <MallProvider>
       <Routes>
         <Route path="/" element={<AppHomePage/>} />
-        <Route path="/mall/:mallName/*" element={<MallPage />} />
+        <Route path="/malls/:mallName/*" element={<MallPage />} />
       </Routes>
       </MallProvider>
     </Router>
