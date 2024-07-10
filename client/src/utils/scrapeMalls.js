@@ -1,4 +1,6 @@
 const puppeteer = require('puppeteer');
+const fs = require('fs');  // Add this line to import the File System module
+
 
 async function scrapeMalls() {
     const browser = await puppeteer.launch({ headless: true });
@@ -41,9 +43,10 @@ async function scrapeMalls() {
 
         mall.storesLink = storesLink;
     }
-    const firstMallStoresLink = malls[0].storesLink;
-    if(firstMallStoresLink){
-        await page.goto(firstMallStoresLink, { waitUntil: 'networkidle2' });
+    const desiredMalls = ["אילון","הוד השרון", "חיפה", "מול הים אילת", "עסקים חולון" ];
+    for(let mall of malls){
+        if(desiredMalls.includes(mall.title)){
+            await page.goto(mall.storesLink, { waitUntil: 'networkidle2' });
 
             // Scrape the store data
             const stores = await page.evaluate(() => {
@@ -68,9 +71,12 @@ async function scrapeMalls() {
                 // Update the store object with detailed data
                 Object.assign(store, storeDetails);
             }
-            malls[0].stores = stores;
+            mall.stores = stores;
+        }
     }
-    console.log(malls[0]);
+
+    fs.writeFileSync('malls.json', JSON.stringify(malls, null, 2), 'utf-8');
+    console.log("success scraping");
     await browser.close();
 }
 

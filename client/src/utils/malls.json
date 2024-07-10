@@ -1,0 +1,3867 @@
+[
+  {
+    "name": "קניון עזריאלי",
+    "title": "אילון",
+    "address": "אבא הילל 301, רמת גן",
+    "hours": [
+      "שעות פעילות-",
+      "א-ה: 09:30-22:00",
+      "שישי: 9:30-16:00",
+      "שבת: חצי שעה מצאת השבת עד 22:00",
+      "",
+      ""
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7341.png?t=1471777485",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%90%D7%99%D7%9C%D7%95%D7%9F",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/3/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%90%D7%99%D7%9C%D7%95%D7%9F/",
+    "stores": [
+      {
+        "name": "H&M נשים",
+        "floor": "",
+        "phoneNumber": "074-7155777",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/37/H_M-%D7%A0%D7%A9%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/31693.png?t=1544098898"
+      },
+      {
+        "name": "H&M גברים וילדים",
+        "floor": "קומה שניה",
+        "phoneNumber": "074-7155777",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/38/H_M-%D7%92%D7%91%D7%A8%D7%99%D7%9D-%D7%95%D7%99%D7%9C%D7%93%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/31693.png?t=1544098898"
+      },
+      {
+        "name": "אירוקה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6165774",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/45/%D7%90%D7%99%D7%A8%D7%95%D7%A7%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95583.jpg?t=1696417966"
+      },
+      {
+        "name": "ALDO",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-6161074",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/55/ALDO/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/7537.png?t=1472036863"
+      },
+      {
+        "name": "אמריקן איגל",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-5563765",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/63/%D7%90%D7%9E%D7%A8%D7%99%D7%A7%D7%9F-%D7%90%D7%99%D7%92%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/28529.jpg?t=1534675492"
+      },
+      {
+        "name": "אפריל",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5784310",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/73/%D7%90%D7%A4%D7%A8%D7%99%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/27216.png?t=1530535435"
+      },
+      {
+        "name": "באג",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5703459",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/83/%D7%91%D7%90%D7%92-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6510.jpg?t=1468853818"
+      },
+      {
+        "name": "בילבונג",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6199949",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/99/%D7%91%D7%99%D7%9C%D7%91%D7%95%D7%A0%D7%92/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96040.png?t=1699546261"
+      },
+      {
+        "name": "ג'נטלמן",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6182805",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/107/%D7%92%D7%A0%D7%98%D7%9C%D7%9E%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4912.png?t=1465897305"
+      },
+      {
+        "name": "HOODIES",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6427223",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/132/HOODIES/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3611.png?t=1462946753"
+      },
+      {
+        "name": "הוניגמן ילדים",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6196778",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/150/%D7%94%D7%95%D7%A0%D7%99%D7%92%D7%9E%D7%9F-%D7%99%D7%9C%D7%93%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4936.png?t=1465897608"
+      },
+      {
+        "name": "המשביר החדש לצרכן",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6188403",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/164/%D7%94%D7%9E%D7%A9%D7%91%D7%99%D7%A8-%D7%94%D7%97%D7%93%D7%A9-%D7%9C%D7%A6%D7%A8%D7%9B%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/101359.png?t=1712561883"
+      },
+      {
+        "name": "ZIP",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6181514",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/168/ZIP/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/54406.png?t=1590506884"
+      },
+      {
+        "name": "TOPTEN",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5706166",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/178/TOPTEN-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95202.jpg?t=1695117096"
+      },
+      {
+        "name": "RUBY BAY",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/187/RUBY-BAY/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/88408.png?t=1678402839"
+      },
+      {
+        "name": "ליה לונדון",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6186261",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/191/%D7%9C%D7%99%D7%94-%D7%9C%D7%95%D7%A0%D7%93%D7%95%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/49946.png?t=1579171908"
+      },
+      {
+        "name": "ללין",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "054-3345063",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/197/%D7%9C%D7%9C%D7%99%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4976.png?t=1465898124"
+      },
+      {
+        "name": "MAC",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5093651",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/208/MAC/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/48512.png?t=1576663392"
+      },
+      {
+        "name": "מגנוליה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6195562",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/213/%D7%9E%D7%92%D7%A0%D7%95%D7%9C%D7%99%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/21908.png?t=1712867172"
+      },
+      {
+        "name": "MANGO",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6329587",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/222/MANGO/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/21907.jpg?t=1517142030"
+      },
+      {
+        "name": "adidas",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-6161716",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/239/adidas/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96057.png?t=1699549391"
+      },
+      {
+        "name": "סבון",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6290902",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/261/%D7%A1%D7%91%D7%95%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6302.png?t=1712867148"
+      },
+      {
+        "name": "CELIO",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-6167139",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/273/CELIO/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3821.png?t=1464592377"
+      },
+      {
+        "name": "FOX",
+        "floor": "קומה שניה",
+        "phoneNumber": "5563816 -03",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/304/FOX/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4891.png?t=1465897025"
+      },
+      {
+        "name": "FOX HOME",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-5799172",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/319/FOX-HOME/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/89451.jpg?t=1682288431"
+      },
+      {
+        "name": "צומת ספרים",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6164710",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/331/%D7%A6%D7%95%D7%9E%D7%AA-%D7%A1%D7%A4%D7%A8%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5138.png?t=1465900114"
+      },
+      {
+        "name": "קסטרו ילדים",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "050-6790901",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/351/%D7%A7%D7%A1%D7%98%D7%A8%D7%95-%D7%99%D7%9C%D7%93%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6122.jpg?t=1467894816"
+      },
+      {
+        "name": "קסטרו",
+        "floor": "קומה שניה",
+        "phoneNumber": "1800-266-066",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/359/%D7%A7%D7%A1%D7%98%D7%A8%D7%95--/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/52713.png?t=1583349157"
+      },
+      {
+        "name": "CAROLINA LEMKE",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5703218",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/389/CAROLINA-LEMKE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3566.png?t=1462885050"
+      },
+      {
+        "name": "We Shoes",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "076-8100238",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/397/We-Shoes/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/78478.png?t=1712867356"
+      },
+      {
+        "name": "Crazy Line",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6183959",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/403/Crazy-Line-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4855.png?t=1465895240"
+      },
+      {
+        "name": "ROYALTY",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5785751",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/413/-ROYALTY/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/24813.png?t=1525127615"
+      },
+      {
+        "name": "TWENTY FOUR SEVEN",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "0529918410",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/429/TWENTY-FOUR-SEVEN/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5135.png?t=1465900111"
+      },
+      {
+        "name": "il.makiage",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6165317",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/440/il.makiage-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/15933.png?t=1498034617"
+      },
+      {
+        "name": "RENUAR",
+        "floor": "קומה שניה",
+        "phoneNumber": "1800-255-255",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/445/RENUAR-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/93942.png?t=1692176907"
+      },
+      {
+        "name": "פרטנר",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "1800-054-054",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/477/%D7%A4%D7%A8%D7%98%D7%A0%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/89343.png?t=1681716362"
+      },
+      {
+        "name": "אופטיקנה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6161242",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/487/%D7%90%D7%95%D7%A4%D7%98%D7%99%D7%A7%D7%A0%D7%94-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/47954.png?t=1575447300"
+      },
+      {
+        "name": "INTIMA",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "073-7096665",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/494/INTIMA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/29175.png?t=1536751931"
+      },
+      {
+        "name": "ארומה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6161261",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/512/%D7%90%D7%A8%D7%95%D7%9E%D7%94-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/85686.jpg?t=1672943480"
+      },
+      {
+        "name": "אריסטו שמט",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "073-2022526",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/535/%D7%90%D7%A8%D7%99%D7%A1%D7%98%D7%95-%D7%A9%D7%9E%D7%98-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3779.png?t=1464591894"
+      },
+      {
+        "name": "GOLBARY",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6165190",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/561/GOLBARY/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4015.png?t=1465462568"
+      },
+      {
+        "name": "דינמיקה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-9057610",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/603/%D7%93%D7%99%D7%A0%D7%9E%D7%99%D7%A7%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/31650.png?t=1544004189"
+      },
+      {
+        "name": "GOLF",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "073-7091065",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/612/-GOLF-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/35268.png?t=1551705827"
+      },
+      {
+        "name": "הגרה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6162254",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/636/%D7%94%D7%92%D7%A8%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5499.jpg?t=1466353974"
+      },
+      {
+        "name": "HOT",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "077-5571906",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/640/-HOT/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/31283.jpg?t=1543224586"
+      },
+      {
+        "name": "ZARA",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "1-599-510-510",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/657/ZARA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/73418.png?t=1645637446"
+      },
+      {
+        "name": "MANIA",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6090692",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/703/MANIA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5007.png?t=1465898559"
+      },
+      {
+        "name": "מייה אינספיריישן",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "0501902011",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/718/%D7%9E%D7%99%D7%99%D7%94-%D7%90%D7%99%D7%A0%D7%A1%D7%A4%D7%99%D7%A8%D7%99%D7%99%D7%A9%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/49155.png?t=1577628446"
+      },
+      {
+        "name": "מקדונלדס",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "052-9440001",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/730/%D7%9E%D7%A7%D7%93%D7%95%D7%A0%D7%9C%D7%93%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/42619.png?t=1712867226"
+      },
+      {
+        "name": "Nike",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-5789250",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/734/Nike/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96046.png?t=1699546403"
+      },
+      {
+        "name": "ורדינון",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6162920",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/751/%D7%95%D7%A8%D7%93%D7%99%D7%A0%D7%95%D7%9F-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5143.png?t=1465900454"
+      },
+      {
+        "name": "סטודיו פשה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5096867",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/761/%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95-%D7%A4%D7%A9%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5106.png?t=1465899803"
+      },
+      {
+        "name": "PULL&BEAR",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "1599-510-510",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/780/PULL_BEAR/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5058.png?t=1465899303"
+      },
+      {
+        "name": "אפרודיטה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5080396",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/787/%D7%90%D7%A4%D7%A8%D7%95%D7%93%D7%99%D7%98%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3766.png?t=1464591799"
+      },
+      {
+        "name": "פלאפון",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "166*",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/798/%D7%A4%D7%9C%D7%90%D7%A4%D7%95%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6692.png?t=1469343935"
+      },
+      {
+        "name": "PANDORA",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5547501",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/805/PANDORA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/49553.png?t=1578254270"
+      },
+      {
+        "name": "PrOfil",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6195338",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/809/PrOfil/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/100136.png?t=1709662988"
+      },
+      {
+        "name": "Timberland",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5787105",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/812/Timberland/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/82775.png?t=1667967862"
+      },
+      {
+        "name": "לי קופר",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5706452",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/848/%D7%9C%D7%99-%D7%A7%D7%95%D7%A4%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/11179.png?t=1482925604"
+      },
+      {
+        "name": "ריקושט",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5707977",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/868/%D7%A8%D7%99%D7%A7%D7%95%D7%A9%D7%98/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/68148.png?t=1633429264"
+      },
+      {
+        "name": "NINE WEST",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5274953",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/892/NINE-WEST/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5025.png?t=1465898806"
+      },
+      {
+        "name": "נעלי נמרוד",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6187333",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/917/%D7%A0%D7%A2%D7%9C%D7%99-%D7%A0%D7%9E%D7%A8%D7%95%D7%93/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/62148.png?t=1616517895"
+      },
+      {
+        "name": "Impress",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5785186",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/922/Impress/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/93197.jpg?t=1690712283"
+      },
+      {
+        "name": "סופר פארם",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "077-8880106",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/943/%D7%A1%D7%95%D7%A4%D7%A8-%D7%A4%D7%90%D7%A8%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6535.png?t=1468930831"
+      },
+      {
+        "name": "סטימצקי",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "077-2699929",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/950/%D7%A1%D7%98%D7%99%D7%9E%D7%A6%D7%A7%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/34614.png?t=1712867211"
+      },
+      {
+        "name": "עונות ג'אמפ",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5223300",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/958/%D7%A2%D7%95%D7%A0%D7%95%D7%AA-%D7%92%D7%90%D7%9E%D7%A4/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/72971.png?t=1644486394"
+      },
+      {
+        "name": "POLGAT",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "073-7044465",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/966/POLGAT/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/29165.png?t=1536751581"
+      },
+      {
+        "name": "SAMSUNG",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "6963*",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/990/SAMSUNG/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/27247.png?t=1530538776"
+      },
+      {
+        "name": "קרביץ",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6313871",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1000/%D7%A7%D7%A8%D7%91%D7%99%D7%A5/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/7162.png?t=1470835608"
+      },
+      {
+        "name": "Fix",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5616432",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1011/Fix/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4887.png?t=1465896962"
+      },
+      {
+        "name": "פעלטון",
+        "floor": "קומה שניה",
+        "phoneNumber": "1700-504-464",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1014/%D7%A4%D7%A2%D7%9C%D7%98%D7%95%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5036.png?t=1465898959"
+      },
+      {
+        "name": "rebar",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6196823",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1019/rebar/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5061.png?t=1465899355"
+      },
+      {
+        "name": "רולדין",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-7764400",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1028/%D7%A8%D7%95%D7%9C%D7%93%D7%99%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/91150.png?t=1685683961"
+      },
+      {
+        "name": "Steve Madden",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5796428",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1039/Steve-Madden/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5104.png?t=1465899802"
+      },
+      {
+        "name": "S. WEAR",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5784064",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1206/S.-WEAR/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/34118.png?t=1548942733"
+      },
+      {
+        "name": "נפרטיטי",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6164104",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1208/%D7%A0%D7%A4%D7%A8%D7%98%D7%99%D7%98%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5015.png?t=1465898668"
+      },
+      {
+        "name": "רעומה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6197819",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1209/%D7%A8%D7%A2%D7%95%D7%9E%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5063.png?t=1465899418"
+      },
+      {
+        "name": "RESERVED",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-7413002",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1210/RESERVED/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/28398.jpg?t=1534072204"
+      },
+      {
+        "name": "CARTER'S",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5797707",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1211/CARTERS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3819.png?t=1464592300"
+      },
+      {
+        "name": "טבע נאות",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-7313798",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1213/%D7%98%D7%91%D7%A2-%D7%A0%D7%90%D7%95%D7%AA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/103732.png?t=1718911709"
+      },
+      {
+        "name": "Lafayette",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6199436",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1214/Lafayette/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4973.png?t=1465898077"
+      },
+      {
+        "name": "Fly Foot",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5783166",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1215/Fly-Foot/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4867.png?t=1465895456"
+      },
+      {
+        "name": "הפי טיים",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5780405",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1216/%D7%94%D7%A4%D7%99-%D7%98%D7%99%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il0/"
+      },
+      {
+        "name": "SWATCH",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5709659",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1217/SWATCH/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/42383.png?t=1564610777"
+      },
+      {
+        "name": "JAPANIKA",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5793982",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1219/JAPANIKA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/58657.png?t=1596544349"
+      },
+      {
+        "name": "סוויטלנד",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5797875",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1220/%D7%A1%D7%95%D7%95%D7%99%D7%98%D7%9C%D7%A0%D7%93-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5561.png?t=1466354017"
+      },
+      {
+        "name": "איטל אופטיק",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5224225",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1225/%D7%90%D7%99%D7%98%D7%9C-%D7%90%D7%95%D7%A4%D7%98%D7%99%D7%A7-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4290.png?t=1465830217"
+      },
+      {
+        "name": "Tik4U",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5796416",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1226/Tik4U/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5554.png?t=1466354011"
+      },
+      {
+        "name": "CHANGE ויודאיקה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6167589",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1227/CHANGE-%D7%95%D7%99%D7%95%D7%93%D7%90%D7%99%D7%A7%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/65320.jpg?t=1625352954"
+      },
+      {
+        "name": "הפינה הירוקה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5780439",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1228/%D7%94%D7%A4%D7%99%D7%A0%D7%94-%D7%94%D7%99%D7%A8%D7%95%D7%A7%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/69287.png?t=1636047828"
+      },
+      {
+        "name": "דוכן מפעל הפיס",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6183913",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1229/%D7%93%D7%95%D7%9B%D7%9F-%D7%9E%D7%A4%D7%A2%D7%9C-%D7%94%D7%A4%D7%99%D7%A1-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5038.png?t=1465899010"
+      },
+      {
+        "name": "מתפרה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5785798",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1230/%D7%9E%D7%AA%D7%A4%D7%A8%D7%94/",
+        "img": "https://media.azrielimalls.co.il0/"
+      },
+      {
+        "name": "יס פלאנט",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-5798570",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1232/%D7%99%D7%A1-%D7%A4%D7%9C%D7%90%D7%A0%D7%98-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/93694.jpg?t=1691494741"
+      },
+      {
+        "name": "נעמן",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1233/%D7%A0%D7%A2%D7%9E%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/22415.png?t=1517865003"
+      },
+      {
+        "name": "איטליאנו",
+        "floor": "קומה שניה",
+        "phoneNumber": "050-2424252",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1234/%D7%90%D7%99%D7%98%D7%9C%D7%99%D7%90%D7%A0%D7%95-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4952.png?t=1465897812"
+      },
+      {
+        "name": "B-unique",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6496902",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1239/B-unique/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6340.png?t=1712867161"
+      },
+      {
+        "name": "TOUS",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-5719437",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1245/TOUS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/87186.png?t=1712867377"
+      },
+      {
+        "name": "BLACK",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-5522250",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1247/BLACK/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3796.png?t=1464592044"
+      },
+      {
+        "name": "THE CHILDREN'S PLACE",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-5563791",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1249/THE-CHILDRENS-PLACE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4847.png?t=1465895079"
+      },
+      {
+        "name": "Desigual",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-5580353",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1250/Desigual/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/20243.png?t=1511332741"
+      },
+      {
+        "name": "BIGA",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-8070700",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1251/BIGA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/83069.png?t=1668601519"
+      },
+      {
+        "name": "Bershka",
+        "floor": "קומה שניה",
+        "phoneNumber": "1-599-510-510",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1253/Bershka/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/41146.png?t=1562159340"
+      },
+      {
+        "name": "SKECHERS",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5386333",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1254/SKECHERS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/73609.png?t=1646039813"
+      },
+      {
+        "name": "בבילון גיימס",
+        "floor": "קומה שניה",
+        "phoneNumber": "1700-55-22-33",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1678/%D7%91%D7%91%D7%99%D7%9C%D7%95%D7%9F-%D7%92%D7%99%D7%99%D7%9E%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3786.png?t=1464591951"
+      },
+      {
+        "name": "טלסקר",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-6102200",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1679/%D7%98%D7%9C%D7%A1%D7%A7%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6131.png?t=1467894821"
+      },
+      {
+        "name": "צ'יינה טאון",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-6186102",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1680/%D7%A6%D7%99%D7%99%D7%A0%D7%94-%D7%98%D7%90%D7%95%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4845.png?t=1465895079"
+      },
+      {
+        "name": "Q Mobile",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5044519",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1681/Q-Mobile/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6126.png?t=1467894819"
+      },
+      {
+        "name": "איב רושה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "054-6789048",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1682/%D7%90%D7%99%D7%91-%D7%A8%D7%95%D7%A9%D7%94-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/92037.png?t=1688036652"
+      },
+      {
+        "name": "אסף ותומר",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5667111",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1684/%D7%90%D7%A1%D7%A3-%D7%95%D7%AA%D7%95%D7%9E%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4795.png?t=1465894291"
+      },
+      {
+        "name": "יפה מקסימוב - מרכזי אסתטיקה",
+        "floor": "קומה שניה",
+        "phoneNumber": "1700-50-70-10",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1689/%D7%99%D7%A4%D7%94-%D7%9E%D7%A7%D7%A1%D7%99%D7%9E%D7%95%D7%91---%D7%9E%D7%A8%D7%9B%D7%96%D7%99-%D7%90%D7%A1%D7%AA%D7%98%D7%99%D7%A7%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95084.jpg?t=1694612643"
+      },
+      {
+        "name": "ROYALTY",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5785751",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1726/ROYALTY/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/24813.png?t=1525127615"
+      },
+      {
+        "name": "מייפון",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-5227140",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1899/%D7%9E%D7%99%D7%99%D7%A4%D7%95%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4318.png?t=1465830231"
+      },
+      {
+        "name": "א.ל.מ דיגיטל",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-9415218",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1900/%D7%90.%D7%9C.%D7%9E-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/61946.png?t=1615816387"
+      },
+      {
+        "name": "I OPTIC",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "052-3332367",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1901/I-OPTIC/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/35800.jpg?t=1552918657"
+      },
+      {
+        "name": "GOLF KIDS",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1902/GOLF-KIDS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/54500.png?t=1590582812"
+      },
+      {
+        "name": "רוני קהאן - תכשיטים",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1941/%D7%A8%D7%95%D7%A0%D7%99-%D7%A7%D7%94%D7%90%D7%9F---%D7%AA%D7%9B%D7%A9%D7%99%D7%98%D7%99%D7%9D-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/11113.png?t=1482759413"
+      },
+      {
+        "name": "דלתא",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-9192187",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2037/%D7%93%D7%9C%D7%AA%D7%90-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4063.png?t=1465814000"
+      },
+      {
+        "name": "Estee Lauder",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-9077598",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2054/Estee-Lauder/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/13040.png?t=1488708305"
+      },
+      {
+        "name": "held",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-7445568",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2072/held-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4932.png?t=1465897550"
+      },
+      {
+        "name": "נאוטיקה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "037392440",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2107/%D7%A0%D7%90%D7%95%D7%98%D7%99%D7%A7%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/47747.png?t=1575200078"
+      },
+      {
+        "name": "נאמן קונדיטוריה וקפה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5709988",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2141/%D7%A0%D7%90%D7%9E%D7%9F-%D7%A7%D7%95%D7%A0%D7%93%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%94-%D7%95%D7%A7%D7%A4%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/87825.png?t=1677522692"
+      },
+      {
+        "name": "שיפודי התקווה",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2144/%D7%A9%D7%99%D7%A4%D7%95%D7%93%D7%99-%D7%94%D7%AA%D7%A7%D7%95%D7%95%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/94895.png?t=1694166644"
+      },
+      {
+        "name": "SuperDry",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-9339423",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2216/SuperDry-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/12646.jpg?t=1487508299"
+      },
+      {
+        "name": "Foot Locker",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-9670431",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2220/Foot-Locker/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96030.png?t=1699545923"
+      },
+      {
+        "name": "stradivarius",
+        "floor": "קומה שניה",
+        "phoneNumber": "1-599-510-510",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2246/stradivarius/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/7249.png?t=1471185725"
+      },
+      {
+        "name": "זארה הום",
+        "floor": "קומה שניה",
+        "phoneNumber": "1599-510-510",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2247/%D7%96%D7%90%D7%A8%D7%94-%D7%94%D7%95%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/22791.png?t=1519559575"
+      },
+      {
+        "name": "Vans",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-9568220",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2256/Vans/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5142.png?t=1465900454"
+      },
+      {
+        "name": "LASTER",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2267/LASTER/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/80976.jpg?t=1662457208"
+      },
+      {
+        "name": "סברובסקי",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "037575889",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2269/%D7%A1%D7%91%D7%A8%D7%95%D7%91%D7%A1%D7%A7%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/9541.png?t=1479206612"
+      },
+      {
+        "name": "קפה לנדוור",
+        "floor": "קומה שניה",
+        "phoneNumber": "039651555",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2270/%D7%A7%D7%A4%D7%94-%D7%9C%D7%A0%D7%93%D7%95%D7%95%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/83430.png?t=1669118928"
+      },
+      {
+        "name": "KIWI",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2348/KIWI/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/88746.png?t=1679564141"
+      },
+      {
+        "name": "havaianas",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2349/havaianas/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/44641.png?t=1568748497"
+      },
+      {
+        "name": "INTER JEANS",
+        "floor": "קומה שניה",
+        "phoneNumber": "035453666",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2350/INTER-JEANS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/71229.png?t=1640711100"
+      },
+      {
+        "name": "מגה טויס",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-7792255",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2362/%D7%9E%D7%92%D7%94-%D7%98%D7%95%D7%99%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/29273.png?t=1712867187"
+      },
+      {
+        "name": "שני יעקובי",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2409/%D7%A9%D7%A0%D7%99-%D7%99%D7%A2%D7%A7%D7%95%D7%91%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/33934.png?t=1548843051"
+      },
+      {
+        "name": "קיקו",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "0543334173",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2453/%D7%A7%D7%99%D7%A7%D7%95/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/35741.png?t=1552569829"
+      },
+      {
+        "name": "ברלינגטון אינגליש",
+        "floor": "קומה שניה",
+        "phoneNumber": "09-9532064",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2467/%D7%91%D7%A8%D7%9C%D7%99%D7%A0%D7%92%D7%98%D7%95%D7%9F-%D7%90%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%A9/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/30581.png?t=1541946789"
+      },
+      {
+        "name": "REINA ניחוחות לבית",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "050-6867820",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2468/REINA-%D7%A0%D7%99%D7%97%D7%95%D7%97%D7%95%D7%AA-%D7%9C%D7%91%D7%99%D7%AA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/59765.png?t=1599070810"
+      },
+      {
+        "name": "ADORNO תכשיטים",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "054-2234540",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2469/ADORNO-%D7%AA%D7%9B%D7%A9%D7%99%D7%98%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/36685.png?t=1554382804"
+      },
+      {
+        "name": "Heren & Damen",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "054-8750509",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2476/Heren-_-Damen/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/37103.jpg?t=1555013549"
+      },
+      {
+        "name": "סגלית קדם",
+        "floor": "קומה שניה",
+        "phoneNumber": "0506983798",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2479/%D7%A1%D7%92%D7%9C%D7%99%D7%AA-%D7%A7%D7%93%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/37261.jpg?t=1555432407"
+      },
+      {
+        "name": "B-FRESH",
+        "floor": "קומה שניה",
+        "phoneNumber": "054-4860086",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2521/B-FRESH/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/65525.png?t=1625622756"
+      },
+      {
+        "name": "נעלי און",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2594/%D7%A0%D7%A2%D7%9C%D7%99-%D7%90%D7%95%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/84417.png?t=1670777489"
+      },
+      {
+        "name": "רונן חן",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2595/%D7%A8%D7%95%D7%A0%D7%9F-%D7%97%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5069.png?t=1465899421"
+      },
+      {
+        "name": "מיניסו",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2596/%D7%9E%D7%99%D7%A0%D7%99%D7%A1%D7%95/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/33785.png?t=1548681628"
+      },
+      {
+        "name": "ארנקי עמנואל",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2597/%D7%90%D7%A8%D7%A0%D7%A7%D7%99-%D7%A2%D7%9E%D7%A0%D7%95%D7%90%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/12636.png?t=1712868517"
+      },
+      {
+        "name": "New Deli",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2598/New-Deli/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/97320.png?t=1703619158"
+      },
+      {
+        "name": "פסטה בסטה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2608/%D7%A4%D7%A1%D7%98%D7%94-%D7%91%D7%A1%D7%98%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/28241.png?t=1533465550"
+      },
+      {
+        "name": "וניליה softserve",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "0544949905",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2609/%D7%95%D7%A0%D7%99%D7%9C%D7%99%D7%94-softserve/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/38503.png?t=1558959130"
+      },
+      {
+        "name": "אבישג ארבל",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-6271029",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2632/%D7%90%D7%91%D7%99%D7%A9%D7%92-%D7%90%D7%A8%D7%91%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/51606.jpg?t=1581416035"
+      },
+      {
+        "name": "תירס",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2649/%D7%AA%D7%99%D7%A8%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/27040.jpg?t=1530439523"
+      },
+      {
+        "name": "אויל דה לאמור",
+        "floor": "קומה שניה",
+        "phoneNumber": "0528344913",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2671/%D7%90%D7%95%D7%99%D7%9C-%D7%93%D7%94-%D7%9C%D7%90%D7%9E%D7%95%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5497.jpg?t=1466353974"
+      },
+      {
+        "name": "BLACK & WHITE",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2677/BLACK-_-WHITE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/101665.png?t=1713295685"
+      },
+      {
+        "name": "REPUBLIC",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5375637",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2683/REPUBLIC/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/57934.png?t=1595530752"
+      },
+      {
+        "name": "American Eagle Kids",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2705/American-Eagle-Kids/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/59669.jpg?t=1598900347"
+      },
+      {
+        "name": "Emanuel ארנקים",
+        "floor": "",
+        "phoneNumber": "03-7744240",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2709/Emanuel-%D7%90%D7%A8%D7%A0%D7%A7%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/12636.png?t=1712868517"
+      },
+      {
+        "name": "LICK",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-5540520",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2711/LICK/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60023.png?t=1599567941"
+      },
+      {
+        "name": "Sweetime",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2719/Sweetime/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/101452.png?t=1712660777"
+      },
+      {
+        "name": "פינוק ישראל",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2791/%D7%A4%D7%99%D7%A0%D7%95%D7%A7-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/55833.png?t=1592760734"
+      },
+      {
+        "name": "Tea Bar",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2854/Tea-Bar/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/77911.png?t=1655895017"
+      },
+      {
+        "name": "Super Car Wash",
+        "floor": "",
+        "phoneNumber": "03-5786621",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2855/Super-Car-Wash/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/65662.png?t=1626176393"
+      },
+      {
+        "name": "גולדה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2857/%D7%92%D7%95%D7%9C%D7%93%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/74339.png?t=1647433811"
+      },
+      {
+        "name": "מאמא גרג",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2866/%D7%9E%D7%90%D7%9E%D7%90-%D7%92%D7%A8%D7%92/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/66462.png?t=1627980302"
+      },
+      {
+        "name": "Samsonite",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "03-5062220",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2874/Samsonite/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/67737.jpg?t=1632060646"
+      },
+      {
+        "name": "Happy Lemon",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "054-7998918",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2878/Happy-Lemon/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/66944.png?t=1712867324"
+      },
+      {
+        "name": "story",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2905/story/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/26973.png?t=1530184912"
+      },
+      {
+        "name": "STORY ALLSAINTS",
+        "floor": "קומה שניה",
+        "phoneNumber": "036493163",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2906/STORY-ALLSAINTS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/68693.png?t=1635254468"
+      },
+      {
+        "name": "חומוס אליהו",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2915/%D7%97%D7%95%D7%9E%D7%95%D7%A1-%D7%90%D7%9C%D7%99%D7%94%D7%95/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/83367.png?t=1669033226"
+      },
+      {
+        "name": "Nelly Davidov",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2980/Nelly-Davidov/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/73949.png?t=1646403591"
+      },
+      {
+        "name": "FRESH the market",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-5054025",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3008/FRESH-the-market/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/76050.png?t=1651678261"
+      },
+      {
+        "name": "I BLOCK - דוכן",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "053-301-8648",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3010/I-BLOCK---%D7%93%D7%95%D7%9B%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/76140.png?t=1652047157"
+      },
+      {
+        "name": "flying tiger Copenhagen",
+        "floor": "קומה שניה",
+        "phoneNumber": "03-6097324",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3125/flying-tiger-Copenhagen/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/70905.jpg?t=1639508183"
+      },
+      {
+        "name": "מיננה",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3132/%D7%9E%D7%99%D7%A0%D7%A0%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/99826.png?t=1712867419"
+      },
+      {
+        "name": "DONE",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3176/DONE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/77930.png?t=1655935457"
+      },
+      {
+        "name": "MOBI CELL",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3208/MOBI-CELL/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/88201.png?t=1677783148"
+      },
+      {
+        "name": "SMART",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3212/SMART/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/69792.png?t=1637232963"
+      },
+      {
+        "name": "פמינה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3321/%D7%A4%D7%9E%D7%99%D7%A0%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/47748.png?t=1575200266"
+      },
+      {
+        "name": "PARFOIS",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3322/PARFOIS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/64880.png?t=1623818021"
+      },
+      {
+        "name": "PANTA REI",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3323/PANTA-REI/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/85506.png?t=1672674510"
+      },
+      {
+        "name": "INGLOT",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3341/INGLOT/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95014.jpg?t=1694481341"
+      },
+      {
+        "name": "FANTASY",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3343/FANTASY/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95096.png?t=1712867405"
+      },
+      {
+        "name": "OPATRA LONDON",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "039590978",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3355/OPATRA-LONDON/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/65733.png?t=1626608544"
+      },
+      {
+        "name": "Ustabelle פופ אפ",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3359/Ustabelle-%D7%A4%D7%95%D7%A4-%D7%90%D7%A4/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96483.png?t=1701163820"
+      },
+      {
+        "name": "DANON",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3361/DANON/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/75795.png?t=1651516005"
+      },
+      {
+        "name": "Olivia Estilo",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3363/Olivia-Estilo/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/89738.png?t=1682858711"
+      },
+      {
+        "name": "My Jeans",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "055-5519572",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3370/My-Jeans/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96084.png?t=1699867534"
+      },
+      {
+        "name": "intimissimi",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3385/intimissimi/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/97062.png?t=1702365768"
+      },
+      {
+        "name": "Miel POP UP",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3387/Miel--POP-UP/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/98121.png?t=1705340841"
+      },
+      {
+        "name": "XRAY - דוכן",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3388/XRAY---%D7%93%D7%95%D7%9B%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/98126.jpg?t=1705343711"
+      },
+      {
+        "name": "סולתם",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3407/%D7%A1%D7%95%D7%9C%D7%AA%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/88699.png?t=1712867391"
+      },
+      {
+        "name": "Ipanema",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3410/Ipanema/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/77908.png?t=1712867336"
+      },
+      {
+        "name": "allsaints",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3417/allsaints/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/89236.png?t=1680610161"
+      },
+      {
+        "name": "Itay Brands",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3418/Itay-Brands/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/101581.png?t=1713207892"
+      }
+    ]
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "תל אביב",
+    "address": "דרך מנחם בגין 132, תל אביב",
+    "hours": [
+      "ימים א'-ה' 9:30-22:00",
+      "יום ו' / ערבי חג - 9:30-15:30",
+      "מוצ\"ש - שעה לאחר צאת השבת ועד לשעה 23:00"
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7353.png?t=1471777347",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/1/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91/"
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "ירושלים",
+    "address": "דרך אגודת ספורט ביתר 1",
+    "hours": [
+      "ימים א'-ה' 9:30-22:00",
+      "יום ו' / ערבי חג - 9:00-15:30",
+      "מוצ\"ש – שעה לאחר צאת השבת ועד לשעה 23:00"
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7348.png?t=1471777414",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/4/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D/"
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "חולון",
+    "address": "גולדה מאיר 7, חולון",
+    "hours": [
+      "ימים א'-ה' 9:30-21:30",
+      "יום ו' / ערבי חג - 9:30-14:30",
+      "מוצ\"ש – חצי שעה מצאת השבת ועד לשעה 22:00",
+      ""
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7347.png?t=1471777423",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%97%D7%95%D7%9C%D7%95%D7%9F",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/5/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%97%D7%95%D7%9C%D7%95%D7%9F/"
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "הוד השרון",
+    "address": "ז'בוטינסקי 3, הוד השרון",
+    "hours": [
+      "ימים א'-ה' 9:30-20:00",
+      "יום ו' / ערבי חג - 9:00-15:00",
+      "מוצ\"ש – שעה לאחר צאת השבת ועד לשעה 22:30"
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7346.png?t=1471777437",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%94%D7%95%D7%93_%D7%94%D7%A9%D7%A8%D7%95%D7%9F",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/6/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%94%D7%95%D7%93-%D7%94%D7%A9%D7%A8%D7%95%D7%9F/",
+    "stores": [
+      {
+        "name": "בילבונג",
+        "floor": "קומת כניסה",
+        "phoneNumber": "09-7996335",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/100/%D7%91%D7%99%D7%9C%D7%91%D7%95%D7%A0%D7%92/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96040.png?t=1699546261"
+      },
+      {
+        "name": "HOODIES",
+        "floor": "קומת כניסה",
+        "phoneNumber": "09-7493896",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/133/HOODIES/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3611.png?t=1462946753"
+      },
+      {
+        "name": "ללין",
+        "floor": "קומת כניסה",
+        "phoneNumber": "054-3345053",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/198/%D7%9C%D7%9C%D7%99%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4976.png?t=1465898124"
+      },
+      {
+        "name": "מגנוליה",
+        "floor": "קומת כניסה",
+        "phoneNumber": "09-7434897",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/214/%D7%9E%D7%92%D7%A0%D7%95%D7%9C%D7%99%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/21908.png?t=1712867172"
+      },
+      {
+        "name": "SPICES",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-7793445",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/289/SPICES/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5100.png?t=1465899705"
+      },
+      {
+        "name": "FOX",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-7400235",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/305/FOX/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4891.png?t=1465897025"
+      },
+      {
+        "name": "ROYALTY",
+        "floor": "קומת כניסה",
+        "phoneNumber": "09-7444581",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/414/-ROYALTY/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/24813.png?t=1525127615"
+      },
+      {
+        "name": "אופטיקנה",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-7463477",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/488/%D7%90%D7%95%D7%A4%D7%98%D7%99%D7%A7%D7%A0%D7%94-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/47954.png?t=1575447300"
+      },
+      {
+        "name": "אפנדיס",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/503/%D7%90%D7%A4%D7%A0%D7%93%D7%99%D7%A1-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3771.png?t=1464591832"
+      },
+      {
+        "name": "ארקפה",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/513/%D7%90%D7%A8%D7%A7%D7%A4%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/59326.jpg?t=1598183180"
+      },
+      {
+        "name": "אריסטו שמט",
+        "floor": "קומת כניסה",
+        "phoneNumber": "09-7414584",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/536/%D7%90%D7%A8%D7%99%D7%A1%D7%98%D7%95-%D7%A9%D7%9E%D7%98-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3779.png?t=1464591894"
+      },
+      {
+        "name": "דואר ישראל - מרכז מסירה (ממ\"ס)",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-8615996",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/582/%D7%93%D7%95%D7%90%D7%A8-%D7%99%D7%A9%D7%A8%D7%90%D7%9C---%D7%9E%D7%A8%D7%9B%D7%96-%D7%9E%D7%A1%D7%99%D7%A8%D7%94-(%D7%9E%D7%9E_%D7%A1)/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4289.png?t=1465830217"
+      },
+      {
+        "name": "GOLF & CO",
+        "floor": "קומה עליונה",
+        "phoneNumber": "073-7093314",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/616/GOLF-_-CO-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/54496.png?t=1590582717"
+      },
+      {
+        "name": "אירוקה",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/752/%D7%90%D7%99%D7%A8%D7%95%D7%A7%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95583.jpg?t=1696417966"
+      },
+      {
+        "name": "אושי אושי",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-7739010",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/791/%D7%90%D7%95%D7%A9%D7%99-%D7%90%D7%95%D7%A9%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/25067.png?t=1712868530"
+      },
+      {
+        "name": "שופרסל שלי",
+        "floor": "קומת כניסה",
+        "phoneNumber": "09-7404280",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/886/%D7%A9%D7%95%D7%A4%D7%A8%D7%A1%D7%9C-%D7%A9%D7%9C%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5091.png?t=1465899618"
+      },
+      {
+        "name": "סופר פארם",
+        "floor": "קומת כניסה",
+        "phoneNumber": "077-8880540",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/944/%D7%A1%D7%95%D7%A4%D7%A8-%D7%A4%D7%90%D7%A8%D7%9D-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6535.png?t=1468930831"
+      },
+      {
+        "name": "סטימצקי",
+        "floor": "קומה עליונה",
+        "phoneNumber": "077-614-7122",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/952/%D7%A1%D7%98%D7%99%D7%9E%D7%A6%D7%A7%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/34614.png?t=1712867211"
+      },
+      {
+        "name": "עונות ג'אמפ",
+        "floor": "קומת כניסה",
+        "phoneNumber": "09-7742500",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/959/%D7%A2%D7%95%D7%A0%D7%95%D7%AA-%D7%92%D7%90%D7%9E%D7%A4/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/72971.png?t=1644486394"
+      },
+      {
+        "name": "הפנינג טויס",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-7408651",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/969/%D7%94%D7%A4%D7%A0%D7%99%D7%A0%D7%92-%D7%98%D7%95%D7%99%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/58386.png?t=1712868587"
+      },
+      {
+        "name": "קרביץ",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-7408620",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1001/%D7%A7%D7%A8%D7%91%D7%99%D7%A5/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/7162.png?t=1470835608"
+      },
+      {
+        "name": "פעלטון",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-8654903",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1015/%D7%A4%D7%A2%D7%9C%D7%98%D7%95%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5036.png?t=1465898959"
+      },
+      {
+        "name": "rebar",
+        "floor": "קומת כניסה",
+        "phoneNumber": "09-8804979",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1020/rebar/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5061.png?t=1465899355"
+      },
+      {
+        "name": "את- לבני נשים",
+        "floor": "קומת כניסה",
+        "phoneNumber": "09-7409344",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1260/%D7%90%D7%AA--%D7%9C%D7%91%D7%A0%D7%99-%D7%A0%D7%A9%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4796.png?t=1465894334"
+      },
+      {
+        "name": "S. WEAR",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-7480032",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1261/S.-WEAR/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/34118.png?t=1548942733"
+      },
+      {
+        "name": "צעד קדימה",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-7409050",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1262/%D7%A6%D7%A2%D7%93-%D7%A7%D7%93%D7%99%D7%9E%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5136.png?t=1465900111"
+      },
+      {
+        "name": "מתפרת מיס טיק טק",
+        "floor": "",
+        "phoneNumber": "09-8627016",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1263/%D7%9E%D7%AA%D7%A4%D7%A8%D7%AA-%D7%9E%D7%99%D7%A1-%D7%98%D7%99%D7%A7-%D7%98%D7%A7/",
+        "img": "https://media.azrielimalls.co.il0/"
+      },
+      {
+        "name": "דוכן מפעל הפיס",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1265/%D7%93%D7%95%D7%9B%D7%9F-%D7%9E%D7%A4%D7%A2%D7%9C-%D7%94%D7%A4%D7%99%D7%A1-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5038.png?t=1465899010"
+      },
+      {
+        "name": "קופת חולים כללית",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-7627200",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1588/%D7%A7%D7%95%D7%A4%D7%AA-%D7%97%D7%95%D7%9C%D7%99%D7%9D-%D7%9B%D7%9C%D7%9C%D7%99%D7%AA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5496.jpg?t=1466353973"
+      },
+      {
+        "name": "קופת חולים כללית - מרכז בריאות האישה והילד",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-7646600",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1589/%D7%A7%D7%95%D7%A4%D7%AA-%D7%97%D7%95%D7%9C%D7%99%D7%9D-%D7%9B%D7%9C%D7%9C%D7%99%D7%AA---%D7%9E%D7%A8%D7%9B%D7%96-%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA-%D7%94%D7%90%D7%99%D7%A9%D7%94-%D7%95%D7%94%D7%99%D7%9C%D7%93/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5496.jpg?t=1466353973"
+      },
+      {
+        "name": "מספרת זיו",
+        "floor": "קומה עליונה",
+        "phoneNumber": "09-7415241",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1590/%D7%9E%D7%A1%D7%A4%D7%A8%D7%AA-%D7%96%D7%99%D7%95/",
+        "img": "https://media.azrielimalls.co.il0/"
+      },
+      {
+        "name": "GOLF KIDS",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1903/GOLF-KIDS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/54500.png?t=1590582812"
+      },
+      {
+        "name": "בורגר קינג",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1951/%D7%91%D7%95%D7%A8%D7%92%D7%A8-%D7%A7%D7%99%D7%A0%D7%92--/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/63903.png?t=1622412476"
+      },
+      {
+        "name": "אפריל",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1952/%D7%90%D7%A4%D7%A8%D7%99%D7%9C-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/27216.png?t=1530535435"
+      },
+      {
+        "name": "סטודיו פשה",
+        "floor": "קומת כניסה",
+        "phoneNumber": "09-8342186",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2124/%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95-%D7%A4%D7%A9%D7%94-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5106.png?t=1465899803"
+      },
+      {
+        "name": "CASTRO KIDS",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2275/CASTRO-KIDS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6122.jpg?t=1467894816"
+      },
+      {
+        "name": "יסמין",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2431/%D7%99%D7%A1%D7%9E%D7%99%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/43807.png?t=1567105012"
+      },
+      {
+        "name": "MY טמבוריה",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2481/MY-%D7%98%D7%9E%D7%91%D7%95%D7%A8%D7%99%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/37440.png?t=1555912845"
+      },
+      {
+        "name": "POPSI",
+        "floor": "",
+        "phoneNumber": "0546546372",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2585/POPSI/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/26545.png?t=1712868541"
+      },
+      {
+        "name": "מעדני גורמה",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2636/%D7%9E%D7%A2%D7%93%D7%A0%D7%99-%D7%92%D7%95%D7%A8%D7%9E%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/85695.png?t=1672944245"
+      },
+      {
+        "name": "MOSES SHOP",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2685/MOSES-SHOP/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/58028.png?t=1595867233"
+      },
+      {
+        "name": "Babka Bakery",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2686/Babka-Bakery/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/92835.jpg?t=1689704881"
+      },
+      {
+        "name": "בית הגבינות",
+        "floor": "קומת כניסה",
+        "phoneNumber": "097466991",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2688/%D7%91%D7%99%D7%AA-%D7%94%D7%92%D7%91%D7%99%D7%A0%D7%95%D7%AA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/58044.png?t=1595867689"
+      },
+      {
+        "name": "ALL MOBILE",
+        "floor": "",
+        "phoneNumber": "099574735",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2716/ALL-MOBILE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/50074.png?t=1579440776"
+      },
+      {
+        "name": "B-unique",
+        "floor": "",
+        "phoneNumber": "09-8824393",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2889/B-unique/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6340.png?t=1712867161"
+      },
+      {
+        "name": "פיצה ניצה",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2910/%D7%A4%D7%99%D7%A6%D7%94-%D7%A0%D7%99%D7%A6%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/69178.jpg?t=1635800277"
+      },
+      {
+        "name": "משק גורמה",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2957/%D7%9E%D7%A9%D7%A7-%D7%92%D7%95%D7%A8%D7%9E%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/72811.png?t=1644298810"
+      },
+      {
+        "name": "Sweetime",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2958/Sweetime/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/101452.png?t=1712660777"
+      },
+      {
+        "name": "דניאלה תוצרת ישראל",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2959/%D7%93%D7%A0%D7%99%D7%90%D7%9C%D7%94-%D7%AA%D7%95%D7%A6%D7%A8%D7%AA-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4859.png?t=1465895303"
+      },
+      {
+        "name": "ברלינגטון אינגליש",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3141/%D7%91%D7%A8%D7%9C%D7%99%D7%A0%D7%92%D7%98%D7%95%D7%9F-%D7%90%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%A9/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/30581.png?t=1541946789"
+      },
+      {
+        "name": "DONE",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3168/DONE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/77930.png?t=1655935457"
+      },
+      {
+        "name": "NOGA",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3217/NOGA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/87339.png?t=1676198862"
+      },
+      {
+        "name": "משק איילוס",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3337/%D7%9E%D7%A9%D7%A7-%D7%90%D7%99%D7%99%D7%9C%D7%95%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/94952.png?t=1694380414"
+      },
+      {
+        "name": "Auto Milano",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3390/Auto-Milano/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/98151.jpg?t=1705429272"
+      }
+    ]
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "עכו",
+    "address": "החרושת 2, עכו",
+    "hours": [
+      "ימים א'-ה': 09:30-21:30",
+      "יום שישי: 09:00-14:30",
+      "מוצ\"ש: חצי שעה מצאת השבת עד 22:30"
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7340.png?t=1471777493",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%A2%D7%9B%D7%95",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/2/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%A2%D7%9B%D7%95/"
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "מודיעין",
+    "address": "לב העיר 2, מודיעין",
+    "hours": [
+      "ימים א'-ה': 09:30-22:00",
+      "יום שישי: 09:00-15:30",
+      "מוצ\"ש וצאת חג: שעה מצאת השבת/חג עד 23:00"
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7350.png?t=1471777380",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/7/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F/"
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "חיפה",
+    "address": "פלימן 4, חיפה",
+    "hours": [
+      "ימים א'-ה' 09:30-21:30",
+      "יום ו' / ערבי חג 08:30-15:00",
+      "מוצ\"ש וצאת חג: שעה מצאת השבת/חג עד 23:00",
+      ""
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7780.jpg?t=1472990375",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%97%D7%99%D7%A4%D7%94",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/9/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%97%D7%99%D7%A4%D7%94/",
+    "stores": [
+      {
+        "name": "אירוקה",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8502977",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/47/%D7%90%D7%99%D7%A8%D7%95%D7%A7%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95583.jpg?t=1696417966"
+      },
+      {
+        "name": "אמריקן איגל",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8449321",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/64/%D7%90%D7%9E%D7%A8%D7%99%D7%A7%D7%9F-%D7%90%D7%99%D7%92%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/28529.jpg?t=1534675492"
+      },
+      {
+        "name": "אפריל",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "077-9801709",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/74/%D7%90%D7%A4%D7%A8%D7%99%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/27216.png?t=1530535435"
+      },
+      {
+        "name": "באג",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8502545",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/85/%D7%91%D7%90%D7%92-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6510.jpg?t=1468853818"
+      },
+      {
+        "name": "BODY SHOP",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8502966",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/92/BODY-SHOP/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4763.png?t=1465885909"
+      },
+      {
+        "name": "בילבונג",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8576474",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/101/%D7%91%D7%99%D7%9C%D7%91%D7%95%D7%A0%D7%92/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96040.png?t=1699546261"
+      },
+      {
+        "name": "ג'נטלמן",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8502676",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/108/%D7%92%D7%A0%D7%98%D7%9C%D7%9E%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4912.png?t=1465897305"
+      },
+      {
+        "name": "ג.ר.א.ס",
+        "floor": "קומה שניה",
+        "phoneNumber": "076-8889434",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/119/%D7%92.%D7%A8.%D7%90.%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/65706.png?t=1626333700"
+      },
+      {
+        "name": "HOODIES",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8501058",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/135/HOODIES/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3611.png?t=1462946753"
+      },
+      {
+        "name": "TOPTEN",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-6453752",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/180/TOPTEN-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95202.jpg?t=1695117096"
+      },
+      {
+        "name": "ללין",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "054-3345067",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/199/%D7%9C%D7%9C%D7%99%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4976.png?t=1465898124"
+      },
+      {
+        "name": "מגנוליה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8550638",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/215/%D7%9E%D7%92%D7%A0%D7%95%D7%9C%D7%99%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/21908.png?t=1712867172"
+      },
+      {
+        "name": "MANGO",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8500268",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/224/MANGO/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/21907.jpg?t=1517142030"
+      },
+      {
+        "name": "אופטיקה הלפרין",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8225145",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/236/%D7%90%D7%95%D7%A4%D7%98%D7%99%D7%A7%D7%94-%D7%94%D7%9C%D7%A4%D7%A8%D7%99%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4927.png?t=1465897475"
+      },
+      {
+        "name": "נעמן",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8502522",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/252/%D7%A0%D7%A2%D7%9E%D7%9F-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/22415.png?t=1517865003"
+      },
+      {
+        "name": "פמינה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/262/%D7%A4%D7%9E%D7%99%D7%A0%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/47748.png?t=1575200266"
+      },
+      {
+        "name": "SACARA",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8212453",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/300/SACARA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/103504.png?t=1717686385"
+      },
+      {
+        "name": "FOX",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8502303",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/307/FOX/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4891.png?t=1465897025"
+      },
+      {
+        "name": "FOX HOME",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-6891732",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/320/FOX-HOME/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/89451.jpg?t=1682288431"
+      },
+      {
+        "name": "צומת ספרים",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8500868",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/332/%D7%A6%D7%95%D7%9E%D7%AA-%D7%A1%D7%A4%D7%A8%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5138.png?t=1465900114"
+      },
+      {
+        "name": "קסטרו",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "0776051889",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/362/%D7%A7%D7%A1%D7%98%D7%A8%D7%95/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/52713.png?t=1583349157"
+      },
+      {
+        "name": "קפה גרג",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8550000",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/381/%D7%A7%D7%A4%D7%94-%D7%92%D7%A8%D7%92/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/26592.png?t=1529435191"
+      },
+      {
+        "name": "CAROLINA LEMKE",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-6011500",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/390/CAROLINA-LEMKE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3566.png?t=1462885050"
+      },
+      {
+        "name": "Crazy Line",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8500267",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/406/Crazy-Line-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4855.png?t=1465895240"
+      },
+      {
+        "name": "TWENTY FOUR SEVEN",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "052-6083617",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/430/TWENTY-FOUR-SEVEN/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5135.png?t=1465900111"
+      },
+      {
+        "name": "il.makiage",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-6022961",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/441/il.makiage-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/15933.png?t=1498034617"
+      },
+      {
+        "name": "RENUAR",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/447/RENUAR/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/93942.png?t=1692176907"
+      },
+      {
+        "name": "שילב",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8104798",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/463/%D7%A9%D7%99%D7%9C%D7%91/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/101367.png?t=1712562006"
+      },
+      {
+        "name": "פרטנר",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "*054",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/478/%D7%A4%D7%A8%D7%98%D7%A0%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/89343.png?t=1681716362"
+      },
+      {
+        "name": "אופטיקנה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8502244",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/489/%D7%90%D7%95%D7%A4%D7%98%D7%99%D7%A7%D7%A0%D7%94-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/47954.png?t=1575447300"
+      },
+      {
+        "name": "INTIMA",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "073-7096681",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/496/INTIMA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/29175.png?t=1536751931"
+      },
+      {
+        "name": "ארומה",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8500694",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/514/%D7%90%D7%A8%D7%95%D7%9E%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/85686.jpg?t=1672943480"
+      },
+      {
+        "name": "אפרודיטה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8550495",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/522/%D7%90%D7%A4%D7%A8%D7%95%D7%93%D7%99%D7%98%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3766.png?t=1464591799"
+      },
+      {
+        "name": "אריסטו שמט",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8500561",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/537/%D7%90%D7%A8%D7%99%D7%A1%D7%98%D7%95-%D7%A9%D7%9E%D7%98-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3779.png?t=1464591894"
+      },
+      {
+        "name": "בנק לאומי",
+        "floor": "קומת קרקע",
+        "phoneNumber": "076-8671600",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/546/%D7%91%D7%A0%D7%A7-%D7%9C%D7%90%D7%95%D7%9E%D7%99/",
+        "img": "https://media.azrielimalls.co.il0/"
+      },
+      {
+        "name": "GOLBARY",
+        "floor": "קומה שניה",
+        "phoneNumber": "052-3063882",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/563/GOLBARY/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4015.png?t=1465462568"
+      },
+      {
+        "name": "GOLF",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8502989",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/632/GOLF--/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/35268.png?t=1551705827"
+      },
+      {
+        "name": "HOT",
+        "floor": "קומה שניה",
+        "phoneNumber": "077-6040268",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/641/-HOT/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/31283.jpg?t=1543224586"
+      },
+      {
+        "name": "הולמס פלייס",
+        "floor": "קומת קרקע",
+        "phoneNumber": "04-8500980",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/646/%D7%94%D7%95%D7%9C%D7%9E%D7%A1-%D7%A4%D7%9C%D7%99%D7%99%D7%A1-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/98940.png?t=1707074657"
+      },
+      {
+        "name": "גלי",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8550076",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/648/%D7%92%D7%9C%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/41976.png?t=1564062019"
+      },
+      {
+        "name": "TOYS`R`US",
+        "floor": "קומה שניה",
+        "phoneNumber": "073-2159029",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/667/TOYS_R_US/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5494.png?t=1712867137"
+      },
+      {
+        "name": "טרקלין חשמל",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "85026111/2/3",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/679/%D7%98%D7%A8%D7%A7%D7%9C%D7%99%D7%9F-%D7%97%D7%A9%D7%9E%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4353.png?t=1465830246"
+      },
+      {
+        "name": "דלתא",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8500814",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/685/%D7%93%D7%9C%D7%AA%D7%90/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4063.png?t=1465814000"
+      },
+      {
+        "name": "MANIA",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/704/MANIA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5007.png?t=1465898559"
+      },
+      {
+        "name": "מקדונלדס",
+        "floor": "קומה שניה",
+        "phoneNumber": "052-9440049",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/724/%D7%9E%D7%A7%D7%93%D7%95%D7%A0%D7%9C%D7%93%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/42619.png?t=1712867226"
+      },
+      {
+        "name": "Nike",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-6058183",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/735/Nike/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96046.png?t=1699546403"
+      },
+      {
+        "name": "הלד צילום",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-6206244",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/744/%D7%94%D7%9C%D7%93-%D7%A6%D7%99%D7%9C%D7%95%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4932.png?t=1465897550"
+      },
+      {
+        "name": "ורדינון",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-6044713",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/754/%D7%95%D7%A8%D7%93%D7%99%D7%A0%D7%95%D7%9F-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5143.png?t=1465900454"
+      },
+      {
+        "name": "סטודיו פשה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-6474412",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/762/%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95-%D7%A4%D7%A9%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5106.png?t=1465899803"
+      },
+      {
+        "name": "עולם הממתקים",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8502567",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/773/%D7%A2%D7%95%D7%9C%D7%9D-%D7%94%D7%9E%D7%9E%D7%AA%D7%A7%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/83646.jpg?t=1669555497"
+      },
+      {
+        "name": "NINE WEST",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8450318",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/893/NINE-WEST/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5025.png?t=1465898806"
+      },
+      {
+        "name": "שנטי",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "076-8176816",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/898/%D7%A9%D7%A0%D7%98%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/63720.png?t=1621794307"
+      },
+      {
+        "name": "סטימצקי",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "077-2699958",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/953/%D7%A1%D7%98%D7%99%D7%9E%D7%A6%D7%A7%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/34614.png?t=1712867211"
+      },
+      {
+        "name": "עונות ג'אמפ",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8500707",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/960/%D7%A2%D7%95%D7%A0%D7%95%D7%AA-%D7%92%D7%90%D7%9E%D7%A4/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/72971.png?t=1644486394"
+      },
+      {
+        "name": "הפנינג",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8500442",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/970/%D7%94%D7%A4%D7%A0%D7%99%D7%A0%D7%92/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/103862.png?t=1719337970"
+      },
+      {
+        "name": "קרביץ",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8500208",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1002/%D7%A7%D7%A8%D7%91%D7%99%D7%A5/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/7162.png?t=1470835608"
+      },
+      {
+        "name": "rebar",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-6017921",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1021/rebar/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5061.png?t=1465899355"
+      },
+      {
+        "name": "GOLF KIDS",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8502989",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1035/GOLF-KIDS--/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/54500.png?t=1590582812"
+      },
+      {
+        "name": "BeautyCare",
+        "floor": "קומה שניה",
+        "phoneNumber": "074-7185185",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1291/BeautyCare/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/23971.png?t=1522327297"
+      },
+      {
+        "name": "גליק",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8502828",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1294/%D7%92%D7%9C%D7%99%D7%A7/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/34481.png?t=1549899091"
+      },
+      {
+        "name": "טבע נאות",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8715778",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1298/%D7%98%D7%91%D7%A2-%D7%A0%D7%90%D7%95%D7%AA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/103732.png?t=1718911709"
+      },
+      {
+        "name": "נאטורפיל",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8523451",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1299/%D7%A0%D7%90%D7%98%D7%95%D7%A8%D7%A4%D7%99%D7%9C-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/33612.png?t=1548582107"
+      },
+      {
+        "name": "נעלי נמרוד",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8550199",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1303/%D7%A0%D7%A2%D7%9C%D7%99-%D7%A0%D7%9E%D7%A8%D7%95%D7%93-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/62148.png?t=1616517895"
+      },
+      {
+        "name": "קומפורט ליין",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "6875664 -04",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1305/%D7%A7%D7%95%D7%9E%D7%A4%D7%95%D7%A8%D7%98-%D7%9C%D7%99%D7%99%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4212.png?t=1465820453"
+      },
+      {
+        "name": "גוד טיים",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8502733",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1309/%D7%92%D7%95%D7%93-%D7%98%D7%99%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/62351.png?t=1617734950"
+      },
+      {
+        "name": "תכשיטי מורטל",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8500857",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1311/%D7%AA%D7%9B%D7%A9%D7%99%D7%98%D7%99-%D7%9E%D7%95%D7%A8%D7%98%D7%9C-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5009.png?t=1465898562"
+      },
+      {
+        "name": "סלקום",
+        "floor": "קומה שניה",
+        "phoneNumber": "123*",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1312/%D7%A1%D7%9C%D7%A7%D7%95%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4182.png?t=1465809585"
+      },
+      {
+        "name": "בורקס בכר",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "0508664333",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1314/%D7%91%D7%95%D7%A8%D7%A7%D7%A1-%D7%91%D7%9B%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/53732.jpg?t=1589793100"
+      },
+      {
+        "name": "מאפיית דגן",
+        "floor": "קומת קרקע",
+        "phoneNumber": "077-5253461",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1317/%D7%9E%D7%90%D7%A4%D7%99%D7%99%D7%AA-%D7%93%D7%92%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5507.png?t=1466353988"
+      },
+      {
+        "name": "קפה מנדרין",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8551880",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1318/%D7%A7%D7%A4%D7%94-%D7%9E%D7%A0%D7%93%D7%A8%D7%99%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/43099.png?t=1566153728"
+      },
+      {
+        "name": "CHANGE",
+        "floor": "קומת קרקע",
+        "phoneNumber": "04-8500695",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1323/CHANGE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/65320.jpg?t=1625352954"
+      },
+      {
+        "name": "אופטיקה זיגי שאול",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8502121",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1325/%D7%90%D7%95%D7%A4%D7%98%D7%99%D7%A7%D7%94-%D7%96%D7%99%D7%92%D7%99-%D7%A9%D7%90%D7%95%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4362.png?t=1465830250"
+      },
+      {
+        "name": "דוכן מפעל הפיס",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "077-660355",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1326/%D7%93%D7%95%D7%9B%D7%9F-%D7%9E%D7%A4%D7%A2%D7%9C-%D7%94%D7%A4%D7%99%D7%A1-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5038.png?t=1465899010"
+      },
+      {
+        "name": "מתפרת סרג'",
+        "floor": "קומת קרקע",
+        "phoneNumber": "04-8500088",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1328/%D7%9E%D7%AA%D7%A4%D7%A8%D7%AA-%D7%A1%D7%A8%D7%92/",
+        "img": "https://media.azrielimalls.co.il0/"
+      },
+      {
+        "name": "דן קרטינג",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8501060",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1330/%D7%93%D7%9F-%D7%A7%D7%A8%D7%98%D7%99%D7%A0%D7%92/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/15831.png?t=1497445484"
+      },
+      {
+        "name": "CAR WASH",
+        "floor": "קומת קרקע",
+        "phoneNumber": "052-7763311",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1331/CAR-WASH/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5572.jpg?t=1466354023"
+      },
+      {
+        "name": "בוורלי הילס- פולו קלאב",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-6201173",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1334/%D7%91%D7%95%D7%95%D7%A8%D7%9C%D7%99-%D7%94%D7%99%D7%9C%D7%A1--%D7%A4%D7%95%D7%9C%D7%95-%D7%A7%D7%9C%D7%90%D7%91/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4330.png?t=1465830239"
+      },
+      {
+        "name": "ארנקי אולגה",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1338/%D7%90%D7%A8%D7%A0%D7%A7%D7%99-%D7%90%D7%95%D7%9C%D7%92%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6150.png?t=1467895314"
+      },
+      {
+        "name": "קופיקס",
+        "floor": "קומת קרקע",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1340/%D7%A7%D7%95%D7%A4%D7%99%D7%A7%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4207.png?t=1465820138"
+      },
+      {
+        "name": "Mr. Corn",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "050-4990312",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1341/Mr.-Corn/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/72190.png?t=1643211619"
+      },
+      {
+        "name": "זאפה",
+        "floor": "קומת קרקע",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1343/%D7%96%D7%90%D7%A4%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/92822.jpg?t=1689703753"
+      },
+      {
+        "name": "S. WEAR",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8500963",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1361/S.-WEAR/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/34118.png?t=1548942733"
+      },
+      {
+        "name": "דוקטור-T",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8500753",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1667/%D7%93%D7%95%D7%A7%D7%98%D7%95%D7%A8-T/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4868.png?t=1465895457"
+      },
+      {
+        "name": "מוניות קניון חיפה",
+        "floor": "קומת קרקע",
+        "phoneNumber": "04-8500886",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1672/%D7%9E%D7%95%D7%A0%D7%99%D7%95%D7%AA-%D7%A7%D7%A0%D7%99%D7%95%D7%9F-%D7%97%D7%99%D7%A4%D7%94/",
+        "img": "https://media.azrielimalls.co.il0/"
+      },
+      {
+        "name": "פנצ'רייה - אריק צמיגים",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8510888",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1673/%D7%A4%D7%A0%D7%A6%D7%A8%D7%99%D7%99%D7%94---%D7%90%D7%A8%D7%99%D7%A7-%D7%A6%D7%9E%D7%99%D7%92%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6218.png?t=1468156383"
+      },
+      {
+        "name": "שכפול מפתחות",
+        "floor": "קומת קרקע",
+        "phoneNumber": "052-6858932",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1674/%D7%A9%D7%9B%D7%A4%D7%95%D7%9C-%D7%9E%D7%A4%D7%AA%D7%97%D7%95%D7%AA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6208.png?t=1468156189"
+      },
+      {
+        "name": "שלמה SIXT",
+        "floor": "קומת קרקע",
+        "phoneNumber": "04-6661111",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1675/%D7%A9%D7%9C%D7%9E%D7%94-SIXT/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4343.png?t=1465830244"
+      },
+      {
+        "name": "BIGA",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-610-6777",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1719/BIGA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/83069.png?t=1668601519"
+      },
+      {
+        "name": "nails gallery",
+        "floor": "קומת קרקע",
+        "phoneNumber": "04-8700686",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1721/nails-gallery/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/86933.jpg?t=1675294839"
+      },
+      {
+        "name": "Bonita de Mas",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-8287812",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1805/Bonita-de-Mas/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3797.png?t=1464592054"
+      },
+      {
+        "name": "ברלינגטון אינגליש",
+        "floor": "קומת קרקע",
+        "phoneNumber": "09-9532058",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1907/%D7%91%D7%A8%D7%9C%D7%99%D7%A0%D7%92%D7%98%D7%95%D7%9F-%D7%90%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%A9/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/30581.png?t=1541946789"
+      },
+      {
+        "name": "THE CHILDREN'S PLACE",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-6405354",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1908/THE-CHILDRENS-PLACE-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4847.png?t=1465895079"
+      },
+      {
+        "name": "סופר לינק",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-9911290",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1927/%D7%A1%D7%95%D7%A4%D7%A8-%D7%9C%D7%99%D7%A0%D7%A7/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/11319.png?t=1483546326"
+      },
+      {
+        "name": "New Deli",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-6189999",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/1935/New-Deli/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/97320.png?t=1703619158"
+      },
+      {
+        "name": "נעלי גראס",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8500052",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2044/%D7%A0%D7%A2%D7%9C%D7%99-%D7%92%D7%A8%D7%90%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/55612.png?t=1592223034"
+      },
+      {
+        "name": "סימולטור מציאות מדומה",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2045/%D7%A1%D7%99%D7%9E%D7%95%D7%9C%D7%98%D7%95%D7%A8-%D7%9E%D7%A6%D7%99%D7%90%D7%95%D7%AA-%D7%9E%D7%93%D7%95%D7%9E%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/12728.jpg?t=1487770204"
+      },
+      {
+        "name": "אורבניקה",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "99450180- 04",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2070/%D7%90%D7%95%D7%A8%D7%91%D7%A0%D7%99%D7%A7%D7%94-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/22956.png?t=1519936212"
+      },
+      {
+        "name": "כיתן",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2087/%D7%9B%D7%99%D7%AA%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4966.png?t=1465898002"
+      },
+      {
+        "name": "אריק צמיגים",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2111/%D7%90%D7%A8%D7%99%D7%A7-%D7%A6%D7%9E%D7%99%D7%92%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/62654.jpg?t=1618234198"
+      },
+      {
+        "name": "IMAC",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2195/IMAC/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/19583.png?t=1509572473"
+      },
+      {
+        "name": "רמי לוי",
+        "floor": "קומת קרקע",
+        "phoneNumber": "049994144",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2241/%D7%A8%D7%9E%D7%99-%D7%9C%D7%95%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/22726.png?t=1519076363"
+      },
+      {
+        "name": "אושי אושי",
+        "floor": "קומה שניה",
+        "phoneNumber": "1700-70-80-23",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2296/%D7%90%D7%95%D7%A9%D7%99-%D7%90%D7%95%D7%A9%D7%99-/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/25067.png?t=1712868530"
+      },
+      {
+        "name": "Foot Locker",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "04-9048234",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2365/Foot-Locker/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96030.png?t=1699545923"
+      },
+      {
+        "name": "freshop",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2385/freshop/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/38026.png?t=1557776901"
+      },
+      {
+        "name": "Be",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2393/Be/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/31641.png?t=1544003039"
+      },
+      {
+        "name": "The cook store",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2406/The-cook-store/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/34869.png?t=1551114738"
+      },
+      {
+        "name": "mango kids",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2438/mango-kids/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/35581.png?t=1552303811"
+      },
+      {
+        "name": "הום סנטר",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8654854",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2446/%D7%94%D7%95%D7%9D-%D7%A1%D7%A0%D7%98%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4284.png?t=1465830213"
+      },
+      {
+        "name": "ADIDAS",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2448/ADIDAS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96057.png?t=1699549391"
+      },
+      {
+        "name": "סולתם",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2490/%D7%A1%D7%95%D7%9C%D7%AA%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/88699.png?t=1712867391"
+      },
+      {
+        "name": "בולדוג- סטודיו לקעקועים",
+        "floor": "קומה שניה",
+        "phoneNumber": "053-5554063",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2498/%D7%91%D7%95%D7%9C%D7%93%D7%95%D7%92--%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95-%D7%9C%D7%A7%D7%A2%D7%A7%D7%95%D7%A2%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/39731.png?t=1560335468"
+      },
+      {
+        "name": "גלקסי פארק",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2512/%D7%92%D7%9C%D7%A7%D7%A1%D7%99-%D7%A4%D7%90%D7%A8%D7%A7/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/26700.png?t=1530012265"
+      },
+      {
+        "name": "MOVIELAND",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-6497364",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2555/MOVIELAND/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/45035.png?t=1569521065"
+      },
+      {
+        "name": "MINI GOOD",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2600/MINI-GOOD/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/75557.png?t=1651203490"
+      },
+      {
+        "name": "Ximi vogue",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2601/Ximi-vogue/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/44658.png?t=1568749159"
+      },
+      {
+        "name": "אניפט",
+        "floor": "קומה שניה",
+        "phoneNumber": "074-7930104",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2602/%D7%90%D7%A0%D7%99%D7%A4%D7%98/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/30368.png?t=1541495323"
+      },
+      {
+        "name": "ב-10 אצבעות",
+        "floor": "קומה שניה",
+        "phoneNumber": "048344424",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2647/%D7%91-10-%D7%90%D7%A6%D7%91%D7%A2%D7%95%D7%AA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/53543.png?t=1589279877"
+      },
+      {
+        "name": "לי קופר",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "050-8650034",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2656/%D7%9C%D7%99-%D7%A7%D7%95%D7%A4%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/11179.png?t=1482925604"
+      },
+      {
+        "name": "לי קופר קידס",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2657/%D7%9C%D7%99-%D7%A7%D7%95%D7%A4%D7%A8-%D7%A7%D7%99%D7%93%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/53881.png?t=1589980945"
+      },
+      {
+        "name": "KIWI",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2661/KIWI/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/88746.png?t=1679564141"
+      },
+      {
+        "name": "חומוס ברדיצ'ב",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2672/%D7%97%D7%95%D7%9E%D7%95%D7%A1-%D7%91%D7%A8%D7%93%D7%99%D7%A6%D7%91/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/56174.png?t=1593370371"
+      },
+      {
+        "name": "POPSI",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "054-6546372",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2681/POPSI/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/26545.png?t=1712868541"
+      },
+      {
+        "name": "Fat Vinny",
+        "floor": "קומה שניה",
+        "phoneNumber": "*2730",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2770/Fat-Vinny/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60817.png?t=1609657781"
+      },
+      {
+        "name": "DIESEL",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2801/DIESEL/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4865.png?t=1465895393"
+      },
+      {
+        "name": "HOMESTYLE",
+        "floor": "קומה שניה",
+        "phoneNumber": "0772031925",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2802/HOMESTYLE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/32958.png?t=1546783194"
+      },
+      {
+        "name": "Honigman Kids",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2803/Honigman-Kids/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4938.png?t=1465897609"
+      },
+      {
+        "name": "CVROOM",
+        "floor": "קומה שניה",
+        "phoneNumber": "053-5229069",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2811/CVROOM/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/87005.png?t=1675344230"
+      },
+      {
+        "name": "אנג'ל מותגים",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2815/%D7%90%D7%A0%D7%92%D7%9C-%D7%9E%D7%95%D7%AA%D7%92%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/62711.png?t=1618346350"
+      },
+      {
+        "name": "תכשיטי אלה",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2835/%D7%AA%D7%9B%D7%A9%D7%99%D7%98%D7%99-%D7%90%D7%9C%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/63811.png?t=1621985686"
+      },
+      {
+        "name": "בורגר ראנץ'",
+        "floor": "קומה שניה",
+        "phoneNumber": "1-700-700-600",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2871/%D7%91%D7%95%D7%A8%D7%92%D7%A8-%D7%A8%D7%90%D7%A0%D7%A5/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/55876.png?t=1592828542"
+      },
+      {
+        "name": "שווארמה חאזן",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8502323",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2872/%D7%A9%D7%95%D7%95%D7%90%D7%A8%D7%9E%D7%94-%D7%97%D7%90%D7%96%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4930.png?t=1465897514"
+      },
+      {
+        "name": "Castro Home",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2887/Castro-Home/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/67347.png?t=1630325952"
+      },
+      {
+        "name": "מק גלידה",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2911/%D7%9E%D7%A7-%D7%92%D7%9C%D7%99%D7%93%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/69315.png?t=1636346931"
+      },
+      {
+        "name": "הבורסה לשעונים",
+        "floor": "קומה שניה",
+        "phoneNumber": "048502727",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2931/%D7%94%D7%91%D7%95%D7%A8%D7%A1%D7%94-%D7%9C%D7%A9%D7%A2%D7%95%D7%A0%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5539.png?t=1466354006"
+      },
+      {
+        "name": "RASTAFARI STYLE",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "054-5808324",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2946/RASTAFARI-STYLE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/71887.png?t=1641940717"
+      },
+      {
+        "name": "COKA",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2970/COKA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3825.png?t=1464592436"
+      },
+      {
+        "name": "פעלטון",
+        "floor": "קומה שניה",
+        "phoneNumber": "1700-50-44-64",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3016/%D7%A4%D7%A2%D7%9C%D7%98%D7%95%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5036.png?t=1465898959"
+      },
+      {
+        "name": "גמה דיל",
+        "floor": "קומת קרקע",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3031/%D7%92%D7%9E%D7%94-%D7%93%D7%99%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/78275.png?t=1656593467"
+      },
+      {
+        "name": "CUBEEX",
+        "floor": "קומה שניה",
+        "phoneNumber": "074-7499991",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3108/CUBEEX/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/79326.png?t=1658919267"
+      },
+      {
+        "name": "LASTER",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3130/LASTER/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/80976.jpg?t=1662457208"
+      },
+      {
+        "name": "לורד קיטש",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3144/%D7%9C%D7%95%D7%A8%D7%93-%D7%A7%D7%99%D7%98%D7%A9/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5493.jpg?t=1466353971"
+      },
+      {
+        "name": "B-BAKERY",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3148/B-BAKERY/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/81851.png?t=1665041621"
+      },
+      {
+        "name": "Sweet Land",
+        "floor": "קומת קרקע",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3149/Sweet-Land/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/86378.png?t=1674652129"
+      },
+      {
+        "name": "WORD",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3153/WORD/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/82132.png?t=1666771963"
+      },
+      {
+        "name": "DONE",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3175/DONE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/77930.png?t=1655935457"
+      },
+      {
+        "name": "UNDER AMOUR",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3206/UNDER-AMOUR/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/92465.jpg?t=1688621974"
+      },
+      {
+        "name": "YOOL Mobile",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3220/YOOL-Mobile/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/87472.jpg?t=1676457708"
+      },
+      {
+        "name": "קוויקי - דוכן",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3271/%D7%A7%D7%95%D7%95%D7%99%D7%A7%D7%99---%D7%93%D7%95%D7%9B%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/90519.png?t=1684193310"
+      },
+      {
+        "name": "ביגוד",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3272/%D7%91%D7%99%D7%92%D7%95%D7%93/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/88554.png?t=1712868680"
+      },
+      {
+        "name": "סטפן שניצל",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3273/%D7%A1%D7%98%D7%A4%D7%9F-%D7%A9%D7%A0%D7%99%D7%A6%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/90527.png?t=1684194510"
+      },
+      {
+        "name": "Outsiders Columbia",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3308/Outsiders-Columbia/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/94137.png?t=1692633218"
+      },
+      {
+        "name": "מייה אינספיריישן",
+        "floor": "",
+        "phoneNumber": "0501902016",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3310/%D7%9E%D7%99%D7%99%D7%94-%D7%90%D7%99%D7%A0%D7%A1%D7%A4%D7%99%D7%A8%D7%99%D7%99%D7%A9%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/49155.png?t=1577628446"
+      },
+      {
+        "name": "FUN LAND בקרוב",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3311/FUN-LAND-%D7%91%D7%A7%D7%A8%D7%95%D7%91/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/92742.png?t=1689320995"
+      },
+      {
+        "name": "FUN LAND",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3327/FUN-LAND/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/92742.png?t=1689320995"
+      },
+      {
+        "name": "Kumba-Mela",
+        "floor": "קומה שניה",
+        "phoneNumber": "04-8550617 050-5438771",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3331/Kumba-Mela/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/35572.png?t=1552303137"
+      },
+      {
+        "name": "flying tiger Copenhagen",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3389/flying-tiger-Copenhagen/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/70905.jpg?t=1639508183"
+      },
+      {
+        "name": "יניב פיננסיים",
+        "floor": "קומה שניה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3397/%D7%99%D7%A0%D7%99%D7%91-%D7%A4%D7%99%D7%A0%D7%A0%D7%A1%D7%99%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/99290.png?t=1707773300"
+      },
+      {
+        "name": "YVES ROCHER",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3411/YVES-ROCHER/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/92037.png?t=1688036652"
+      },
+      {
+        "name": "We Shoes",
+        "floor": "קומה ראשונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3419/We-Shoes/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/78478.png?t=1712867356"
+      },
+      {
+        "name": "קייטרינג ג׳ימי",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3436/%D7%A7%D7%99%D7%99%D7%98%D7%A8%D7%99%D7%A0%D7%92-%D7%92%D7%B3%D7%99%D7%9E%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/102668.png?t=1716738066"
+      }
+    ]
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "רמלה",
+    "address": "דוד רזיאל 1, רמלה",
+    "hours": [
+      "ימים א'-ה' 9:30-22:00",
+      "יום ו' / ערבי חג - 9:00-14:30",
+      "מוצ\"ש – חצי שעה מצאת השבת/חג עד 22:00",
+      "",
+      ""
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7352.png?t=1471777356",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%A8%D7%9E%D7%9C%D7%94",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/12/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%A8%D7%9E%D7%9C%D7%94/"
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "גבעתיים",
+    "address": "יצחק רבין 53, גבעתיים",
+    "hours": [
+      "ימים א'-ה' 9:30-22:00",
+      "יום ו' / ערבי חג - 9:30-15:30",
+      "מוצ\"ש – חצי שעה מצאת השבת ועד 23:00",
+      ""
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7342.png?t=1471777476",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%92%D7%91%D7%A2%D7%AA%D7%99%D7%99%D7%9D",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/15/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%92%D7%91%D7%A2%D7%AA%D7%99%D7%99%D7%9D/"
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "הנגב",
+    "address": "צומת אלי כהן, באר שבע",
+    "hours": [
+      "ימים א'-ה' 9:30-20:00",
+      "יום ו' / ערבי חג - 9:00-15:00",
+      "מוצ\"ש – חצי שעה לאחר צאת השבת ועד לשעה 23:00"
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7344.png?t=1471777457",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%94%D7%A0%D7%92%D7%91",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/13/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%94%D7%A0%D7%92%D7%91/"
+  },
+  {
+    "name": "עזריאלי",
+    "title": "רעננה",
+    "address": "אחוזה 267, רעננה",
+    "hours": [
+      "ימים א'-ה': 10:00-20:00",
+      "יום שישי: 09:30-15:00",
+      "שבת: סגור"
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/8200.jpg?t=1473940087",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%A8%D7%A2%D7%A0%D7%A0%D7%94",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/16/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%A8%D7%A2%D7%A0%D7%A0%D7%94/"
+  },
+  {
+    "name": "עזריאלי",
+    "title": "שרונה",
+    "address": "",
+    "hours": [
+      "א'-ה'- 09:30-20:00",
+      "שישי- 09:00-15:00",
+      "שבת- חצי שעה מצאת השבת ועד 23:00",
+      "",
+      ""
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/44/8482.jpg?t=1474526611",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%A9%D7%A8%D7%95%D7%A0%D7%94",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/17/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%A9%D7%A8%D7%95%D7%A0%D7%94/"
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "ראשונים",
+    "address": "שדרות נים 2 ראשון לציון",
+    "hours": [
+      "ימים א'-ה' 9:30-22:00",
+      "יום ו' / ערבי חג - 9:00-15:45",
+      "מוצ\"ש – חצי שעה מצאת שבת ועד 23:00",
+      ""
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/76298.jpg?t=1652409408",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%99%D7%9D",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/18/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%99%D7%9D/"
+  },
+  {
+    "name": "מרכז",
+    "title": "עסקים חולון",
+    "address": "הרוקמים 26, חולון",
+    "hours": [
+      "7:00-00:00 בהתאם לפעילות העסקים"
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/76297.jpg?t=1652409341",
+    "link": "https://www.azrielimalls.co.il/%D7%9E%D7%A8%D7%9B%D7%96_%D7%A2%D7%A1%D7%A7%D7%99%D7%9D_%D7%95%D7%91%D7%99%D7%9C%D7%95%D7%99_%D7%97%D7%95%D7%9C%D7%95%D7%9F",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/19/%D7%9E%D7%A8%D7%9B%D7%96-%D7%94%D7%A2%D7%A1%D7%A7%D7%99%D7%9D-%D7%97%D7%95%D7%9C%D7%95%D7%9F/",
+    "stores": [
+      {
+        "name": "BBB",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-7696559",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2720/BBB/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60247.png?t=1606767422"
+      },
+      {
+        "name": "space רשת מועדוני כושר",
+        "floor": "קומת כניסה",
+        "phoneNumber": "*8979",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2722/space-%D7%A8%D7%A9%D7%AA-%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%A0%D7%99-%D7%9B%D7%95%D7%A9%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96441.png?t=1701154028"
+      },
+      {
+        "name": "הסטוק",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "052-7220341",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2723/%D7%94%D7%A1%D7%98%D7%95%D7%A7/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/79331.png?t=1712868632"
+      },
+      {
+        "name": "עולם הממתקים",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-6481128",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2724/%D7%A2%D7%95%D7%9C%D7%9D-%D7%94%D7%9E%D7%9E%D7%AA%D7%A7%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/83646.jpg?t=1669555497"
+      },
+      {
+        "name": "בנק מרכנתיל",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2725/%D7%91%D7%A0%D7%A7-%D7%9E%D7%A8%D7%9B%D7%A0%D7%AA%D7%99%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60326.png?t=1607524521"
+      },
+      {
+        "name": "קפה לנדוור",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-7311000",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2726/%D7%A7%D7%A4%D7%94-%D7%9C%D7%A0%D7%93%D7%95%D7%95%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/83430.png?t=1669118928"
+      },
+      {
+        "name": "ריבר נודלס בר",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-5445449 משלוחים *6969",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2727/%D7%A8%D7%99%D7%91%D7%A8-%D7%A0%D7%95%D7%93%D7%9C%D7%A1-%D7%91%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/82670.jpg?t=1667733327"
+      },
+      {
+        "name": "טיב טעם",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-6022900",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2728/%D7%98%D7%99%D7%91-%D7%98%D7%A2%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60331.png?t=1607525009"
+      },
+      {
+        "name": "מקדונלד'ס",
+        "floor": "קומת כניסה",
+        "phoneNumber": "052-9440225",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2730/%D7%9E%D7%A7%D7%93%D7%95%D7%A0%D7%9C%D7%93%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/42619.png?t=1712867226"
+      },
+      {
+        "name": "נקודת טבע",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "03-9693144",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2731/%D7%A0%D7%A7%D7%95%D7%93%D7%AA-%D7%98%D7%91%D7%A2/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60342.png?t=1607547790"
+      },
+      {
+        "name": "oscar wilde",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-7785550",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2735/oscar-wilde/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/97056.png?t=1702365525"
+      },
+      {
+        "name": "puzzle burger",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-6568766",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2737/puzzle-burger/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/64873.png?t=1623817211"
+      },
+      {
+        "name": "niso ashkenazi",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "03-5036678",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2738/niso-ashkenazi/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60357.png?t=1607551665"
+      },
+      {
+        "name": "cami",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "077-4006282",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2739/cami/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60352.png?t=1607551027"
+      },
+      {
+        "name": "גרצל בר",
+        "floor": "קומת כניסה",
+        "phoneNumber": "052-5843434",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2740/%D7%92%D7%A8%D7%A6%D7%9C-%D7%91%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/94979.png?t=1694457403"
+      },
+      {
+        "name": "מסטינג",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-7766955",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2742/%D7%9E%D7%A1%D7%98%D7%99%D7%A0%D7%92/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60409.png?t=1607558537"
+      },
+      {
+        "name": "gold & ball",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-7614499",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2744/gold-_-ball/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60397.png?t=1607557862"
+      },
+      {
+        "name": "אור עיצובים",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-5564178 052-5217117 052-2516713",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2745/%D7%90%D7%95%D7%A8-%D7%A2%D7%99%D7%A6%D7%95%D7%91%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60415.png?t=1607560196"
+      },
+      {
+        "name": "My העתקות",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-9770778",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2746/My-%D7%94%D7%A2%D7%AA%D7%A7%D7%95%D7%AA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60414.png?t=1607559886"
+      },
+      {
+        "name": "SALATAS",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-9204010",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2748/SALATAS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60437.png?t=1607562557"
+      },
+      {
+        "name": "פנדה",
+        "floor": "קומת כניסה",
+        "phoneNumber": "03-6521921 052-4380778",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2749/%D7%A4%D7%A0%D7%93%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60434.png?t=1607562272"
+      },
+      {
+        "name": "קליית יבגי",
+        "floor": "קומת כניסה",
+        "phoneNumber": "050-6978666",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2750/%D7%A7%D7%9C%D7%99%D7%99%D7%AA-%D7%99%D7%91%D7%92%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/60427.png?t=1607561939"
+      },
+      {
+        "name": "המאפה של רוני",
+        "floor": "",
+        "phoneNumber": "0773500272",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/2762/%D7%94%D7%9E%D7%90%D7%A4%D7%94-%D7%A9%D7%9C-%D7%A8%D7%95%D7%A0%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/94383.png?t=1693289412"
+      },
+      {
+        "name": "פיצה עגבניה",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3155/%D7%A4%D7%99%D7%A6%D7%94-%D7%A2%D7%92%D7%91%D7%A0%D7%99%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/27030.jpg?t=1530439274"
+      },
+      {
+        "name": "PIZZA CENTRAL",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3156/PIZZA-CENTRAL/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/80880.png?t=1662317114"
+      },
+      {
+        "name": "Savoy",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3158/Savoy/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/99860.png?t=1709230324"
+      },
+      {
+        "name": "Fashion Floor",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3160/Fashion-Floor/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/82780.png?t=1667968288"
+      },
+      {
+        "name": "Miolor",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3338/Miolor/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/94985.png?t=1694457529"
+      },
+      {
+        "name": "מזרחי טפחות",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3339/%D7%9E%D7%96%D7%A8%D7%97%D7%99-%D7%98%D7%A4%D7%97%D7%95%D7%AA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/94989.png?t=1694457766"
+      },
+      {
+        "name": "פלאפל מנו",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3345/%D7%A4%D7%9C%D7%90%D7%A4%D7%9C-%D7%9E%D7%A0%D7%95/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95655.jpg?t=1697555871"
+      },
+      {
+        "name": "סלון כלות Tanya Rayhelgauz",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3346/%D7%A1%D7%9C%D7%95%D7%9F-%D7%9B%D7%9C%D7%95%D7%AA-Tanya-Rayhelgauz/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95664.jpg?t=1697557123"
+      },
+      {
+        "name": "Miriam Keisar",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3347/Miriam-Keisar/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95678.jpg?t=1697625622"
+      },
+      {
+        "name": "סטודיו קוסמטיקה הדר קנלר",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3364/%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95-%D7%A7%D7%95%D7%A1%D7%9E%D7%98%D7%99%D7%A7%D7%94-%D7%94%D7%93%D7%A8-%D7%A7%D7%A0%D7%9C%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96729.png?t=1701598951"
+      },
+      {
+        "name": "Oren Rubenov Hairstylish",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3395/Oren-Rubenov-Hairstylish/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/99186.png?t=1707680815"
+      },
+      {
+        "name": "Ve La Laser",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3402/Ve-La-Laser/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/99496.png?t=1708892229"
+      },
+      {
+        "name": "ד״ר מאיר באביב",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3445/%D7%93%D7%B4%D7%A8-%D7%9E%D7%90%D7%99%D7%A8-%D7%91%D7%90%D7%91%D7%99%D7%91/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/103812.png?t=1719255195"
+      }
+    ]
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "מול הים אילת",
+    "address": "הפלמח 1, אילת",
+    "hours": [
+      "ימי ראשון - חמישי 9:30-21:00",
+      "יום שישי 9:00 ועד שעה לפני כניסת שבת",
+      "יום שבת 11:00-21:00",
+      ""
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/78878.jpeg?t=1657823435",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%9E%D7%95%D7%9C_%D7%94%D7%99%D7%9D",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/20/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%9E%D7%95%D7%9C-%D7%94%D7%99%D7%9D/",
+    "stores": [
+      {
+        "name": "מקדונלד'ס",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3039/%D7%9E%D7%A7%D7%93%D7%95%D7%A0%D7%9C%D7%93%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/42619.png?t=1712867226"
+      },
+      {
+        "name": "ורדינון",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3041/%D7%95%D7%A8%D7%93%D7%99%D7%A0%D7%95%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5143.png?t=1465900454"
+      },
+      {
+        "name": "אפרודיטה",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3042/%D7%90%D7%A4%D7%A8%D7%95%D7%93%D7%99%D7%98%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3766.png?t=1464591799"
+      },
+      {
+        "name": "סברובסקי",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3043/%D7%A1%D7%91%D7%A8%D7%95%D7%91%D7%A1%D7%A7%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/9541.png?t=1479206612"
+      },
+      {
+        "name": "ZARA",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3044/ZARA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/73418.png?t=1645637446"
+      },
+      {
+        "name": "סטימצקי",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3045/%D7%A1%D7%98%D7%99%D7%9E%D7%A6%D7%A7%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/34614.png?t=1712867211"
+      },
+      {
+        "name": "Fix",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3046/Fix/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4887.png?t=1465896962"
+      },
+      {
+        "name": "שני יעקובי",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3047/%D7%A9%D7%A0%D7%99-%D7%99%D7%A2%D7%A7%D7%95%D7%91%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/33934.png?t=1548843051"
+      },
+      {
+        "name": "PANDORA",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3048/PANDORA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/49553.png?t=1578254270"
+      },
+      {
+        "name": "מקדונלד'ס",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3049/%D7%9E%D7%A7%D7%93%D7%95%D7%A0%D7%9C%D7%93%D7%A1/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/42619.png?t=1712867226"
+      },
+      {
+        "name": "Twentyfourseven",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3050/Twentyfourseven/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5135.png?t=1465900111"
+      },
+      {
+        "name": "CAROLINA LEMKE",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3051/CAROLINA-LEMKE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3566.png?t=1462885050"
+      },
+      {
+        "name": "אירוקה",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3052/%D7%90%D7%99%D7%A8%D7%95%D7%A7%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95583.jpg?t=1696417966"
+      },
+      {
+        "name": "Bonita de Mas",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3054/Bonita-de-Mas/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3797.png?t=1464592054"
+      },
+      {
+        "name": "BILLABONG",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3055/BILLABONG/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96040.png?t=1699546261"
+      },
+      {
+        "name": "TOPTEN",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3056/TOPTEN/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/95202.jpg?t=1695117096"
+      },
+      {
+        "name": "Foot Locker",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3057/Foot-Locker/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/96030.png?t=1699545923"
+      },
+      {
+        "name": "אפרודיטה",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3058/%D7%90%D7%A4%D7%A8%D7%95%D7%93%D7%99%D7%98%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3766.png?t=1464591799"
+      },
+      {
+        "name": "מגנוליה",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3059/%D7%9E%D7%92%D7%A0%D7%95%D7%9C%D7%99%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/21908.png?t=1712867172"
+      },
+      {
+        "name": "הבורסה לתכשיטים",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3060/%D7%94%D7%91%D7%95%D7%A8%D7%A1%D7%94-%D7%9C%D7%AA%D7%9B%D7%A9%D7%99%D7%98%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/28478.png?t=1534316997"
+      },
+      {
+        "name": "il.makiage",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3061/il.makiage/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/15933.png?t=1498034617"
+      },
+      {
+        "name": "ג'נטלמן",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3062/%D7%92%D7%A0%D7%98%D7%9C%D7%9E%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4912.png?t=1465897305"
+      },
+      {
+        "name": "סופר פארם",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3063/%D7%A1%D7%95%D7%A4%D7%A8-%D7%A4%D7%90%D7%A8%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6535.png?t=1468930831"
+      },
+      {
+        "name": "MANIA JEANS",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3064/MANIA-JEANS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/5007.png?t=1465898559"
+      },
+      {
+        "name": "תיק התיקים",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3065/%D7%AA%D7%99%D7%A7-%D7%94%D7%AA%D7%99%D7%A7%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4348.png?t=1465830245"
+      },
+      {
+        "name": "BUG",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3066/BUG/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6510.jpg?t=1468853818"
+      },
+      {
+        "name": "ליידי קומפורט",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3068/%D7%9C%D7%99%D7%99%D7%93%D7%99-%D7%A7%D7%95%D7%9E%D7%A4%D7%95%D7%A8%D7%98/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/27248.png?t=1530538847"
+      },
+      {
+        "name": "iRobot",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3069/iRobot/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/41906.png?t=1563972608"
+      },
+      {
+        "name": "דינמיקה סלולר",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3070/%D7%93%D7%99%D7%A0%D7%9E%D7%99%D7%A7%D7%94-%D7%A1%D7%9C%D7%95%D7%9C%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/31650.png?t=1544004189"
+      },
+      {
+        "name": "MAC",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3071/MAC/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/48512.png?t=1576663392"
+      },
+      {
+        "name": "ROYALTY",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3072/ROYALTY/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/24813.png?t=1525127615"
+      },
+      {
+        "name": "S. WEAR",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3073/S.-WEAR/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/34118.png?t=1548942733"
+      },
+      {
+        "name": "עולם הממתקים",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3074/%D7%A2%D7%95%D7%9C%D7%9D-%D7%94%D7%9E%D7%9E%D7%AA%D7%A7%D7%99%D7%9D/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/83646.jpg?t=1669555497"
+      },
+      {
+        "name": "KIKO",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3075/KIKO/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/35741.png?t=1552569829"
+      },
+      {
+        "name": "TOUS",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3076/TOUS/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/87186.png?t=1712867377"
+      },
+      {
+        "name": "ללין",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3077/%D7%9C%D7%9C%D7%99%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4976.png?t=1465898124"
+      },
+      {
+        "name": "HOT MOBILE",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3078/HOT-MOBILE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/31283.jpg?t=1543224586"
+      },
+      {
+        "name": "FOX",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3079/FOX/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4891.png?t=1465897025"
+      },
+      {
+        "name": "קרייזי ליין",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3080/%D7%A7%D7%A8%D7%99%D7%99%D7%96%D7%99-%D7%9C%D7%99%D7%99%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4855.png?t=1465895240"
+      },
+      {
+        "name": "We Shoes",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3081/We-Shoes/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/78478.png?t=1712867356"
+      },
+      {
+        "name": "HOODIES",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3082/HOODIES/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3611.png?t=1462946753"
+      },
+      {
+        "name": "OPATRA LONDON",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3083/OPATRA-LONDON/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/65733.png?t=1626608544"
+      },
+      {
+        "name": "פלאפון",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3085/%D7%A4%D7%9C%D7%90%D7%A4%D7%95%D7%9F/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/6692.png?t=1469343935"
+      },
+      {
+        "name": "MANGO",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3086/MANGO/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/21907.jpg?t=1517142030"
+      },
+      {
+        "name": "טבע נאות",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3088/%D7%98%D7%91%D7%A2-%D7%A0%D7%90%D7%95%D7%AA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/103732.png?t=1718911709"
+      },
+      {
+        "name": "ALL MOBILE",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3089/ALL-MOBILE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/50074.png?t=1579440776"
+      },
+      {
+        "name": "Timberland",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3090/Timberland/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/82775.png?t=1667967862"
+      },
+      {
+        "name": "Nautica",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3091/Nautica/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/47747.png?t=1575200078"
+      },
+      {
+        "name": "RENUAR",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3093/RENUAR/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/93942.png?t=1692176907"
+      },
+      {
+        "name": "SAMSUNG",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3094/SAMSUNG/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/27247.png?t=1530538776"
+      },
+      {
+        "name": "URBANICA",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3095/URBANICA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/22956.png?t=1519936212"
+      },
+      {
+        "name": "דלתא",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3109/%D7%93%D7%9C%D7%AA%D7%90/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4063.png?t=1465814000"
+      },
+      {
+        "name": "APRIL",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3111/APRIL/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/27216.png?t=1530535435"
+      },
+      {
+        "name": "מגנוליה",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3112/%D7%9E%D7%92%D7%A0%D7%95%D7%9C%D7%99%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/21908.png?t=1712867172"
+      },
+      {
+        "name": "iDigital",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3113/iDigital/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4285.jpg?t=1465830215"
+      },
+      {
+        "name": "א.ל.מ דיגיטל",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3114/%D7%90.%D7%9C.%D7%9E-%D7%93%D7%99%D7%92%D7%99%D7%98%D7%9C/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/61946.png?t=1615816387"
+      },
+      {
+        "name": "אריסטו שמט",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3116/%D7%90%D7%A8%D7%99%D7%A1%D7%98%D7%95-%D7%A9%D7%9E%D7%98/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/3779.png?t=1464591894"
+      },
+      {
+        "name": "אופטיקנה",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3117/%D7%90%D7%95%D7%A4%D7%98%D7%99%D7%A7%D7%A0%D7%94/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/47954.png?t=1575447300"
+      },
+      {
+        "name": "i cell",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3119/i-cell/",
+        "img": "https://media.azrielimalls.co.il/_media/media/79/4945.png?t=1465897702"
+      },
+      {
+        "name": "PURPLE",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3121/PURPLE/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/78982.png?t=1658173633"
+      },
+      {
+        "name": "פרטנר",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3123/%D7%A4%D7%A8%D7%98%D7%A0%D7%A8/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/89343.png?t=1681716362"
+      },
+      {
+        "name": "AHAVA",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3131/AHAVA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/80049.png?t=1660159275"
+      },
+      {
+        "name": "Planet Chaplin",
+        "floor": "קומה תחתונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3137/Planet-Chaplin/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/80778.jpg?t=1662110841"
+      },
+      {
+        "name": "Sweetime",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3183/Sweetime/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/101452.png?t=1712660777"
+      },
+      {
+        "name": "שניצל CONCEPT",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3195/%D7%A9%D7%A0%D7%99%D7%A6%D7%9C-CONCEPT/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/85768.jpg?t=1673187960"
+      },
+      {
+        "name": "BOOL",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3231/BOOL/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/99867.png?t=1709231917"
+      },
+      {
+        "name": "שיאומי יבואן רשמי",
+        "floor": "",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3288/%D7%A9%D7%99%D7%90%D7%95%D7%9E%D7%99-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/91592.png?t=1686737117"
+      },
+      {
+        "name": "NOIZZ",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3302/NOIZZ/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/17494.png?t=1502731907"
+      },
+      {
+        "name": "מ.י גלידה בייצור עצמי",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3304/%D7%9E.%D7%99-%D7%92%D7%9C%D7%99%D7%93%D7%94-%D7%91%D7%99%D7%99%D7%A6%D7%95%D7%A8-%D7%A2%D7%A6%D7%9E%D7%99/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/92326.jpg?t=1688440053"
+      },
+      {
+        "name": "ING",
+        "floor": "קומה עליונה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3333/ING/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/94806.jpg?t=1693939414"
+      },
+      {
+        "name": "SAKOIA",
+        "floor": "קומת כניסה",
+        "phoneNumber": "",
+        "link": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%AA/3392/SAKOIA/",
+        "img": "https://media.azrielimalls.co.il/_media/media/88/88216.png?t=1712868669"
+      }
+    ]
+  },
+  {
+    "name": "קניון עזריאלי",
+    "title": "להבים",
+    "address": "שעורה 1 להבים",
+    "hours": [
+      "א-ה: 09:00-20:00"
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/79093.jpg?t=1658649807",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%9C%D7%94%D7%91%D7%99%D7%9D",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/21/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%9C%D7%94%D7%91%D7%99%D7%9D/"
+  },
+  {
+    "name": "עזריאלי",
+    "title": "הרצליה",
+    "address": "מדינת היהודים 85, הרצליה פיתוח",
+    "hours": [
+      "ימים א'-ה' 10:00-21:00",
+      "יום ו' / ערבי חג - 10:00-15:00",
+      "שבת - 10:00-22:00",
+      "",
+      "ייתכנו שינויים מעת לעת"
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7345.png?t=1471777448",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%90%D7%90%D7%95%D7%98%D7%9C%D7%98_%D7%94%D7%A8%D7%A6%D7%9C%D7%99%D7%94",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/8/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%90%D7%90%D7%95%D7%98%D7%9C%D7%98-%D7%94%D7%A8%D7%A6%D7%9C%D7%99%D7%94/"
+  },
+  {
+    "name": "עזריאלי",
+    "title": "אור יהודה",
+    "address": "סעדון אליהו 120, אור יהודה",
+    "hours": [
+      "ימים א'-ה': 21:00 - 9:00",
+      "יום שישי: 09:00-14:30",
+      "מוצ\"ש: שעה מצאת השבת ועד 22:30"
+    ],
+    "img": "https://media.azrielimalls.co.il/_media/media/97/7351.png?t=1471777363",
+    "link": "https://www.azrielimalls.co.il/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99_%D7%90%D7%90%D7%95%D7%98%D7%9C%D7%98_%D7%90%D7%95%D7%A8_%D7%99%D7%94%D7%95%D7%93%D7%94",
+    "storesLink": "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/10/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%90%D7%90%D7%95%D7%98%D7%9C%D7%98-%D7%90%D7%95%D7%A8-%D7%99%D7%94%D7%95%D7%93%D7%94/"
+  }
+]

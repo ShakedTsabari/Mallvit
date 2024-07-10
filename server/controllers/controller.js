@@ -5,6 +5,7 @@ let id = 1;
 exports.getAllMalls = async (req, res) => {
     try {
         const malls = await Mall.find({}, 'title address img').lean();
+        console.log(malls);
         res.json(malls); // return mall list
     } catch (error) {
         res.status(500).json({ message: 'Failed to fetch malls', error: error.message });
@@ -25,33 +26,7 @@ exports.getMall = async (req, res) => {
     }
 }
 
-// // get reviews of mall
-// exports.getReviews = async (req, res) => {
-//     const { mallName } = req.params;
-
-//     const startOfDay = new Date(); // today's date at midnight
-//     startOfDay.setHours(0,0,0,0); 
-
-//     const endOfDay = new Date(startOfDay);
-//     endOfDay.setDate(endOfDay.getDate() + 1); // Set to midnight of the next day
-
-//     try {
-//         const mall = await Mall.findOne({ 
-//             title: mallName,
-//             "reviews.timestamp": { $gte: startOfDay, $lt: endOfDay } 
-//         }).lean();  
-
-//         if (!mall) { 
-//             return res.status(404).json({ message: "Reviews not found" });
-//         }
-//         const sortedReviews = mall.reviews.sort((a, b) => b.timestamp - a.timestamp);
-//         res.json(sortedReviews);    
-//     } catch (error) {
-//         res.status(500).json({ message: 'Failed to fetch reviews from ' + mallName, error: error.message });
-//     }
-// }
-
-
+// return reviews of mallName mall
 exports.getReviews = async (req, res) => {
     const { mallName } = req.params;
     const startOfDay = new Date();
@@ -84,7 +59,7 @@ exports.getReviews = async (req, res) => {
 };
 
 
-// add a review to mallName mall
+// (post) add a review to mallName mall
 exports.addReview = async (req, res) => {
     const { name, subject, body } = req.body;
     const { mallName } = req.params;
@@ -101,7 +76,9 @@ exports.addReview = async (req, res) => {
         if (!result) {
             return res.status(404).json({ message: "Mall not found" });
         }
-        res.status(201).json(result);
+        // res.status(201).json(result); // 
+        //return the updated reviews array
+        res.status(201).json(result.reviews);
     } catch (error) {
         res.status(500).json({ message: 'Failed to save review in ' + mallName, error: error.message });
     }
