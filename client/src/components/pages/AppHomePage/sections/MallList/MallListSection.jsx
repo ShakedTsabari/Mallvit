@@ -1,13 +1,11 @@
-import './MallListSection.css'
-import MallCard from './mallCard';
 import React, { useRef, useState, useEffect } from 'react';
+import './MallListSection.css';
+import MallCard from './mallCard';
 
-
-
-export default function MallListSection(){
-    const [malls, setMalls] = useState([]); // Initialize malls state as an empty array
+export default function MallListSection({ handleFavorite, favorite}) {
+    const [malls, setMalls] = useState([]);
     const scrollRef = useRef(null);
-    const baseUrl = 'http://localhost:3000'
+    const baseUrl = 'http://localhost:3000';
 
     const scroll = (scrollOffset) => {
         scrollRef.current.scrollLeft += scrollOffset;
@@ -16,23 +14,28 @@ export default function MallListSection(){
     useEffect(() => {
         const fetchMalls = async () => {
             try {
-                const url = baseUrl + '/malls/'
-                const response = await fetch(url); 
-                console.log(response);
+                const url = baseUrl + '/malls/';
+                const response = await fetch(url);
                 const data = await response.json();
-                console.log(data)
-                setMalls(data); // Update the malls state with fetched data
+                setMalls(data);
             } catch (error) {
                 console.error('Failed to fetch malls:', error);
             }
         };
 
-        fetchMalls(); // Call the fetch function when the component mounts
-    }, []); // Empty dependency array means this effect will only run once after the initial render
-
+        fetchMalls();
+    }, []);
 
     return (
         <div className="container">
+            {/* <div className="favorite-section-list">
+                {favorite && (
+                    <div className="favorite-mall-list" onClick={() => handleFavorite(favorite)}>
+                        <img src={favorite.img} alt={favorite.title} className="favorite-img-list" />
+                        <span className="favorite-title-list">{favorite.title}</span>
+                    </div>
+                )}
+            </div> */}
             <div className="scroll-wrapper">
                 <button className="scroll-button left" onClick={() => scroll(-300)}>
                     <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" className="ipc-icon ipc-icon--chevron-left-inline ipc-icon--inline ipc-pager-icon" viewBox="0 0 24 24" fill="currentColor" role="presentation">
@@ -41,7 +44,12 @@ export default function MallListSection(){
                 </button>
                 <div className="scroll-container" ref={scrollRef}>
                     {malls.map((mall, index) => (
-                        <MallCard key={index} mall={mall} />
+                        <MallCard 
+                            key={index} 
+                            mall={mall} 
+                            isFavorite={favorite && favorite.title === mall.title}
+                            onFavorite={handleFavorite} 
+                        />
                     ))}
                 </div>
                 <button className="scroll-button right" onClick={() => scroll(300)}>
@@ -51,5 +59,5 @@ export default function MallListSection(){
                 </button>
             </div>
         </div>
-    )
+    );
 }

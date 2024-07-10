@@ -1,18 +1,43 @@
+import React from 'react';
+import Slider from 'react-slick';
 import ScrollingArrow from '../../../../partials/ScrollingArrow';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import './Header.css';
 
+export default function Header() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: false
+  };
 
-export default function Header(){
-    return (
+  return (
     <div className="hero-section">
-        <div className="hero-text">
-            <h2 className="hero-heading">Mallvit</h2>
-            <p className="hero-description">Finding your desires ASAP</p>
+      <div className="hero-text">
+        <h2 className="hero-heading">Mallvit</h2>
+        <p className="hero-description">Finding your desires ASAP</p>
+      </div>
+      <Slider {...settings} className="hero-image">
+        <div>
+          <img src="https://www.azrieligroup.com/wp-content/uploads/2021/01/az_header.jpg" alt="Image 1" />
         </div>
-        <picture className="hero-image">
-            <source media="(min-width: 768px)" srcSet="https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/4a6e24e07e33013b5e040ead9ecbf798.yottaa.net/v~4b.315.0.0/homepage_videos/simonherodesktoppropertyphotos.gif?yocs=D_NA_" />
-            <img src="https://cdn-fsly.yottaa.net/555a305b2bb0ac71b9002d22/4a6e24e07e33013b5e040ead9ecbf798.yottaa.net/v~4b.315.0.0/htmlcontent/SIMON.COM-HERO-MOBILE_1_20240118163812.gif?yocs=D_NA_" alt="Discover Simon" />
-        </picture>
-        <ScrollingArrow targetId="section1" tooltip="find center"/>
+        <div>
+          <img src="https://www.azrieligroup.com/wp-content/uploads/2022/01/Azrieli-azrieli-center-mall-header-copy-copy.jpg" alt="Image 2" />
+        </div>
+        <div>
+          <img src="https://www.azrieligroup.com/wp-content/uploads/2021/12/8-h2-1.jpg" alt="Image 3" />
+        </div>
+        <div>
+          <img src="https://www.azrieligroup.com/wp-content/uploads/2021/12/5-h.jpg" alt="Image 4" />
+        </div>
+      </Slider>
+      <ScrollingArrow targetId="section1" tooltip="find center" />
     </div>
-    )
+  );
 }

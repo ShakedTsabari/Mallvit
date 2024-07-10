@@ -8,27 +8,20 @@ import ReviewsSection from './sections/body/Reviews/ReviewsSection';
 import NavBar from './sections/navBar/NavBar';
 import ForumSection from './sections/body/Forum/Forum';
 import {useState, useEffect} from 'react';
+import Hostages from '../AppHomePage/Hostages';
 
 
 const MallPage = () => {
   const { mall } = useMall();
-  const [reviews, setReviews] = useState([]); // State for reviews
-  const [mallObject, setMallObject] = useState({}); // Initialize mall state as an empty object
-  console.log(mall);
-  const baseUrl = 'http://localhost:3000';
-  // const ayalonMall = malls.find(mall => mall.title === 'אילון');
-  const handleScroll = (e) => {
-    e.preventDefault();
-    const nextSection = document.getElementById('next-section');
-    nextSection.scrollIntoView({ behavior: 'smooth' });
-  };
+  const [reviews, setReviews] = useState([]);
+  const [mallObject, setMallObject] = useState({});
+  const baseUrl = 'http://localhost:3000/malls/';
   useEffect(() => {
     const fetchMallObject = async () => {
         try {
-            const url = baseUrl + '/malls/' + mall.title;
+            const url = `${baseUrl}${mall.title}`;
             const response = await fetch(url); 
             const data = await response.json();
-            console.log(data)
             setMallObject(data); // Update the malls state with fetched data
         } catch (error) {
             console.error('Failed to fetch malls:', error);
@@ -36,7 +29,7 @@ const MallPage = () => {
     };
     const fetchReviews = async () => {
       try {
-        const url = baseUrl + '/malls/' + mall.title + '/reviews';
+        const url = `${baseUrl}${mall.title}/reviews`;
         const response = await fetch(url);
         const data = await response.json();
         setReviews(data);
@@ -50,35 +43,21 @@ const MallPage = () => {
 
 
 
-  return (
-    <div>
-      <MallHeader mall={mallObject} />
-      <a href="#next-section" className="scroll-arrow" onClick={handleScroll}>
-        <div className="scroll-arrow-circle">
-          <svg viewBox="0 0 24 24">
-            <path d="M12 16l-6-6h12z" />
-          </svg>
-        </div>
-      </a>
-      <div id="next-section">
-        <NavBar mall={mallObject} />
-        <div className="content-container">
-          <div className="about-mall">
-            <h2>{`About ${mallObject.title}`}</h2>
-            {/* <p>{mall.info}</p> */}
-          </div>
-          <main className="mall-content">
-          <Routes>
-            <Route path="/r" element={<ForumSection/>}/>
-            <Route path="/" element={<ReviewsSection mall={mallObject} setReviews={setReviews} />} />
-            <Route path="stores" element={<StoresSection mall={mallObject} />} />
-            <Route path="map" element={<MapSection mapSrc={mallObject.mapUrl} />} />
-          </Routes>
-          </main>
-        </div>
-      </div>
+return (
+  <div>
+    <NavBar mall={mallObject} />
+    <MallHeader mall={mallObject} />
+    <Hostages sx={{display: 'flex', justifyContent: 'flex-end', marginLeft: 'auto'}}/>
+    <div className="content-container-mall">
+      <Routes>
+        <Route path="/" element={<ForumSection />} />
+        <Route path="stores" element={<StoresSection mall={mallObject} />} />
+        <Route path="map" element={<MapSection mapSrc={mallObject.mapUrl} />} />
+        <Route path="/r" element={<ReviewsSection mall={mallObject} />} />
+      </Routes>
     </div>
-  );
+  </div>
+);
 };
 
 export default MallPage;

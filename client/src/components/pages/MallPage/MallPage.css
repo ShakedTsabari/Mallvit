@@ -4,94 +4,7 @@
   padding: 0;
 }
 
-.hero-section {
-  position: relative;
-  width: 100%;
-  height: 100vh; /* Full viewport height */
-  overflow: hidden;
-  text-align: center;
-  color: white;
-}
-
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}
-
-.hero-heading {
-  font-size: 80px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.hero-description {
-  font-size: 30px;
-  margin: 10px 0;
-}
-
-.hero-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background: white;
-  color: black;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.hero-image {
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-
-.hero-image img, .hero-image source {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.scroll-arrow {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-  cursor: pointer;
-  color: white;
-  text-decoration: none;
-}
-
-.scroll-arrow .scroll-arrow-circle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  border: 2px solid white;
-  border-radius: 50%;
-  transition: background-color 0.3s, border-color 0.3s;
-}
-
-.scroll-arrow svg {
-  fill: white;
-  width: 32px;
-  height: 32px;
-  transition: fill 0.3s;
-}
-
-.scroll-arrow:hover .scroll-arrow-circle {
-  background-color: grey;
-  border-color: grey;
-}
-
-.scroll-arrow:hover svg {
-  fill: white;
-}
-
-.main-container {
+.main-container-mall {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -99,32 +12,82 @@
   background-color: #f9f9f9;
 }
 
-.content-container {
-  width: 70%;
-  margin: 20px auto 0;
+.content-container-mall {
+  width: 90%;
+  margin: 20px auto;
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  top: 20px;
 }
 
-.about-mall {
-  width: 90%;
-  padding: 30px;
-  text-align: center;
-  background: #f4f5fa;
-  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.5);
-  line-height: 1.6;
-}
-
-.about h2 {
-  margin: 0 0 20px;
-}
-
-.about p {
-  margin: 0;
-}
-
-.mall-content {
+/* .content-container {
   padding: 20px;
-  background: #ffffff;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 80%;
+} */
+
+.forum-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.forum-section h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.chat {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  max-height: 400px; /* Maximum height for the chat area */
+  overflow-y: auto; /* Scroll if content exceeds maximum height */
+}
+
+.chat .post {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.chat .post:last-child {
+  border-bottom: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: vertical;
+  min-height: 100px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #555;
 }

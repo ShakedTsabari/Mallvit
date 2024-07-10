@@ -1,0 +1,39 @@
+.favorite-section {
+    position: absolute;
+    top: 10px; /* Moved up */
+    left: 10px; /* Moved left */
+    background: rgba(34, 34, 34, 0.8); /* Dark background for distinction */
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 15;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for better visibility */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+    border: 5px solid gold; /* Border to highlight the image */
+}
+
+.favorite-section:hover {
+    background: rgba(255, 215, 0, 0.8); /* Light gold background on hover */
+}
+
+.favorite-mall {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row; /* Changed to row to align items horizontally */
+    align-items: center;
+    margin-bottom: 10px; /* Added margin for spacing */
+}
+
+.favorite-mall:hover {
+    background: rgba(243, 237, 237, 0.1);
+}
+
+.favorite-img {
+    width: 60px; /* Reduced width */
+    height: 60px; /* Reduced height */
+    object-fit: cover;
+    border-radius: 8px;
+}

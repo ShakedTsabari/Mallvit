@@ -1,44 +1,108 @@
+ body {
+  margin: 0;
+  overflow-x: hidden;
+}
 
-    .navbar {
-    padding: 10px 0;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(200, 149, 149, 0.1);
-    margin-top: 20px;
-    margin-left: 200px;
-    width: 72%;
-    position: relative;
-    display: flex;
-    border-radius: 0.5rem;
-    background-color: #7d829b;
-    box-sizing: border-box;
-    font-size: 30px;
-    padding: 1rem 1rem 0 1rem;
-    box-sizing: border-box;
-    padding: 1rem 1rem 0 1rem;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .navbar li {
-    margin: 0 20px;
-  }
-  
-  .navbar a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  .navbar a:hover {
-    color: #ffe4e4; 
-  }
+.nav-open .nav {
+  transform: translateX(0);
+}
 
-  
+.nav-open .main {
+  transform: translateX(250px);
+}
+
+.nav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fbfaff;
+  /* background: #fcfbff; */
+  transform: translateX(-250px);
+  transition: transform 0.2s;
+  overflow: hidden;
+  z-index: 1000; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.nav-links-container {
+  margin-top: 20px;
+}
+
+.nav__link {
+  background-color: #f1edff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 25px;
+  text-decoration: none;
+  color: #130c31;
+  margin-bottom: 15px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.nav__text {
+  font-size: 22px;
+  font-family: "Assistant", sans-serif;
+  font-weight: 500;
+}
+
+.nav__link:hover {
+  background: rgba(0, 86, 179, 0.1);
+  color: #3b249f;
+
+}
+
+.main {
+  transition: transform 0.2s;
+  left: auto;
+}
+
+.main-open {
+  transform: translateX(250px);
+  position: fixed;
+}
+
+.nav-open-button {
+  background: #7868c0;
+  color: #130c31;
+  border: none;
+  padding: 15px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  position: fixed;
+  top: 510px;
+  z-index: 2001;
+}
+
+.nav-open-button:hover {
+  background-color: #083361;
+  color: white;
+}
+
+
+.nav-open-button[title]::after {
+  content: attr(title);
+  position: absolute;
+  top: -30px;
+  left: 80%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+
+.nav-open-button[title]:hover::after {
+  opacity: 1;
+}  
+
+
