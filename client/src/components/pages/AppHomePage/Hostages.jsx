@@ -25,7 +25,7 @@ export default function Hostages() {
     }, []);
 
     return (
-        <div id="bthn" lang="he" style={{ left: 'auto', right: '50px', bottom: '480px' }}>
+        <div id="bthn" lang="he" style={{ left: 'auto', right: '2%', bottom: '77%' }}>
             <a id="bthnLink" target="_blank" href="https://stories.bringthemhomenow.net/?utm_source=www.azrieligroup.com&amp;utm_medium=banner">
                 <div id="closeBthn" role="button" tabIndex="0">X</div>
                 <div id="bthnSubtitle">מאות <span className="red-bg">חטופים</span> על ידי החמאס</div>

@@ -14,7 +14,7 @@ export default function MallCard({ mall, isFavorite, onFavorite }) {
 
     function handleFavoriteClick(e) {
         e.stopPropagation(); // Prevent triggering the card click
-        onFavorite(mall); // Set the selected mall as favorite
+        onFavorite(isFavorite ? null : mall); // Toggle favorite
     }
 
     return (

@@ -115,11 +115,14 @@
     z-index: 12;
     transition: color 0.3s;
 }
+.favorite-icon:hover{
+    color: gold;
+}
 
 .favorite-icon.favorite {
     color: gold;
 }
 
-.favorite-icon:hover {
-    color: gold;
+.favorite-icon.favorite:hover {
+    color: white;
 }

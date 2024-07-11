@@ -1,0 +1,20 @@
+.post-reviews {
+    display: flex;
+    flex-direction: column;
+    max-height: 600px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .post-reviews::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .post-reviews::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+  }
+  
+  .post-reviews::-webkit-scrollbar-thumb:hover {
+    background: #bbb;
+  }
+  

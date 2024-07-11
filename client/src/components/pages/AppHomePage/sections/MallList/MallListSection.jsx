@@ -28,14 +28,6 @@ export default function MallListSection({ handleFavorite, favorite}) {
 
     return (
         <div className="container">
-            {/* <div className="favorite-section-list">
-                {favorite && (
-                    <div className="favorite-mall-list" onClick={() => handleFavorite(favorite)}>
-                        <img src={favorite.img} alt={favorite.title} className="favorite-img-list" />
-                        <span className="favorite-title-list">{favorite.title}</span>
-                    </div>
-                )}
-            </div> */}
             <div className="scroll-wrapper">
                 <button className="scroll-button left" onClick={() => scroll(-300)}>
                     <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" className="ipc-icon ipc-icon--chevron-left-inline ipc-icon--inline ipc-pager-icon" viewBox="0 0 24 24" fill="currentColor" role="presentation">

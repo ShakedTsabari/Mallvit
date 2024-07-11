@@ -14,11 +14,12 @@ export default function FavoriteMall({ favorite }) {
 
     return (
         <div className="favorite-section">
-            {favorite && (
+            {favorite ? (
                 <div className="favorite-mall" onClick={handleClick}>
                     <img src={favorite.img} alt={favorite.title} className="favorite-img" />
                 </div>
-            )}
+            ): 
+            <div className="favorite-mall"></div>}
         </div>
     );
 }
