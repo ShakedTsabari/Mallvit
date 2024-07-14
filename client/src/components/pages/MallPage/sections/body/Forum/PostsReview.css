@@ -1,20 +1,28 @@
-.post-reviews {
-    display: flex;
-    flex-direction: column;
-    max-height: 600px; /* Set a maximum height */
-    overflow-y: auto; /* Enable vertical scrolling */
-  }
-  
-  .post-reviews::-webkit-scrollbar {
-    width: 6px;
-  }
-  
-  .post-reviews::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 3px;
-  }
-  
-  .post-reviews::-webkit-scrollbar-thumb:hover {
-    background: #bbb;
-  }
-  
+.posts-review {
+  padding: 10px;
+  max-height: 100%;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.posts-review::-webkit-scrollbar {
+  width: 6px;
+}
+
+.posts-review::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.posts-review::-webkit-scrollbar-thumb:hover {
+  background: #bbb;
+}
+
+.no-posts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.5em;
+  color: #888;
+}

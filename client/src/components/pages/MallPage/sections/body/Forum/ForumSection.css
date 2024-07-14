@@ -3,6 +3,7 @@
   background-color: #f9f9f9;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  position: relative;
 }
 
 .forum-section h2 {
@@ -13,16 +14,7 @@
 
 .forum-grid {
   display: flex;
-}
-
-.posts-review {
-  border: 1px solid #ddd;
-  padding: 10px;
-  background-color: #fff;
-  margin-bottom: 20px;
-  max-height: 400px;
-  overflow-y: auto;
-  flex: 1;
+  height: calc(100vh - 200px); /* Adjust this value as needed */
 }
 
 .post-form {
@@ -56,37 +48,26 @@
   background-color: #555;
 }
 
-.forum-grid-detail {
-  flex: 1;
-  padding: 20px;
-  margin-left: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.post-detail-content {
+.action-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100%;
+  gap: 10px;
 }
 
-.post-detail-content h3 {
-  margin-top: 0;
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-.post-detail-author,
-.post-detail-time {
-  color: #555;
-  margin-top: 10px;
-}
-
-.post-detail-placeholder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  color: #888;
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }

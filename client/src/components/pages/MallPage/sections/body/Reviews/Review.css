@@ -30,3 +30,13 @@
   color: gray;
   font-size: 0.8em;
 }
+
+.review-comments {
+  margin-top: 10px;
+}
+
+.review-comment-form {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}

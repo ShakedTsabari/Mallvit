@@ -4,8 +4,7 @@ const mallController = require('../controllers/controller');
 
 router.get('/', mallController.getAllMalls);
 router.get('/:mallName', mallController.getMall);
-router.get('/:mallName/reviews', mallController.getReviews);
-router.post('/:mallName/reviews', mallController.addReview);
-router.post('/:mallName/reviews/:reviewId', mallController.addReview);
+router.get('/:mallName/posts', mallController.getPosts);
+router.post('/:mallName/posts', mallController.addPost);
+router.post('/:mallName/posts/:postId/comments', mallController.addComment);
 module.exports = router;
-

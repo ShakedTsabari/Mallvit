@@ -16,8 +16,10 @@ const storeSchema = new mongoose.Schema({
 });
 
 // Define sub-schema for reviews
-const reviewSchema = new mongoose.Schema({
+const postSchema = new mongoose.Schema({
     name: String,
+    title: String,
+    store: String,
     subject: String,
     body: String,
     timestamp: { type: Date, default: Date.now },
@@ -35,7 +37,7 @@ const mallSchema = new mongoose.Schema({
     storesLink: String,
     stores: [storeSchema], // Array of stores
     mapUrl: String,
-    reviews: [reviewSchema] // Array of reviews
+    posts: [postSchema] // Array of reviews
 });
 
 const Mall = mongoose.model('Mall', mallSchema);

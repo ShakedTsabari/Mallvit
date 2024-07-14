@@ -7,19 +7,18 @@ export default function ReviewsSection({ mall }) {
     const [reviews, setReviews] = useState([]);
     const [showForm, setShowForm] = useState(false);
     const [newReview, setNewReview] = useState({ name: '', subject: '', body: '' });
-    const baseUrl = 'http://localhost:3000/malls/';
+    const baseUrl = `http://localhost:3000/malls/${mall.title}/reviews`;
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
-        setNewReview({ ...newReview, [name]: value });
+        setNewReview({ ...newReview, [name]: value ,timestamp: new Date()});
     };
 
     const handleFormSubmit = async (e) => {
         e.preventDefault();
 
         try {
-            const url = `${baseUrl}${mall.title}/reviews`;
-            const response = await fetch(url, {
+            const response = await fetch(baseUrl, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -45,7 +44,7 @@ export default function ReviewsSection({ mall }) {
 
     const fetchReviews = async () => {
         try {
-            const response = await fetch(`${baseUrl}${mall.title}/reviews`);
+            const response = await fetch(baseUrl);
             const reviews = await response.json();
             console.log('Fetched reviews:', reviews); // Debugging statement
             setReviews(reviews);
@@ -56,19 +55,15 @@ export default function ReviewsSection({ mall }) {
 
     useEffect(() => {
         fetchReviews();
-    }, []);
+    }, [mall]);
 
     return (
         <div className="reviews-section">
             <h2>Reviews</h2>
             <div className="reviews-container">
-            {Array.isArray(reviews) && reviews.length > 0 ? (
-                    reviews.map((review, index) => (
-                        <Review key={index} review={review} />
-                    ))
-                ) : (
-                    <p>No reviews available.</p>
-                )}
+            {Array.isArray(reviews) && reviews.map((review) => (
+                <Review key={review.id} review={review} mallName={mall.title} />
+            ))}
             </div>
             <button className="add-review-button" onClick={() => setShowForm(true)}>
                 Add Review
@@ -95,10 +90,12 @@ export default function ReviewsSection({ mall }) {
                             required
                         >
                             <option value="">Select a subject</option>
-                            <option value="עומסים">עומסים</option>
-                            <option value="אירועים">אירועים</option>
-                            <option value="מבצעים">מבצעים</option>
-                            <option value="תקלות">תקלות</option>
+                            <option value="Sales">Sales</option>
+                            <option value="Stores">Stores</option>
+                            <option value="Events">Events</option>
+                            <option value="Food & Dining">Food & Dining</option>
+                            <option value="Parking">Parking</option>
+                            <option value="Other">Other</option>
                         </select>
                     </div>
                     <div>

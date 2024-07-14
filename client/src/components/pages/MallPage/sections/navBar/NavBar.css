@@ -1,4 +1,4 @@
- body {
+body {
   margin: 0;
   overflow-x: hidden;
 }
@@ -18,14 +18,12 @@
   top: 0;
   left: 0;
   background-color: #fbfaff;
-  /* background: #fcfbff; */
   transform: translateX(-250px);
   transition: transform 0.2s;
   overflow: hidden;
-  z-index: 1000; 
+  z-index: 2000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 .nav-links-container {
   margin-top: 20px;
@@ -39,9 +37,8 @@
   padding: 25px 25px;
   text-decoration: none;
   color: #130c31;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
 }
 
 .nav__text {
@@ -53,7 +50,6 @@
 .nav__link:hover {
   background: rgba(0, 86, 179, 0.1);
   color: #3b249f;
-
 }
 
 .main {
@@ -76,14 +72,13 @@
   display: flex;
   position: fixed;
   top: 510px;
-  z-index: 2001;
+  z-index: 3000; /* Increased z-index */
 }
 
-.nav-open-button:hover {
+.nav-open-button-tom:hover {
   background-color: #083361;
   color: white;
 }
-
 
 .nav-open-button[title]::after {
   content: attr(title);
@@ -99,10 +94,9 @@
   opacity: 0;
   transition: opacity 0.2s;
   pointer-events: none;
+  z-index: 2000;
 }
 
 .nav-open-button[title]:hover::after {
   opacity: 1;
-}  
-
-
+}

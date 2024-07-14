@@ -1,37 +1,76 @@
+/* ForumGrid.css */
+
 .forum-grid-detail {
-    flex: 1;
-    padding: 20px;
-    margin-left: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .post-detail-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-  }
-  
-  .post-detail-content h3 {
-    margin-top: 0;
-    font-size: 1.5em;
-  }
-  
-  .post-detail-author,
-  .post-detail-time {
-    color: #555;
-    margin-top: 10px;
-  }
-  
-  .post-detail-placeholder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: #888;
-    font-size: 1.2em;
-  }
-  
+  flex: 1;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-detail-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-detail-content h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.post-detail-author,
+.post-detail-time {
+  color: #555;
+  margin-top: 10px;
+}
+
+.post-detail-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #888;
+  font-size: 1.2em;
+}
+
+.comments-section {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.comments-section h4 {
+  margin: 0 0 10px;
+  font-size: 1.2em;
+}
+
+.comments-list {
+  max-height: 300px; /* Set a max height for the comments section */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.comment {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.comment-author {
+  font-weight: bold;
+  color: #333;
+}
+
+.comment-body {
+  margin: 5px 0 0 0;
+  color: #555;
+}
+
+.no-comments {
+  color: #888;
+  font-style: italic;
+}

@@ -1,30 +1,31 @@
 import React, { useState } from 'react';
 import './PostForm.css';
 
-const PostForm = ({ onPostSubmit }) => {
-  const [newPost, setNewPost] = useState({ author: '', title: '', body: '', category: '' });
+const PostForm = ({ onPostSubmit, mall }) => {
+  const [newPost, setNewPost] = useState({ name: '', title: '', store: '', subject: '', body: '' });
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setNewPost({ ...newPost, [name]: value });
+    setNewPost({ ...newPost, [name]: value, timestamp: new Date() });
   };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
     onPostSubmit(newPost);
+    setNewPost({ name: '', title: '', store: '', subject: '', body: '' });
   };
 
   return (
     <form className="post-form" onSubmit={handleFormSubmit}>
-      <input 
+      <input
         type="text"
-        name="author"
-        value={newPost.author}
+        name="name"
+        value={newPost.name}
         onChange={handleInputChange}
         placeholder="Your name"
         required
       />
-      <input 
+      <input
         type="text"
         name="title"
         value={newPost.title}
@@ -32,18 +33,31 @@ const PostForm = ({ onPostSubmit }) => {
         placeholder="Post title"
         required
       />
-      <select 
-        name="category"
-        value={newPost.category}
+      <select
+        name="subject"
+        value={newPost.subject}
         onChange={handleInputChange}
         required
       >
-        <option value="">Select category</option>
+        <option value="">Select a subject</option>
         <option value="Sales">Sales</option>
-        <option value="Traffic">Traffic</option>
+        <option value="Sales">Traffic</option>
         <option value="Events">Events</option>
+        <option value="Food & Dining">Food</option>
+        <option value="Parking">Parking</option>
+        <option value="Other">Other</option>
       </select>
-      <textarea 
+      <select
+        name="store"
+        value={newPost.store}
+        onChange={handleInputChange}
+      >
+        <option value="">Tag a store</option>
+        {mall && mall.stores && mall.stores.map((store, index) => (
+          <option key={index} value={store.name}>{store.name}</option>
+        ))}
+      </select>
+      <textarea
         name="body"
         value={newPost.body}
         onChange={handleInputChange}
