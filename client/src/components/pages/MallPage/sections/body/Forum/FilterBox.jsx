@@ -97,7 +97,7 @@ const FilterBox = ({ onFilterChange }) => {
           )}
         </Box>
       </Modal>
-      {/* {filters.length > 0 && (
+      {filters.length > 0 && (
         <div className="active-filters">
           <Button onClick={handleClearAllFilters}>Clear All Filters</Button>
           {filters.map((filter, index) => (
@@ -109,7 +109,7 @@ const FilterBox = ({ onFilterChange }) => {
             </div>
           ))}
         </div>
-      )} */}
+      )}
     </div>
   );
 };

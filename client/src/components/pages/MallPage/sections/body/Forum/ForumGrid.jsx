@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './ForumGrid.css';
 
-const ForumGrid = ({ selectedPost }) => {
+const ForumGrid = ({ selectedPost, mallName }) => {
+  const [newComment, setNewComment] = useState({ name: '', body: '' });
+  const [postWithComments, setPostWithComments] = useState(selectedPost || {});
+  const [showCommentForm, setShowCommentForm] = useState(false);
+  const baseUrl = 'http://localhost:3000/malls/';
+
+  useEffect(() => {
+    if (selectedPost) {
+      setPostWithComments(selectedPost);
+    }
+  }, [selectedPost]);
+
   if (!selectedPost) {
     return (
       <div className="forum-grid-detail">
@@ -12,35 +23,62 @@ const ForumGrid = ({ selectedPost }) => {
     );
   }
 
-  const curTimestamp = new Date(selectedPost.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+  const { name, title, store, subject, body, timestamp, _id, comments } = postWithComments;
+  const curTimestamp = new Date(timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
 
-  // Add dummy comments for testing
-  const dummyComments = [
-    { author: 'Alice', body: 'Great post!' },
-    { author: 'Bob', body: 'Very informative, thank you.' },
-    { author: 'Charlie', body: 'I have a question about this.' },
-    { author: 'Dana', body: 'Can you provide more details?' },
-    { author: 'Eve', body: 'Interesting perspective.' },
-    { author: 'Frank', body: 'This is very helpful, thanks!' }
-  ];
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setNewComment({ ...newComment, [name]: value, timestamp: new Date() });
+  };
 
-  const postWithComments = { ...selectedPost, comments: dummyComments };
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const url = `${baseUrl}${mallName}/posts/${_id}/comments`;
+      console.log('Posting to URL:', url);
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(newComment),
+      });
+      const data = await response.json();
+      console.log('New Comment Submitted:', newComment); // For demonstration
+      if (data) {
+        const updatedComments = [...postWithComments.comments, newComment];
+        setPostWithComments({ ...postWithComments, comments: updatedComments });
+        setNewComment({ name: '', body: '' });
+        setShowCommentForm(false); // Hide the form after submitting
+      }
+    } catch (err) {
+      console.error(err);
+    }
+  };
 
   return (
     <div className="forum-grid-detail">
       <div className="post-detail-content">
-        <h3>{postWithComments.title}</h3>
-        <p>{postWithComments.body}</p>
-        <span className="post-detail-author">{postWithComments.name}</span>
-        <span className="post-detail-time">{curTimestamp}</span>
+        <div className="post-info-left">
+          <h3>{title}</h3>
+          <p>{body}</p>
+        </div>
+        <div className="post-info-right">
+          <span className="post-detail-author">Name: {name}</span>
+          <span className="post-detail-time">Time: {curTimestamp}</span>
+          <span className="post-detail-subject">Subject: {subject}</span>
+          <span className="post-detail-store">Store: {store}</span>
+        </div>
       </div>
-      {/* <div className="comments-section">
+      <div className="comments-section">
         <h4>Comments</h4>
         <div className="comments-list">
-          {postWithComments.comments && postWithComments.comments.length > 0 ? (
-            postWithComments.comments.map((comment, index) => (
+          {comments && comments.length > 0 ? (
+            comments.map((comment, index) => (
               <div key={index} className="comment">
-                <span className="comment-author">{comment.author}</span>
+                <span className="comment-author">{comment.name}</span>
+                <span className="comment-timestamp">{new Date(comment.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
                 <p className="comment-body">{comment.body}</p>
               </div>
             ))
@@ -48,7 +86,35 @@ const ForumGrid = ({ selectedPost }) => {
             <div className="no-comments">No comments yet</div>
           )}
         </div>
-      </div> */}
+      </div>
+      <div className="add-comment-container">
+        {!showCommentForm && (
+          <button onClick={() => setShowCommentForm(true)}>Add Comment</button>
+        )}
+        {showCommentForm && (
+          <div className="comments-container">
+            <form onSubmit={handleFormSubmit}>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                value={newComment.name}
+                onChange={handleInputChange}
+                required
+              />
+              <textarea
+                name="body"
+                placeholder="Your Comment"
+                value={newComment.body}
+                onChange={handleInputChange}
+                required
+              />
+              <button type="submit">Submit Comment</button>
+              <button type="button" onClick={() => setShowCommentForm(false)}>Cancel</button>
+            </form>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

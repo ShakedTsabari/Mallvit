@@ -99,7 +99,7 @@ const ForumSection = ({ mall }) => {
     <div className="forum-section">
       <div className="forum-grid">
           <PostsReview posts={filteredPosts} onPostClick={handlePostClick} selectedPost={selectedPost} />
-        <ForumGrid selectedPost={selectedPost} />
+        <ForumGrid selectedPost={selectedPost} mallName={mall.title} />
       </div>
       <div className="action-buttons">
         <FilterBox onFilterChange={handleFilterChange} />

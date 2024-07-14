@@ -26,7 +26,6 @@ exports.getMall = async (req, res) => {
 
 // return posts of mallName mall
 exports.getPosts = async (req, res) => {
-    console.log("hello");
     const { mallName } = req.params;
     try {
         const mall = await Mall.findOne({ title: mallName }).lean();
@@ -98,8 +97,6 @@ exports.addComment = async (req, res) => {
         if (!result) {
             return res.status(404).json({ message: "Post not found" });
         }
-        // const reviewComments = result.reviews.find(review => review.id === reviewId).comments;
-        // console.log("reviewComments:"+reviewComments);
         res.status(201).json(result.posts);
         } catch (error) {
         res.status(500).json({ message: 'Failed to add comment to post ' + postId + ' in ' + mallName, error: error.message });
