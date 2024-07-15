@@ -51,7 +51,6 @@ exports.getPosts = async (req, res) => {
         // Sort posts by timestamp in descending order
         const sorted = todayPosts.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
 
-        console.log("Fetched posts:", sorted);
         res.status(200).json(sorted);
     } catch (error) {
         console.error("Error fetching posts:", error);
@@ -74,7 +73,6 @@ exports.addPost = async (req, res) => {
         if (!result) {
             return res.status(404).json({ message: "Mall not found" });
         }
-        //return the updated posts array
         res.status(201).json(result.posts);
     } catch (error) {
         res.status(500).json({ message: 'Failed to save post in ' + mallName, error: error.message });

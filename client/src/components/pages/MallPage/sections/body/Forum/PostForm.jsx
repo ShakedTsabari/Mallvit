@@ -41,9 +41,9 @@ const PostForm = ({ onPostSubmit, mall }) => {
       >
         <option value="">Select a subject</option>
         <option value="Sales">Sales</option>
-        <option value="Sales">Traffic</option>
+        <option value="Traffic">Traffic</option>
         <option value="Events">Events</option>
-        <option value="Food & Dining">Food</option>
+        <option value="Food">Food</option>
         <option value="Parking">Parking</option>
         <option value="Other">Other</option>
       </select>

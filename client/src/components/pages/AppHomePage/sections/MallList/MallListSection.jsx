@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './MallListSection.css';
 import MallCard from './mallCard';
+import { fetchMalls } from '../../../../../api/mall';
 
 export default function MallListSection({ handleFavorite, favorite}) {
     const [malls, setMalls] = useState([]);
@@ -12,18 +13,12 @@ export default function MallListSection({ handleFavorite, favorite}) {
     };
 
     useEffect(() => {
-        const fetchMalls = async () => {
-            try {
-                const url = baseUrl + '/malls/';
-                const response = await fetch(url);
-                const data = await response.json();
-                setMalls(data);
-            } catch (error) {
-                console.error('Failed to fetch malls:', error);
-            }
-        };
-
-        fetchMalls();
+        const getAllMalls = async () => {
+            const data = await fetchMalls();
+            if (data) {
+              setMalls(data);
+          }};
+        getAllMalls();
     }, []);
 
     return (

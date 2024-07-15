@@ -1,0 +1,38 @@
+const baseUrl = 'http://localhost:3000/malls/';
+
+
+export const fetchPosts = async (partialUrl) => {
+    try {
+    const url = baseUrl + partialUrl;
+    const response = await fetch(url);
+
+    if (!response.ok) {
+        throw new Error(`Failed to fetch posts: ${response.status} ${response.statusText}`);
+    }
+    const posts = await response.json();
+    return posts;
+    } catch (error) {
+    console.error('Error fetching posts:', error);
+    }
+};
+
+export const addPost = async (partialUrl, newPost) => {
+    try {
+        const url = baseUrl + partialUrl;
+        const response = await fetch(url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(newPost),
+        });
+
+        if (!response.ok) {
+          throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
+        }
+        const data = await response.json();
+        return data;
+      } catch (error) {
+        console.error('Error submitting the post:', error);
+      }
+};

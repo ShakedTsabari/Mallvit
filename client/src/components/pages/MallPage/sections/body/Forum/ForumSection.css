@@ -71,3 +71,28 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.active-filters-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.filter-chip {
+  display: flex;
+  align-items: center;
+  background: #e0e0e0;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.filter-chip span {
+  margin-right: 5px;
+}

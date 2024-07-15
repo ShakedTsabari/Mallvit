@@ -9,31 +9,21 @@ import ReviewsSection from './sections/body/Reviews/ReviewsSection';
 import NavBar from './sections/navBar/NavBar';
 import ForumSection from './sections/body/Forum/ForumSection';
 import Hostages from '../AppHomePage/Hostages';
+import { fetchMallObject } from '../../../api/mall';
 
 const MallPage = () => {
   const { mall } = useMall();
-  // const [posts, setPosts] = useState([]);
   const [mallObject, setMallObject] = useState({});
-  const baseUrl = 'http://localhost:3000/malls/';
 
   useEffect(() => {
-    if (mall && mall.title) {
-      const fetchMallObject = async () => {
-        try {
-          const url = `${baseUrl}${encodeURIComponent(mall.title)}`;
-          const response = await fetch(url);
-          if (!response.ok) {
-            throw new Error(`Failed to fetch mall: ${response.statusText}`);
-          }
-          const data = await response.json();
+    const getMallData = async () => {
+      if (mall && mall.title) {
+        const partialUrl = encodeURIComponent(mall.title);
+        const data = await fetchMallObject(partialUrl);
+        if (data) {
           setMallObject(data);
-        } catch (error) {
-          console.error('Failed to fetch mall:', error);
-        }
-      };
-
-      fetchMallObject();
-    }
+      }}};
+    getMallData();
   }, [mall]);
 
   return (

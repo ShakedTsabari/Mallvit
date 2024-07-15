@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './ForumGrid.css';
+import { fetchComments } from '../../../../../../api/comments';
 
 const ForumGrid = ({ selectedPost, mallName }) => {
   const [newComment, setNewComment] = useState({ name: '', body: '' });
   const [postWithComments, setPostWithComments] = useState(selectedPost || {});
-  const [showCommentForm, setShowCommentForm] = useState(false);
-  const baseUrl = 'http://localhost:3000/malls/';
+  const [showComments, setShowComments] = useState(false);
 
   useEffect(() => {
     if (selectedPost) {
@@ -16,9 +16,7 @@ const ForumGrid = ({ selectedPost, mallName }) => {
   if (!selectedPost) {
     return (
       <div className="forum-grid-detail">
-        <div className="post-detail-placeholder">
-          Select a post to view details
-        </div>
+        <div className="no-posts">Select a post to view details 😉</div>
       </div>
     );
   }
@@ -33,66 +31,51 @@ const ForumGrid = ({ selectedPost, mallName }) => {
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
-
-    try {
-      const url = `${baseUrl}${mallName}/posts/${_id}/comments`;
-      console.log('Posting to URL:', url);
-      const response = await fetch(url, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(newComment),
-      });
-      const data = await response.json();
-      console.log('New Comment Submitted:', newComment); // For demonstration
-      if (data) {
-        const updatedComments = [...postWithComments.comments, newComment];
-        setPostWithComments({ ...postWithComments, comments: updatedComments });
-        setNewComment({ name: '', body: '' });
-        setShowCommentForm(false); // Hide the form after submitting
-      }
-    } catch (err) {
-      console.error(err);
+    const partialUrl = `${mallName}/posts/${_id}/comments`;
+    const data = await fetchComments(newComment, partialUrl);
+    if (data) {
+      const updatedComments = [...postWithComments.comments, newComment];
+      setPostWithComments({ ...postWithComments, comments: updatedComments });
+      setNewComment({ name: '', body: '' });
     }
+  };
+
+  const handleToggleComments = () => {
+    setShowComments(!showComments);
   };
 
   return (
     <div className="forum-grid-detail">
       <div className="post-detail-content">
-        <div className="post-info-left">
+        <div className="post-info">
           <h3>{title}</h3>
+          <span className="post-detail-meta">Subject: {subject} | tagged store: {store}</span>
           <p>{body}</p>
-        </div>
-        <div className="post-info-right">
-          <span className="post-detail-author">Name: {name}</span>
-          <span className="post-detail-time">Time: {curTimestamp}</span>
-          <span className="post-detail-subject">Subject: {subject}</span>
-          <span className="post-detail-store">Store: {store}</span>
+          <span className="post-detail-meta">By {name} | {curTimestamp}</span>
         </div>
       </div>
-      <div className="comments-section">
-        <h4>Comments</h4>
-        <div className="comments-list">
-          {comments && comments.length > 0 ? (
-            comments.map((comment, index) => (
-              <div key={index} className="comment">
-                <span className="comment-author">{comment.name}</span>
-                <span className="comment-timestamp">{new Date(comment.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
-                <p className="comment-body">{comment.body}</p>
-              </div>
-            ))
-          ) : (
-            <div className="no-comments">No comments yet</div>
-          )}
-        </div>
-      </div>
-      <div className="add-comment-container">
-        {!showCommentForm && (
-          <button onClick={() => setShowCommentForm(true)}>Add Comment</button>
-        )}
-        {showCommentForm && (
-          <div className="comments-container">
+      <div className="comments-container">
+        <button onClick={handleToggleComments} className="toggle-comments-button">
+          {showComments ? 'Hide Comments' : 'Show Comments'}
+        </button>
+        {showComments && (
+          <div className="comments-section">
+            <h4>Comments</h4>
+            <div className="comments-list">
+              {comments && comments.length > 0 ? (
+                comments.map((comment, index) => (
+                  <div key={index} className="comment">
+                    <span className="comment-author">{comment.name}</span>
+                    <p className="comment-body">{comment.body}</p>
+                    <span className="comment-timestamp">
+                      {new Date(comment.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                    </span>
+                  </div>
+                ))
+              ) : (
+                <div className="no-comments">No comments yet</div>
+              )}
+            </div>
             <form onSubmit={handleFormSubmit}>
               <input
                 type="text"
@@ -109,8 +92,7 @@ const ForumGrid = ({ selectedPost, mallName }) => {
                 onChange={handleInputChange}
                 required
               />
-              <button type="submit">Submit Comment</button>
-              <button type="button" onClick={() => setShowCommentForm(false)}>Cancel</button>
+              <button type="submit">Submit</button>
             </form>
           </div>
         )}

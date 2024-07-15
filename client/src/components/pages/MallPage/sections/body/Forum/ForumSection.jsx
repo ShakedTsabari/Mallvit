@@ -7,65 +7,42 @@ import FilterBox from './FilterBox';
 import Tooltip from '@mui/material/Tooltip';
 import Fab from '@mui/material/Fab';
 import AddIcon from '@mui/icons-material/Add';
-import { Modal, Box, Typography, IconButton } from '@mui/material';
+import { fetchPosts } from '../../../../../../api/posts';
+import { addPost } from '../../../../../../api/posts';
+import { Modal, Box, Typography, IconButton, Button } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 
 const ForumSection = ({ mall }) => {
   const [posts, setPosts] = useState([]);
   const [filteredPosts, setFilteredPosts] = useState([]);
   const [selectedPost, setSelectedPost] = useState(null);
-  const [showModal, setShowModal] = useState(false);
   const [showPostFormModal, setShowPostFormModal] = useState(false);
-  const baseUrl = 'http://localhost:3000/malls/';
-
-  const fetchPosts = async () => {
-    if (mall && mall.title) {
-      try {
-        const url = `${baseUrl}${encodeURIComponent(mall.title)}/posts`;
-        const response = await fetch(url);
-
-        if (!response.ok) {
-          throw new Error(`Failed to fetch posts: ${response.status} ${response.statusText}`);
-        }
-
-        const posts = await response.json();
-        setPosts(posts);
-        setFilteredPosts(posts);
-      } catch (error) {
-        console.error('Error fetching posts:', error);
-      }
-    }
-  };
+  const [activeFilters, setActiveFilters] = useState([]);
 
   useEffect(() => {
-    fetchPosts();
+    const getAllPosts = async() => {
+      if (mall && mall.title) {
+        const partialUrl = `${encodeURIComponent(mall.title)}/posts`;
+        const posts = await fetchPosts(partialUrl);
+        if (posts){
+          setPosts(posts);
+          setFilteredPosts(posts);
+        }
+      }
+    }
+
+    getAllPosts();
   }, [mall]);
 
   const handlePostSubmit = async (newPost) => {
     if (mall && mall.title) {
-      try {
-        const url = `${baseUrl}${encodeURIComponent(mall.title)}/posts`;
-        const response = await fetch(url, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(newPost),
-        });
-
-        if (!response.ok) {
-          throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
-        }
-
-        const data = await response.json();
-        if (data) {
-          setPosts((prevPosts) => [newPost, ...prevPosts]);
-          setFilteredPosts((prevPosts) => [newPost, ...prevPosts]);
-          setSelectedPost(null); // Deselect post
-          setShowPostFormModal(false); // Close modal after submitting the post
-        }
-      } catch (error) {
-        console.error('Error submitting the post:', error);
+      const partialUrl = `${encodeURIComponent(mall.title)}/posts`;
+      const data = await addPost(partialUrl, newPost);
+      if (data) {
+        setPosts((prevPosts) => [newPost, ...prevPosts]);
+        setFilteredPosts((prevPosts) => [newPost, ...prevPosts]);
+        setSelectedPost(null); // Deselect post
+        setShowPostFormModal(false); // Close modal after submitting the post
       }
     }
   };
@@ -74,35 +51,66 @@ const ForumSection = ({ mall }) => {
     setSelectedPost(post);
   };
 
-  const handleFilterChange = (filterType, filterValue) => {
+  const handleFilterChange = (newFilters) => {
+    setActiveFilters(newFilters);
+
+    if (newFilters.length === 0) {
+      setFilteredPosts(posts);
+      return;
+    }
+
     let filtered = posts;
-    if (filterType && filterValue) {
-      filtered = posts.filter((post) => {
-        switch (filterType) {
+    newFilters.forEach(({ type, value }) => {
+      filtered = filtered.filter((post) => {
+        switch (type) {
           case 'time':
-            return new Date(post.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }).includes(filterValue);
+            return new Date(post.timestamp) >= value;
           case 'subject':
-            return post.subject.toLowerCase().includes(filterValue.toLowerCase());
+            return post.subject.toLowerCase().includes(value.toLowerCase());
           case 'store':
-            return post.store.toLowerCase().includes(filterValue.toLowerCase());
+            return post.store.toLowerCase().includes(value.toLowerCase());
           case 'author':
-            return post.name.toLowerCase().includes(filterValue.toLowerCase());
+            return post.name.toLowerCase().includes(value.toLowerCase());
           default:
             return true;
         }
       });
-    }
+    });
+
     setFilteredPosts(filtered);
+  };
+
+  const timeMap = {
+    '1 hour ago': 1,
+    '3 hours ago': 3,
+    '5 hours ago': 5,
+    '8 hours ago': 8,
+    '16 hours ago': 16
   };
 
   return (
     <div className="forum-section">
+      <div className="active-filters-container">
+        <Button sx={{
+          '&:hover': {
+            backgroundColor: '#e0e0e0' // Custom hover color
+          }
+        }} onClick={() => handleFilterChange([])}>Clear All Filters</Button>
+        {activeFilters.map((filter, index) => (
+          <div key={index} className="filter-chip">
+            <span>{filter.type}: {filter.label || filter.value}</span>
+            <IconButton size="small" onClick={() => handleFilterChange(activeFilters.filter(f => f !== filter))}>
+              <CloseIcon fontSize="small" />
+            </IconButton>
+          </div>
+        ))}
+      </div>
       <div className="forum-grid">
-          <PostsReview posts={filteredPosts} onPostClick={handlePostClick} selectedPost={selectedPost} />
+        <PostsReview posts={filteredPosts} onPostClick={handlePostClick} selectedPost={selectedPost} />
         <ForumGrid selectedPost={selectedPost} mallName={mall.title} />
       </div>
       <div className="action-buttons">
-        <FilterBox onFilterChange={handleFilterChange} />
+        <FilterBox filters={activeFilters} onFilterChange={handleFilterChange} mall={mall} />
         <Tooltip title="Add Post" placement="left">
           <Fab color="primary" onClick={() => setShowPostFormModal(true)}
             sx={{

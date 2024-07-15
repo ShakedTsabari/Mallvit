@@ -15,6 +15,7 @@ const calculateTimeDifference = (startDate) => {
 export default function Hostages() {
     const startDate = new Date('2023-10-07T06:30:00');
     const [time, setTime] = useState(calculateTimeDifference(startDate));
+    const [showHost, setShowHost] = useState(true);
 
     useEffect(() => {
         const timer = setInterval(() => {
@@ -25,9 +26,10 @@ export default function Hostages() {
     }, []);
 
     return (
-        <div id="bthn" lang="he" style={{ left: 'auto', right: '2%', bottom: '77%' }}>
+        showHost ? 
+        (<div id="bthn" lang="he" style={{ left: 'auto', right: '2%', bottom: '77%' }}>
+        <div id="closeBthn" role="button" tabIndex="0" onClick={() => setShowHost(false)}>X</div>
             <a id="bthnLink" target="_blank" href="https://stories.bringthemhomenow.net/?utm_source=www.azrieligroup.com&amp;utm_medium=banner">
-                <div id="closeBthn" role="button" tabIndex="0">X</div>
                 <div id="bthnSubtitle">מאות <span className="red-bg">חטופים</span> על ידי החמאס</div>
                 <div id="bthnTimeBlocks">
                     <div className="bthn-bthn-time-block">
@@ -90,6 +92,6 @@ export default function Hostages() {
                     </svg>
                 </div>
             </a>
-        </div>
+        </div>) : <></>
     );
 }

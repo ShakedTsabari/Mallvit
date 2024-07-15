@@ -1,68 +1,67 @@
 .modal-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    max-width: 400px;
-    background-color: white;
-    border: 2px solid #000;
-    box-shadow: 24px;
-    padding: 16px 32px 24px;
-    outline: none;
-    border-radius: 8px;
-    animation: floatFromButton 0.5s ease-in-out;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 400px;
+  background-color: white;
+  border: 2px solid #000;
+  box-shadow: 24px;
+  padding: 16px 32px 24px;
+  outline: none;
+  border-radius: 8px;
+  animation: floatFromButton 0.5s ease-in-out;
+}
+
+@keyframes floatFromButton {
+  from {
+    transform: translate(-50%, -50%) scale(0.5);
+    opacity: 0;
   }
-  
-  @keyframes floatFromButton {
-    from {
-      transform: translate(-50%, -50%) scale(0.5);
-      opacity: 0;
-    }
-    to {
-      transform: translate(-50%, -50%) scale(1);
-      opacity: 1;
-    }
+  to {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
   }
-  
-  .modal-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .filter-buttons {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 15px 0;
-  }
-  
-  .filter-input {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 10px;
-  }
-  
-  .filter-input input {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1em;
-  }
-  
-  .filter-input button {
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 1em;
-  }
-  
-  .filter-input button:hover {
-    background-color: #45a049;
-  }
-  
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 15px 0;
+}
+
+.filter-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.filter-input input,
+.filter-input select,
+.filter-input button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.filter-input button {
+  background-color: #636db4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-input button:hover {
+  background-color: #2e356a;
+}
