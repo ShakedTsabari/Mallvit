@@ -8,6 +8,10 @@
   z-index: 1;
 }
 
+.home-hero-section {
+  height: 100vh;
+}
+
 .hero-text-mall {
   position: absolute;
   top: 50%;
@@ -16,39 +20,70 @@
   z-index: 2;
 }
 
+.home-hero-text {
+  text-align: center;
+  width: 80%;
+  top: 30%; /* Adjusted to make space for details below */
+  transform: translate(-50%, -30%);
+}
+
 .hero-heading-mall {
   font-size: 80px;
   font-weight: bold;
   margin: 0;
+  margin-top: 10%;
 }
 
 .hero-description-mall {
   font-size: 30px;
   margin: 10px 0;
 }
-.hero-hours-mall {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  font-size: 18px;
-  margin: 20px 0;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 10px;
+
+.home-hero-details-container {
+  display: flex;
+  justify-content: center;
+  gap: 200px; /* Space between the two containers */
+  margin-top: 20px;
+}
+
+.home-hero-details {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  margin-top: 5%;
   border-radius: 8px;
-  /* display: inline-block; */
+  width: 400px; /* Ensures both containers have the same width */
+  text-align: center;
+  position: relative;
+  font-size: 24px;
+}
+
+.home-hero-hours,
+.home-hero-address {
+  position: relative;
+  padding-top: 10px; 
+}
+
+.home-hero-hours h3,
+.home-hero-address h3 {
+  margin: 10px 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-hero-hours p,
+.home-hero-address p {
+  margin: 3px 0;
 }
 
 .hero-hour-item {
   margin: 5px 0;
 }
 
-.hero-button-mall {
-  display: inline-block;
-  padding: 10px 20px;
-  background: white;
-  color: black;
-  text-decoration: none;
-  border-radius: 5px;
+.icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 35px;
 }
 
 .hero-image-mall {
@@ -64,43 +99,3 @@
   object-fit: cover;
   opacity: 0.8;
 }
-
-  
-  /* .scroll-arrow {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-    cursor: pointer;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .scroll-arrow .scroll-arrow-circle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border: 2px solid white;
-    border-radius: 50%;
-    transition: background-color 0.3s, border-color 0.3s;
-  }
-  
-  .scroll-arrow svg {
-    fill: white;
-    width: 32px;
-    height: 32px;
-    transition: fill 0.3s;
-  }
-  
-  .scroll-arrow:hover .scroll-arrow-circle {
-    background-color: grey;
-    border-color: grey;
-  }
-  
-  .scroll-arrow:hover svg {
-    fill: white;
-  } */
-  

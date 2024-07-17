@@ -1,4 +1,4 @@
-  body {
+body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -22,3 +22,81 @@
   overflow: visible; /* Ensure the button is not hidden */
 }
 
+.home-content-container {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hero-section-mall {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.home-hero-section {
+  height: 100vh;
+}
+
+.hero-text-mall {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.hero-heading-mall {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero-description-mall {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.hero-hours-mall {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 18px;
+  margin: 20px 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.hero-hour-item {
+  margin: 5px 0;
+}
+
+.hero-button-mall {
+  display: inline-block;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero-image-mall {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-image-mall img,
+.hero-image-mall source {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
