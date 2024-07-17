@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './ForumGrid.css';
-import { fetchComments } from '../../../../../../api/comments';
+import { addComment } from '../../../../../../api/comments';
 
 const ForumGrid = ({ selectedPost, mallName }) => {
   const [newComment, setNewComment] = useState({ name: '', body: '' });
@@ -32,13 +32,16 @@ const ForumGrid = ({ selectedPost, mallName }) => {
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     const partialUrl = `${mallName}/posts/${_id}/comments`;
-    const data = await fetchComments(newComment, partialUrl);
+    const data = await addComment(newComment, partialUrl);
     if (data) {
-      const updatedComments = [...postWithComments.comments, newComment];
-      setPostWithComments({ ...postWithComments, comments: updatedComments });
-      setNewComment({ name: '', body: '' });
+      setPostWithComments(prevState => ({
+        ...prevState, comments: [...prevState.comments, newComment]
+      }));
+        setNewComment({ name: '', body: '' });
     }
   };
+
+
 
   const handleToggleComments = () => {
     setShowComments(!showComments);

@@ -101,5 +101,19 @@ exports.addComment = async (req, res) => {
     } 
 }
 
+exports.getPostById = async (req, res) => {
+    const { mallName, postId } = req.params;
+    try {
+        const mall = await Mall.findOne({ title: mallName, "posts._id": postId }, { "posts.$": 1 }).lean();
+        if (!mall || !mall.posts.length) {
+            return res.status(404).json({ message: "Post not found" });
+        }
+        const post = mall.posts[0];
+        res.json(post); // Return the specific post
+    } catch (error) {
+        res.status(500).json({ message: `Failed to fetch post ${postId} in mall ${mallName}`, error: error.message });
+    }
+};
+
 
 module.exports = exports; // export all functions in this file

@@ -26,6 +26,21 @@
   font-size: 30px;
   margin: 10px 0;
 }
+.hero-hours-mall {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 18px;
+  margin: 20px 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 8px;
+  /* display: inline-block; */
+}
+
+.hero-hour-item {
+  margin: 5px 0;
+}
 
 .hero-button-mall {
   display: inline-block;

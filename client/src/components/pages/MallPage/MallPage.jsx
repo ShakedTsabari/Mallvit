@@ -36,7 +36,6 @@ const MallPage = () => {
           <Route path="/" element={<ForumSection mall={mallObject} />} />
           <Route path="stores" element={<StoresSection mall={mallObject} />} />
           <Route path="map" element={<MapSection mapSrc={mallObject.mapUrl} />} />
-          <Route path="/r" element={<ReviewsSection mall={mallObject} />} />
         </Routes>
       </div>
     </div>

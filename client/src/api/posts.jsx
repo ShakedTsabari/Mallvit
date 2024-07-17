@@ -36,3 +36,19 @@ export const addPost = async (partialUrl, newPost) => {
         console.error('Error submitting the post:', error);
       }
 };
+
+export const fetchPostById = async (partialUrl) => {
+  try {
+    const url = baseUrl + partialUrl;
+    console.log('Fetching post from URL:', url);
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch posts: ${response.status} ${response.statusText}`);
+    }
+    const data = await response.json();
+    console.log('Fetched Post Data:', data); // For demonstration
+    return data;
+  } catch (err) {
+    console.error(err);
+  }
+};

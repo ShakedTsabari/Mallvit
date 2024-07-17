@@ -1,7 +1,7 @@
 const baseUrl = 'http://localhost:3000/malls/';
 
 
-export const fetchComments = async(newComment, partialUrl) => {
+export const addComment = async(newComment, partialUrl) => {
     try {
       const url = baseUrl + partialUrl;
       console.log('Posting to URL:', url);

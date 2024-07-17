@@ -1,8 +1,7 @@
 .favorite-section {
     position: absolute;
-    top: 10px; /* Moved up */
-    left: 10px; /* Moved left */
-    background: rgba(34, 34, 34, 0.8); /* Dark background for distinction */
+    top: 10px;
+    left: 10px;
     padding: 10px;
     border-radius: 8px;
     z-index: 15;
@@ -10,21 +9,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for better visibility */
-    transition: background 0.3s; /* Smooth transition for hover effect */
-    border: 5px solid gold; /* Border to highlight the image */
 }
-
+/* 
 .favorite-section:hover {
-    background: rgba(255, 215, 0, 0.8); /* Light gold background on hover */
+    background: rgba(255, 215, 0, 0.8);
 }
 
 .favorite-mall {
     cursor: pointer;
     display: flex;
-    flex-direction: row; /* Changed to row to align items horizontally */
+    flex-direction: row; 
     align-items: center;
-    margin-bottom: 10px; /* Added margin for spacing */
+    margin-bottom: 10px; 
 }
 
 .favorite-mall:hover {
@@ -32,8 +28,53 @@
 }
 
 .favorite-img {
-    width: 60px; /* Reduced width */
-    height: 60px; /* Reduced height */
+    width: 60px;
+    height: 60px;
     object-fit: cover;
     border-radius: 8px;
-}
+} */
+
+.favorite-button {
+    position: relative;
+    font-size: 1em;
+    padding: 0.7em 1.4em;
+    background-color: rgb(202, 173, 5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #ffffff;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+
+  .favorite-button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    background-color: rgb(113, 96, 2);
+    /* border: 2px solid gold;  */
+  }
+  
+  .favorite-button::before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, rgba(33,33,33,1) 0%, rgba(33,33,33,1) 50%,rgb(71, 70, 64) 50%,gold 60%);
+    border-radius: 0 0 0.5em 0;
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+  }
+  
+  .favorite-button:hover::before {
+    width: 1.2em;
+    height: 1.2em;
+  }
+  
+  .favorite-button:active {
+    box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+    transform: translate(0.1em, 0.1em);
+  }
+  

@@ -5,6 +5,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import FilterAltIconOff from '@mui/icons-material/FilterAltOff';
 import './StoresSection.css'; 
 
 function TabPanel(props) {
@@ -83,9 +84,17 @@ export default function StoresSection({ mall }) {
             scrollButtons="auto"
             aria-label="floor tabs"
           >
-            <Tab label="No Floor Filter" {...a11yProps(0)} />
-            {floors.map((floor, index) => (
-              <Tab label={floor !== "" ? `${floor}` : "undefined-floor"} {...a11yProps(index + 1)} key={index} />
+            <Tab 
+              icon={<FilterAltIconOff />} 
+              label="" 
+              {...a11yProps(0)} 
+              sx={{ '&:hover': { backgroundColor: 'rgba(0, 0, 0, 0.1)' } }}
+            />
+              {floors.map((floor, index) => (
+                <Tab sx={{ '&:hover': { backgroundColor: 'rgba(0, 0, 0, 0.1)' } }}
+                label={floor !== "" ? `${floor}` : "אין מידע על קומה"} 
+                {...a11yProps(index + 1)} 
+                key={index} />
             ))}
           </Tabs>
         </AppBar>

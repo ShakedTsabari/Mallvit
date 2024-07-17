@@ -7,8 +7,7 @@ export default function ReviewsSection({ mall }) {
     const [reviews, setReviews] = useState([]);
     const [showForm, setShowForm] = useState(false);
     const [newReview, setNewReview] = useState({ name: '', subject: '', body: '' });
-    const baseUrl = `http://localhost:3000/malls/${mall.title}/reviews`;
-
+    const baseUrl = 'http://localhost:3000/malls/';
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         setNewReview({ ...newReview, [name]: value ,timestamp: new Date()});
@@ -18,7 +17,8 @@ export default function ReviewsSection({ mall }) {
         e.preventDefault();
 
         try {
-            const response = await fetch(baseUrl, {
+            const url = `${baseUrl}${mall.title}/reviews`;
+            const response = await fetch(url, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -44,7 +44,8 @@ export default function ReviewsSection({ mall }) {
 
     const fetchReviews = async () => {
         try {
-            const response = await fetch(baseUrl);
+            const url = `${baseUrl}${mall.title}/reviews`;
+            const response = await fetch(url);
             const reviews = await response.json();
             console.log('Fetched reviews:', reviews); // Debugging statement
             setReviews(reviews);
@@ -55,15 +56,16 @@ export default function ReviewsSection({ mall }) {
 
     useEffect(() => {
         fetchReviews();
-    }, [mall]);
+    }, [mall.reviews]);
 
     return (
         <div className="reviews-section">
             <h2>Reviews</h2>
             <div className="reviews-container">
             {Array.isArray(reviews) && reviews.map((review) => (
-                <Review key={review.id} review={review} mallName={mall.title} />
-            ))}
+                        <Review key={review._id} review={review} mallName={mall.title} />
+                    ))
+            }
             </div>
             <button className="add-review-button" onClick={() => setShowForm(true)}>
                 Add Review

@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');  // Add this line to import the File System module
-
+const { imageHashMap } = require('./ImgToStore');
 
 async function scrapeMalls() {
     const browser = await puppeteer.launch({ headless: true });
@@ -41,14 +41,27 @@ async function scrapeMalls() {
 
     //     mall.storesLink = storesLink;
     // }
-    // const desiredMalls = ["תל אביב","ירושלים", "חולון", "עכו", "מודיעין" ];
     // for(let mall of malls){
-    //     if(desiredMalls.includes(mall.title)){
-        
-
-            await page.goto("https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/5/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%97%D7%95%D7%9C%D7%95%D7%9F/"
+    const data = [
+        {
+            title: "להבים",
+            storesLink: "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/21/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%9C%D7%94%D7%91%D7%99%D7%9D/"
+        },
+        {
+            title: "הרצליה",
+            storesLink: "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/8/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%90%D7%90%D7%95%D7%98%D7%9C%D7%98-%D7%94%D7%A8%D7%A6%D7%9C%D7%99%D7%94/"
+        },
+        {
+            title: "אור יהודה",
+            storesLink: "https://www.azrielimalls.co.il/%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA/10/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-%D7%90%D7%90%D7%95%D7%98%D7%9C%D7%98-%D7%90%D7%95%D7%A8-%D7%99%D7%94%D7%95%D7%93%D7%94/"
+        },
+    ]  
+    const mallsToScrape = data;
+    for(let obj of mallsToScrape){
+            link = obj.storesLink;
+            await page.goto(link
                 , { waitUntil: 'networkidle2' });
-            console.log("after goto mall page");
+            console.log(`after goto mall: ${obj.title} page`);
             // Scrape the store data
             const stores = await page.evaluate(() => {
                 const storeElements = document.querySelectorAll('.shop-boxes-wrapper .shop-box');
@@ -65,21 +78,35 @@ async function scrapeMalls() {
             });
             console.log("after getting storeList");
             for (let store of stores) {
-                console.log(store.name);
-                await page.goto(store.link, { waitUntil: 'networkidle2' });
-                await page.waitForSelector('.store-header');
-                const storeDetails = await page.evaluate(() => {
-                    const img = document.querySelector('.store-header-logo img').src;
-                    return {img};
-                });
-                // Update the store object with detailed data
-                Object.assign(store, storeDetails);
+                try{
+                    console.log(store.name);
+                    if (imageHashMap[store.name]) {
+                        store.img = imageHashMap[store.name];
+                    }
+                    else{
+                        await page.goto(store.link, { waitUntil: 'networkidle2' });
+                        await page.waitForSelector('.store-header');
+                        const storeDetails = await page.evaluate(() => {
+                            const img = document.querySelector('.store-header-logo img').src;
+                            return {img};
+                        });
+                        // Update the store object with detailed data
+                        Object.assign(store, storeDetails);
+                    }
+
+                }catch{
+                    console.log(`problem in scraping: ${store.name}`);
+                    continue;
+                }
             }
+            obj.stores = stores;
+        }
+
             // mall.stores = stores;
     //     }
     // }
 
-    fs.writeFileSync('holonStores.json', JSON.stringify(stores, null, 2), 'utf-8');
+    fs.writeFileSync('moreMalls1.json', JSON.stringify(mallsToScrape, null, 2), 'utf-8');
     console.log("success scraping");
     await browser.close();
 }

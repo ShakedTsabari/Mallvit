@@ -7,8 +7,7 @@ import FilterBox from './FilterBox';
 import Tooltip from '@mui/material/Tooltip';
 import Fab from '@mui/material/Fab';
 import AddIcon from '@mui/icons-material/Add';
-import { fetchPosts } from '../../../../../../api/posts';
-import { addPost } from '../../../../../../api/posts';
+import { addPost, fetchPosts, fetchPostById } from '../../../../../../api/posts';
 import { Modal, Box, Typography, IconButton, Button } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 
@@ -47,8 +46,15 @@ const ForumSection = ({ mall }) => {
     }
   };
 
-  const handlePostClick = (post) => {
-    setSelectedPost(post);
+  const handlePostClick = async (post) => {
+    // if (mall && mall.title) {
+    //   const partialUrl = `${encodeURIComponent(mall.title)}/posts/${post._id}`;
+    //   const newPost = await fetchPostById(partialUrl);
+    //   if (newPost) {
+    //     setSelectedPost(newPost);
+    //   }
+    // }
+      setSelectedPost(post);
   };
 
   const handleFilterChange = (newFilters) => {
