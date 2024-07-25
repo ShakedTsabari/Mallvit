@@ -7,7 +7,7 @@ import StoresSection from './sections/body/Stores/StoresSection';
 import MapSection from './sections/body/Map/MapSection';
 import ForumSection from './sections/body/Forum/ForumSection';
 import NavBar from './sections/navBar/NavBar';
-import Hostages from '../AppHomePage/Hostages';
+import Hostages from '../AppHomePage/partials/Hostages';
 import { fetchMallObject } from '../../../api/mall';
 
 const MallPage = () => {

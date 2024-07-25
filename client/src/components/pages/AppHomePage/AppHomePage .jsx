@@ -3,7 +3,7 @@ import './AppHomePage.css';
 import MallListSection from './sections/MallList/MallListSection';
 import AboutSection from './sections/About/AboutSection';
 import Header from './sections/Headers/Header';
-import ScrollingArrow from '../../partials/ScrollingArrow';
+import ScrollingArrow from './ScrollingArrow';
 import Hostages from './Hostages';
 import FavoriteMall from './FavoriteMall';
 import { useState, useEffect } from 'react';
