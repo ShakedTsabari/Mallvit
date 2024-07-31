@@ -4,37 +4,6 @@
 
 The project is structured into several main components to provide a seamless user experience.
 
-## Project Structure
-src/
-┣ api/
-┃ ┣ comments.jsx
-┃ ┣ mall.jsx
-┃ ┗ posts.jsx
-┣ components/
-┃ ┗ pages/
-    ┃   AppHomePage/
-    ┃ ┃ ┃ ┣ partials/
-        ┃ ┃ ┃ ┃ ┣ FavoriteMall.css
-        ┃ ┃ ┃ ┃ ┣ FavoriteMall.jsx
-        ┃ ┃ ┃ ┃ ┣ Hostages.css
-        ┃ ┃ ┃ ┃ ┣ Hostages.jsx
-        ┃ ┃ ┃ ┃ ┣ ScrollingArrow.css
-        ┃ ┃ ┃ ┃ ┗ ScrollingArrow.jsx
-    ┃ ┃ ┃ ┣ sections/
-        ┃ ┃ ┃ ┃ ┣ About/
-        ┃ ┃ ┃ ┃ ┣ Headers/
-        ┃ ┃ ┃ ┃ ┗ MallList/
-    ┃ ┃ ┃ ┣ AppHomePage .jsx
-    ┃ ┃ ┃ ┗ AppHomePage.css
-    ┃   MallPage/
-    ┃ ┃   ┣ sections/
-        ┃ ┃ ┃ ┃ ┣ body/
-        ┃ ┃ ┃ ┃ ┣ Header/
-        ┃ ┃ ┃ ┃ ┗ navBar/
-    ┃ ┃   ┣ MallPage.css
-    ┃ ┃   ┗ MallPage.jsx
-
-
 ## Components
 
 ### AppHomePage
