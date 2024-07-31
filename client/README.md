@@ -5,38 +5,35 @@
 The project is structured into several main components to provide a seamless user experience.
 
 ## Project Structure
-your-project/
-│
-├── public/
-│   ├── index.html
-│   └── ...
-│
-├── src/
-│   ├── components/
-│   │   ├── AppHomePage/
-│   │   │   ├── AppHomePage.jsx
-│   │   │   ├── AppHomePage.css
-│   │   │   └── ...
-│   │   │
-│   │   ├── MallPage/
-│   │   │   ├── MallPage.jsx
-│   │   │   ├── MallPage.css
-│   │   │   ├── Forum.jsx
-│   │   │   ├── Forum.css
-│   │   │   ├── MapPage.jsx
-│   │   │   ├── MapPage.css
-│   │   │   ├── Stores.jsx
-│   │   │   ├── Stores.css
-│   │   │   └── ...
-│   │   │
-│   │   └── ...
-│   │
-│   ├── App.js
-│   ├── App.css
-│   ├── index.js
-│   └── ...
-│
-└── README.md
+src/
+┣ api/
+┃ ┣ comments.jsx
+┃ ┣ mall.jsx
+┃ ┗ posts.jsx
+┣ components/
+┃ ┗ pages/
+    ┃   AppHomePage/
+    ┃ ┃ ┃ ┣ partials/
+        ┃ ┃ ┃ ┃ ┣ FavoriteMall.css
+        ┃ ┃ ┃ ┃ ┣ FavoriteMall.jsx
+        ┃ ┃ ┃ ┃ ┣ Hostages.css
+        ┃ ┃ ┃ ┃ ┣ Hostages.jsx
+        ┃ ┃ ┃ ┃ ┣ ScrollingArrow.css
+        ┃ ┃ ┃ ┃ ┗ ScrollingArrow.jsx
+    ┃ ┃ ┃ ┣ sections/
+        ┃ ┃ ┃ ┃ ┣ About/
+        ┃ ┃ ┃ ┃ ┣ Headers/
+        ┃ ┃ ┃ ┃ ┗ MallList/
+    ┃ ┃ ┃ ┣ AppHomePage .jsx
+    ┃ ┃ ┃ ┗ AppHomePage.css
+    ┃   MallPage/
+    ┃ ┃   ┣ sections/
+        ┃ ┃ ┃ ┃ ┣ body/
+        ┃ ┃ ┃ ┃ ┣ Header/
+        ┃ ┃ ┃ ┃ ┗ navBar/
+    ┃ ┃   ┣ MallPage.css
+    ┃ ┃   ┗ MallPage.jsx
+
 
 ## Components
 
