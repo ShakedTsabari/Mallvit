@@ -47,14 +47,13 @@ const ForumSection = ({ mall }) => {
   };
 
   const handlePostClick = async (post) => {
-    // if (mall && mall.title) {
-    //   const partialUrl = `${encodeURIComponent(mall.title)}/posts/${post._id}`;
-    //   const newPost = await fetchPostById(partialUrl);
-    //   if (newPost) {
-    //     setSelectedPost(newPost);
-    //   }
-    // }
-      setSelectedPost(post);
+    if (mall && mall.title) {
+      const partialUrl = `${encodeURIComponent(mall.title)}/posts/${post._id}`;
+      const newPost = await fetchPostById(partialUrl);
+      if (newPost) {
+        setSelectedPost(newPost);
+      }
+    }
   };
 
   const handleFilterChange = (newFilters) => {
@@ -84,14 +83,6 @@ const ForumSection = ({ mall }) => {
     });
 
     setFilteredPosts(filtered);
-  };
-
-  const timeMap = {
-    '1 hour ago': 1,
-    '3 hours ago': 3,
-    '5 hours ago': 5,
-    '8 hours ago': 8,
-    '16 hours ago': 16
   };
 
   return (

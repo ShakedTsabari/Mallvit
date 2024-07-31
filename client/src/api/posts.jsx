@@ -42,6 +42,8 @@ export const fetchPostById = async (partialUrl) => {
     const url = baseUrl + partialUrl;
     console.log('Fetching post from URL:', url);
     const response = await fetch(url);
+    console.log(url);
+    console.log(response);
     if (!response.ok) {
       throw new Error(`Failed to fetch posts: ${response.status} ${response.statusText}`);
     }

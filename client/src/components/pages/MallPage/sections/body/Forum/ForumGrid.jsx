@@ -9,7 +9,10 @@ const ForumGrid = ({ selectedPost, mallName }) => {
 
   useEffect(() => {
     if (selectedPost) {
-      setPostWithComments(selectedPost);
+      setPostWithComments({
+        ...selectedPost,
+        comments: selectedPost.comments || [],
+      });
     }
   }, [selectedPost]);
 

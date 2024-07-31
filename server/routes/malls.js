@@ -7,6 +7,6 @@ router.get('/:mallName', mallController.getMall);
 router.get('/:mallName/posts', mallController.getPosts);
 router.post('/:mallName/posts', mallController.addPost);
 router.post('/:mallName/posts/:postId/comments', mallController.addComment);
-router.get('/malls/:mallName/posts/:postId', mallController.getPostById);
+router.get('/:mallName/posts/:postId', mallController.getPostById);
 
 module.exports = router;

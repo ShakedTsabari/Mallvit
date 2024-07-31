@@ -1,6 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
-const { mallsGroups } = require('./mallsGroups'); // Corrected the import statement
+const { mallsGroups, oferHebToEng } = require('./mallsGroups');
+
 
 async function scrapeMalls() {
     const browser = await puppeteer.launch({ headless: true });
@@ -9,7 +10,8 @@ async function scrapeMalls() {
 
     for (let mallGr of mallsGroups) {
         if (mallGr.name === "Azrieli") {
-            await page.goto(mallGr.mallsUrl, { waitUntil: 'networkidle2' });
+            const mallsGroupUrl = mallGr.mallsUrl;
+            await page.goto(mallsGroupUrl, { waitUntil: 'networkidle2' });
             const scrapeInstructions = mallGr.scrapingIntruction;
             await page.waitForSelector(scrapeInstructions.mallList);
 
@@ -33,19 +35,22 @@ async function scrapeMalls() {
             console.log(malls);
         }
         if (mallGr.name === "Ofer") {
-            await page.goto(mallGr.mallsUrl, { waitUntil: 'networkidle2' });
+            const mallsGroupUrl = mallGr.mallsUrl;
+            await page.goto(mallsGroupUrl, { waitUntil: 'networkidle2' });
             const scrapeInstructions = mallGr.scrapingIntruction;
             await page.waitForSelector(scrapeInstructions.mallList);
 
-            const malls = await page.evaluate((scrapeInstructions) => {
+            const malls = await page.evaluate((scrapeInstructions, oferHebToEng, mallsGroupUrl) => {
                 const mallElements = document.querySelectorAll(scrapeInstructions.mall);
                 const mallList = [];
                 mallElements.forEach(mall => {
-                    const link = mall.querySelector(scrapeInstructions.mallFields.mallPageLink)?.href;
-                    mallList.push({ link });
+                    const hebrewName = mall.querySelector(scrapeInstructions.mallFields.name)?.innerText.trim();
+                    const name = oferHebToEng[hebrewName];
+                    const link = mallsGroupUrl + "/" + name + "/info";
+                    mallList.push({ name, link });
                 });
                 return mallList;
-            }, scrapeInstructions);
+            }, scrapeInstructions, oferHebToEng, mallsGroupUrl);
 
             mallsToScrape.push(...malls);
             console.log(malls);

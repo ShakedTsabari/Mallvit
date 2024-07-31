@@ -1,15 +1,15 @@
-import { malls } from '../../../utils/data';
+// import { malls } from '../../../utils/data';
 import './AppHomePage.css';
 import MallListSection from './sections/MallList/MallListSection';
 import AboutSection from './sections/About/AboutSection';
 import Header from './sections/Headers/Header';
-import ScrollingArrow from './ScrollingArrow';
-import Hostages from './Hostages';
-import FavoriteMall from './FavoriteMall';
+import ScrollingArrow from './partials/ScrollingArrow';
+import Hostages from './partials/Hostages';
+import FavoriteMall from './partials/FavoriteMall';
 import { useState, useEffect } from 'react';
 
 export default function AppHomePage() {
-    const [favorite, setFavorite] = useState(null); // State to manage the favorite mall
+    const [favorite, setFavorite] = useState(null);
 
     // Load favorite from local storage on initial render
     useEffect(() => {
@@ -21,7 +21,7 @@ export default function AppHomePage() {
 
     const handleFavorite = (mall) => {
         setFavorite(mall);
-        localStorage.setItem('favoriteMall', JSON.stringify(mall)); // Save favorite to local storage
+        localStorage.setItem('favoriteMall', JSON.stringify(mall));
     };
 
     return (
@@ -33,7 +33,7 @@ export default function AppHomePage() {
                     <div className="staggered-section staggered-left">
                     <FavoriteMall favorite={favorite} />
                         <div className="staggered-content">
-                            <MallListSection mallsList={malls} favorite={favorite} handleFavorite={handleFavorite} />
+                            <MallListSection favorite={favorite} handleFavorite={handleFavorite} />
                         </div>
                         <ScrollingArrow targetId="section2" tooltip="scrolling down"/>
                     </div>
