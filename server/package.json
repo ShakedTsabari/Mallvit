@@ -17,6 +17,7 @@
     "mongodb": "^6.8.0",
     "mongoose": "^8.4.5",
     "neo4j-driver": "^5.21.0",
+    "node-cron": "^3.0.3",
     "puppeteer": "^22.13.1"
   }
 }

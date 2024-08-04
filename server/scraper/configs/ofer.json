@@ -1,0 +1,21 @@
+{
+    "name": "Ofer",
+    "mallsUrl": "https://myofer.co.il/malls",
+    "scrapingInstructions": {
+      "mallList": ".sc-72d416da-37",
+      "mall": ".sc-a8e43978-15",
+      "mallFields": {
+        "name": ".jNAQzz",
+        "address": ".sc-493f8a42-11.jgRTGR .sc-493f8a42-10.gFqluH",
+        "hours": ".sc-493f8a42-28.hBsJla",
+        "storesFields": {
+            "storeElement": ".sc-64bceb38-44",
+            "name": ".sc-c8860639-0.sc-d8e7077-2.hsSMWB.iaMzJr",
+            "hours": ".sc-9acd9b14-0.jSVndJ",
+            "floor": ".sc-d8e7077-4.haCjQK",
+            "logo": "img"
+        }
+      }
+    }
+}
+  

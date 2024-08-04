@@ -1,0 +1,24 @@
+{
+    "name": "Azrieli",
+    "mallsUrl": "https://www.azrielimalls.co.il/%D7%A7%D7%A0%D7%99%D7%95%D7%A0%D7%99%D7%9D",
+    "scrapingInstructions": {
+      "mallList": ".mall-boxes-wrapper",
+      "mall": ".mall-boxes-wrapper .mall-box",
+      "mallFields": {
+        "name": ".mall-box-title .mall-title-text",
+        "title": ".mall-box-title .mall-title-name",
+        "address": ".mall-box-details .mall-box-details-address",
+        "hours": ".mall-box-details .mall-box-details-line",
+        "mallPageLink": ".mall-box-button",
+        "storesLink": ".inner-wrapper .page-header-title .all-stores a",
+        "storesFields": {
+          "storeElement": ".shop-boxes-wrapper .shop-box",
+          "name": ".shop-box-text-title",
+          "floor": ".shop-box-text-location",
+          "phoneNumber": ".shop-box-text-phone",
+          "image": ".store-header-logo img"
+        }
+      }
+    }
+  }
+  
