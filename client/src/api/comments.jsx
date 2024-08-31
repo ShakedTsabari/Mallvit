@@ -4,7 +4,7 @@ let baseUrl;
 if (import.meta.env.MODE === 'development') {
   baseUrl = import.meta.env.VITE_DEV_BASE_URL;
 } else if (import.meta.env.MODE === 'production') {
-  baseUrl = import.meta.env.VITE_PROD_BASE_URL;
+  baseUrl = import.meta.env.VITE_PROD_BASE_URL + '/malls/'
 }
 export const addComment = async(newComment, partialUrl) => {
 
