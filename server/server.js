@@ -12,10 +12,9 @@ app.use('/malls', mallRoutes);
 
 
 const PORT = process.env.PORT || 3000;
-const mongoURI = process.env.MONGO_URI || "mongodb+srv://reisstomer:firfir123@atlascluster.kx5ldka.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster";
-// const mongoURI = process.env.MONGO_URI;
+const baseUrl = process.env.MONGO_URI || "mongodb+srv://reisstomer:firfir123@atlascluster.kx5ldka.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster";
 
-mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(baseUrl, { useNewUrlParser: true, useUnifiedTopology: true })
 .then(() => {
     console.log('MongoDB connected successfully.');
     app.listen(PORT, () => {

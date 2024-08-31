@@ -1,9 +1,10 @@
-const baseUrl = 'http://localhost:3000/malls/';
-
+const baseUrl = import.meta.env.VITE_BASE_URL || "http://localhost:3000/malls/";
 
 export const fetchMallObject = async (partialUrl) => {
+
     try {
       const url = baseUrl + partialUrl;
+      console.log(url);
       const response = await fetch(url);
       if (!response.ok) {
         throw new Error(`Failed to fetch mall: ${response.statusText}`);

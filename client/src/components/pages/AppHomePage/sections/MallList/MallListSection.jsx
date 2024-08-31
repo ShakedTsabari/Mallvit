@@ -6,7 +6,6 @@ import { fetchMalls } from '../../../../../api/mall';
 export default function MallListSection({ handleFavorite, favorite}) {
     const [malls, setMalls] = useState([]);
     const scrollRef = useRef(null);
-    const baseUrl = 'http://localhost:3000';
 
     const scroll = (scrollOffset) => {
         scrollRef.current.scrollLeft += scrollOffset;

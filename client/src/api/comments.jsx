@@ -1,10 +1,9 @@
-const baseUrl = 'http://localhost:3000/malls/';
 
-
+const baseUrl = import.meta.env.VITE_BASE_URL || "http://localhost:3000/malls/";
 export const addComment = async(newComment, partialUrl) => {
+
     try {
       const url = baseUrl + partialUrl;
-      console.log('Posting to URL:', url);
       const response = await fetch(url, {
         method: 'POST',
         headers: {
