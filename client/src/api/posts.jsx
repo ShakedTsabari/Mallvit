@@ -1,6 +1,10 @@
+let baseUrl;
 
-const baseUrl = import.meta.env.VITE_BASE_URL || "http://localhost:3000/malls/";
-
+if (import.meta.env.MODE === 'development') {
+  baseUrl = import.meta.env.VITE_DEV_BASE_URL;
+} else if (import.meta.env.MODE === 'production') {
+  baseUrl = import.meta.env.VITE_PROD_BASE_URL;
+}
 export const fetchPosts = async (partialUrl) => {
     try {
       const url = baseUrl + partialUrl;
