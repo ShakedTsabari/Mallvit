@@ -9,6 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/malls', mallRoutes);
+app.use(cors({ origin: 'https://mallvit3.onrender.com' }));
 
 
 const PORT = process.env.PORT || 3000;
