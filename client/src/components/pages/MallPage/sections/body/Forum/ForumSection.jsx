@@ -48,6 +48,7 @@ const ForumSection = ({ mall }) => {
 
   const handlePostClick = async (post) => {
     if (mall && mall.title) {
+      console.log('Selected Post id:', post._id);
       const partialUrl = `${encodeURIComponent(mall.title)}/posts/${post._id}`;
       const newPost = await fetchPostById(partialUrl);
       if (newPost) {

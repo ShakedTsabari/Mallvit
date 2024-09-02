@@ -10,7 +10,7 @@ if (import.meta.env.MODE === 'development') {
 export const addComment = async(newComment, partialUrl) => {
 
     try {
-      const url = baseUrl + partialUrl;
+      const url = `${baseUrl}${partialUrl}`;
       const response = await fetch(url, {
         method: 'POST',
         headers: {

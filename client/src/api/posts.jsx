@@ -4,11 +4,11 @@ if (import.meta.env.MODE === 'development') {
   baseUrl = import.meta.env.VITE_DEV_BASE_URL;
 } else if (import.meta.env.MODE === 'production') {
   baseUrl = `${import.meta.env.VITE_PROD_BASE_URL}/malls/`;
-  console.log('baseurl of prod: '+ baseUrl);
 }
 export const fetchPosts = async (partialUrl) => {
     try {
-      const url = baseUrl + partialUrl;
+      const url = `${baseUrl}${partialUrl}`;
+      console.log('Fetching posts from URL:', url);
       const response = await fetch(url);
       if (!response.ok) {
           throw new Error(`Failed to fetch posts: ${response.status} ${response.statusText}`);
@@ -22,7 +22,7 @@ export const fetchPosts = async (partialUrl) => {
 
 export const addPost = async (partialUrl, newPost) => {
     try {
-      const url = baseUrl + partialUrl;
+      const url = `${baseUrl}${partialUrl}`;
       const response = await fetch(url, {
         method: 'POST',
         headers: {
@@ -43,7 +43,7 @@ export const addPost = async (partialUrl, newPost) => {
 
 export const fetchPostById = async (partialUrl) => {
   try {
-    const url = baseUrl + partialUrl;
+    const url = `${baseUrl}${partialUrl}`;
     console.log('Fetching post from URL:', url);
     const response = await fetch(url);
     console.log(url);
