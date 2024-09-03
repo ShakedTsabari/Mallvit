@@ -8,7 +8,6 @@ if (import.meta.env.MODE === 'development') {
 export const fetchPosts = async (partialUrl) => {
     try {
       const url = `${baseUrl}${partialUrl}`;
-      console.log('Fetching posts from URL:', url);
       const response = await fetch(url);
       if (!response.ok) {
           throw new Error(`Failed to fetch posts: ${response.status} ${response.statusText}`);
@@ -30,12 +29,10 @@ export const addPost = async (partialUrl, newPost) => {
         },
         body: JSON.stringify(newPost),
       });
-      console.log('response:', response); // For demonstration
       if (!response.ok) {
         throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
       }
       const data = await response.json();
-      console.log('response.data:', data); // For demonstration
       return data;
     } catch (error) {
       console.error('Error submitting the post:', error);
@@ -45,13 +42,11 @@ export const addPost = async (partialUrl, newPost) => {
 export const fetchPostById = async (partialUrl) => {
   try {
     const url = `${baseUrl}${partialUrl}`;
-    console.log('Fetching post from URL:', url);
     const response = await fetch(url);
     if (!response.ok) {
       throw new Error(`Failed to fetch posts: ${response.status} ${response.statusText}`);
     }
     const data = await response.json();
-    console.log('Fetched Post Data:', data); // For demonstration
     return data;
   } catch (err) {
     console.error(err);

@@ -25,6 +25,7 @@ const ForumSection = ({ mall }) => {
         const posts = await fetchPosts(partialUrl);
         if (posts){
           setPosts(posts);
+          console.log('Posts !shkooooo:', posts);
           setFilteredPosts(posts);
         }
       }
@@ -33,13 +34,15 @@ const ForumSection = ({ mall }) => {
     getAllPosts();
   }, [mall]);
 
+
+
   const handlePostSubmit = async (newPost) => {
     if (mall && mall.title) {
       const partialUrl = `${encodeURIComponent(mall.title)}/posts`;
       const data = await addPost(partialUrl, newPost);
       if (data) {
-        setPosts((prevPosts) => [newPost, ...prevPosts]);
-        setFilteredPosts((prevPosts) => [newPost, ...prevPosts]);
+        setPosts((prevPosts) => [data[data.length-1], ...prevPosts]);
+        setFilteredPosts((prevPosts) => [data[data.length-1], ...prevPosts]);
         setSelectedPost(null); // Deselect post
         setShowPostFormModal(false); // Close modal after submitting the post
       }
@@ -48,7 +51,6 @@ const ForumSection = ({ mall }) => {
 
   const handlePostClick = async (post) => {
     if (mall && mall.title) {
-      console.log('Selected Post id:', post._id);
       const partialUrl = `${encodeURIComponent(mall.title)}/posts/${post._id}`;
       const newPost = await fetchPostById(partialUrl);
       if (newPost) {
@@ -56,7 +58,6 @@ const ForumSection = ({ mall }) => {
       }
     }
   };
-
   const handleFilterChange = (newFilters) => {
     setActiveFilters(newFilters);
 
@@ -82,7 +83,6 @@ const ForumSection = ({ mall }) => {
         }
       });
     });
-
     setFilteredPosts(filtered);
   };
 

@@ -10,10 +10,8 @@ const PostsReview = ({ posts, onPostClick, selectedPost }) => {
     '🐛', '🦋', '🐌', '🐞', '🐜', '🦟', '🦗', '🕷️', '🦂', '🐢',
     '🐍', '🦎', '🐙', '🦑', '🦐', '🦞', '🦀', '🐡', '🐠', '🐟'
   ];
-
   const [postsWithIcons, setPostsWithIcons] = useState([]);
   const [nameToIconMap, setNameToIconMap] = useState({});
-
   useEffect(() => {
     const postsWithAssignedIcons = posts.map(post => {
       const { name } = post;
