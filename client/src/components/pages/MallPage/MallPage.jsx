@@ -19,7 +19,9 @@ const MallPage = () => {
     const getMallData = async () => {
       if (mall && mall.title) {
         const partialUrl = encodeURIComponent(mall.title);
+        console.log(partialUrl);
         const data = await fetchMallObject(partialUrl);
+        console.log(data);
         if (data) {
           setMallObject(data);
         }
