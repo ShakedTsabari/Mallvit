@@ -51,10 +51,10 @@ export default function StoresSection({ mall }) {
   };
 
   // Filter out undefined or null floors
-  const floors = Array.from(new Set(mall.stores.map(store => store.floor)));
-  const filteredStores = mall.stores.filter(store =>
+  const floors = Array.isArray(mall?.stores) ? Array.from(new Set(mall.stores.map(store => store.floor))) : [];
+  const filteredStores = Array.isArray(mall?.stores) ? mall.stores.filter(store =>
     store.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  ) : [];
 
   return (
     <Box sx={{ bgcolor: 'background.paper', width: '100%', position: 'relative', minHeight: 200 }}>

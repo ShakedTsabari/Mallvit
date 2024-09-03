@@ -25,7 +25,6 @@ const ForumSection = ({ mall }) => {
         const posts = await fetchPosts(partialUrl);
         if (posts){
           setPosts(posts);
-          console.log('Posts !shkooooo:', posts);
           setFilteredPosts(posts);
         }
       }
