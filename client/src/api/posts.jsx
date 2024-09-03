@@ -35,7 +35,7 @@ export const addPost = async (partialUrl, newPost) => {
         throw new Error(`Network response was not ok: ${response.status} ${response.statusText}`);
       }
       const data = await response.json();
-      consolw.log('response.data:', data); // For demonstration
+      console.log('response.data:', data); // For demonstration
       return data;
     } catch (error) {
       console.error('Error submitting the post:', error);
