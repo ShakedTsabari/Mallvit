@@ -1,7 +1,7 @@
 .hero-section-mall {
   position: relative;
   width: 100%;
-  height: 50vh;
+  height: 50vh; /* Full viewport height */
   overflow: hidden;
   text-align: center;
   color: white;
@@ -9,7 +9,7 @@
 }
 
 .home-hero-section {
-  height: 100vh;
+  height: 100vh; /* Full viewport height */
 }
 
 .hero-text-mall {
@@ -28,62 +28,62 @@
 }
 
 .hero-heading-mall {
-  font-size: 80px;
+  font-size: 8vw; /* Changed from 80px to 8vw for responsiveness */
   font-weight: bold;
   margin: 0;
   margin-top: 10%;
 }
 
 .hero-description-mall {
-  font-size: 30px;
-  margin: 10px 0;
+  font-size: 3vw; /* Changed from 30px to 3vw for responsiveness */
+  margin: 2% 0; /* Changed margin to percentage */
 }
 
 .home-hero-details-container {
   display: flex;
   justify-content: center;
-  gap: 200px; /* Space between the two containers */
-  margin-top: 20px;
+  gap: 10%; /* Changed from 200px to 10% for responsiveness */
+  margin-top: 2%; /* Changed from 20px to 2% for responsiveness */
 }
 
 .home-hero-details {
   background: rgba(0, 0, 0, 0.6);
-  padding: 30px;
+  padding: 5%; /* Changed padding to percentage */
   margin-top: 5%;
   border-radius: 8px;
-  width: 400px; /* Ensures both containers have the same width */
+  width: 30%; /* Changed from 400px to 30% for responsiveness */
   text-align: center;
   position: relative;
-  font-size: 24px;
+  font-size: 2vw; /* Changed from 24px to 2vw for responsiveness */
 }
 
 .home-hero-hours,
 .home-hero-address {
   position: relative;
-  padding-top: 10px; 
+  padding-top: 5%; /* Changed from 10px to percentage */
 }
 
 .home-hero-hours h3,
 .home-hero-address h3 {
-  margin: 10px 0;
+  margin: 2% 0; /* Changed margin to percentage */
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 5%; /* Changed from 30px to percentage */
 }
 
 .home-hero-hours p,
 .home-hero-address p {
-  margin: 3px 0;
+  margin: 1% 0; /* Changed margin to percentage */
 }
 
 .hero-hour-item {
-  margin: 5px 0;
+  margin: 1% 0; /* Changed margin to percentage */
 }
 
 .icon {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 35px;
+  top: 2%; /* Changed from 10px to percentage */
+  left: 2%; /* Changed from 10px to percentage */
+  font-size: 3vw; /* Changed from 35px to 3vw for responsiveness */
 }
 
 .hero-image-mall {
