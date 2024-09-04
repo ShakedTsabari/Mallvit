@@ -1,20 +1,20 @@
 .forum-section {
-  padding: 20px;
+  padding: 2%;
   background-color: #f9f9f9;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.1);
+  margin-bottom: 2%;
   position: relative;
 }
 
 .forum-section h2 {
   margin-top: 0;
-  font-size: 24px;
+  font-size: 2w;
   color: #333;
 }
 
 .forum-grid {
   display: flex;
-  height: calc(100vh - 200px); /* Adjust this value as needed */
+  height: calc(100vh - 20%);
 }
 
 .post-form {
@@ -26,21 +26,21 @@
 .post-form select,
 .post-form textarea {
   width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+  padding: 1%;
+  margin: 0.5% 0;
+  border: 0.1em solid #ddd;
+  border-radius: 5%;
 }
 
 .post-form button {
-  padding: 10px 20px;
+  padding: 1% 2%;
   background-color: #333;
   color: #fff;
   border: none;
   cursor: pointer;
   align-self: flex-end;
-  margin-top: 10px;
-  border-radius: 5px;
+  margin-top: 1%;
+  border-radius: 5%;
   transition: background-color 0.3s;
 }
 
@@ -50,18 +50,18 @@
 
 .action-buttons {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 2%;
+  right: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 1%;
 }
 
 .close {
   color: #aaa;
   float: right;
-  font-size: 28px;
+  font-size: 2.8vw;
   font-weight: bold;
 }
 
@@ -75,24 +75,24 @@
 .active-filters-container {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1%;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 1%;
+  left: 1%;
   background: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0.5% 1%;
+  border-radius: 5%;
+  box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.1);
 }
 
 .filter-chip {
   display: flex;
   align-items: center;
   background: #e0e0e0;
-  border-radius: 15px;
-  padding: 5px 10px;
+  border-radius: 15%;
+  padding: 1% 1%;
 }
 
 .filter-chip span {
-  margin-right: 5px;
+  margin-right: 0.5%;
 }
