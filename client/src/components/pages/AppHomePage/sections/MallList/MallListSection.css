@@ -1,6 +1,6 @@
 .container {
     position: relative;
-    padding: 20px;
+    padding: 2%; /* Changed from 20px to 2% */
     text-align: center;
 }
 
@@ -29,8 +29,8 @@
     font-size: 2em;
     cursor: pointer;
     z-index: 12;
-    padding: 0 10px;
-    height: 80px;
+    padding: 0 3%; /* Changed from 10px to 3% */
+    height: 10%; /* Changed from 80px to 10% */
 }
 
 .scroll-button.left {
@@ -45,7 +45,7 @@
     position: absolute;
     bottom: auto;
     background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 2%; /* Changed from 10px to 2% */
     border-radius: 8px;
     z-index: 15;
     color: white;
@@ -65,14 +65,14 @@
 }
 
 .favorite-img-list {
-    width: 100px;
-    height: 100px;
+    width: 20%; /* Changed from 100px to 20% */
+    height: 20%; /* Changed from 100px to 20% */
     object-fit: cover;
     border-radius: 8px;
 }
 
 .favorite-title-list {
-    margin-top: 10px;
+    margin-top: 2%; /* Changed from 10px to 2% */
     font-size: 1em;
     text-align: center;
 }
