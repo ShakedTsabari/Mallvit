@@ -22,20 +22,20 @@ body {
 }
 
 .hero-heading {
-    font-size: 80px;
+    font-size: 6vw; /* Changed from 80px to 6vw (viewport width) for responsive sizing */
     font-weight: bold;
     margin: 0;
     z-index: 100;
 }
 
 .hero-description {
-    font-size: 30px;
-    margin: 10px 0;
+    font-size: 2.5vw; /* Changed from 30px to 2.5vw for responsiveness */
+    margin: 2% 0; /* Use percentage for margin */
 }
 
 .hero-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 1.5% 3%; /* Changed padding to percentages */
     background: white;
     color: black;
     text-decoration: none;
@@ -54,19 +54,19 @@ body {
     object-fit: cover;
 }
 
-
 .staggered-section {
-    padding: 20px;
-    margin-top: 20px;
+    padding: 2%; /* Changed padding to percentage */
+    margin-top: 2%; /* Changed margin-top to percentage */
     background: #ffffff;
-    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 1% 4% 8% rgba(0, 0, 0, 0.5); /* Adjusted box-shadow to use percentages */
     line-height: 1.6;
-    min-height: 550px;
+    min-height: 55vh; /* Changed to viewport height for responsiveness */
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
+
 .staggered-content {
     flex-direction: column;
     justify-content: center;
@@ -76,15 +76,15 @@ body {
     height: 100%;
     position: relative; 
 }
+
 .staggered-left {
     margin-left: 0;
-    margin-right: 110px;
-    width: calc(100% - 110px);
+    margin-right: 10%; /* Changed margin-right to percentage */
+    width: 90%; /* Adjusted width to fill remaining space after margin change */
 }
 
 .staggered-right {
     margin-right: 0;
-    margin-left: 110px;
-    width: calc(100% - 110px);}
-
-
+    margin-left: 10%; /* Changed margin-left to percentage */
+    width: 90%; /* Adjusted width to fill remaining space after margin change */
+}
