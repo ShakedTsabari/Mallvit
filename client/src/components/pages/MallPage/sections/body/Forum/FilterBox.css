@@ -1,20 +1,21 @@
 .modal-box {
+  font-size : 1em;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
-  max-width: 400px;
+  width: 25%;
+  max-width: 40%;
   background-color: white;
-  border: 2px solid #000;
-  box-shadow: 24px;
-  padding: 16px 32px 24px;
+  border: 0.1em solid #000;
+  box-shadow: 2.4em;
+  padding: 2% 3% 2%;
   outline: none;
   border-radius: 8px;
   animation: floatFromButton 0.5s ease-in-out;
 }
 
-@keyframes floatFromButton {
+@keyframes floatFromButton { 
   from {
     transform: translate(-50%, -50%) scale(0.5);
     opacity: 0;
@@ -25,36 +26,39 @@
   }
 }
 
-.modal-header {
+.modal-header { 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .filter-buttons {
+  font-size: 1em;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
-  padding: 15px 0;
+  gap: 1%;
+  padding: 2% 0;
 }
 
 .filter-input {
+  font-size: 1em;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
+  gap: 1%;
+  margin-top: 1%;
 }
 
 .filter-input input,
 .filter-input select,
 .filter-input button {
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
   font-size: 1em;
+  padding: 2%;
+  border: 0.1em solid #ddd;
+  border-radius: 5px;
 }
 
 .filter-input button {
+  font-size: 1em;
   background-color: #636db4;
   color: white;
   border: none;

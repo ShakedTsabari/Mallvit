@@ -4,15 +4,15 @@
 
 .post-card {
   background: white;
-  border: 1px solid #ddd;
+  border: 0.1em solid #ddd;
   border-radius: 8px;
-  padding: 15px;
-  margin: 10px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 3%;
+  margin: 2% 0;
+  box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  max-width: 500px;
-  width: 100%;
+  max-width: 100%;
+  width: 92%;
   max-height: 25vh;
   cursor: pointer;
   transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
@@ -23,7 +23,7 @@
 
 .post-card:hover {
   transform: scale(1.02);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.2);
 }
 
 .post-card.selected {
@@ -55,11 +55,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 2%;
 }
 
 .post-info {
-  font-size: 0.875em;
+  font-size: 1.1em;
   color: #555;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .post-time {
-  margin-left: 10px;
+  margin-left: 2%;
 }
 
 .post-actions {
@@ -78,7 +78,7 @@
 
 .post-icon {
   font-size: 1.2em;
-  margin-left: 10px;
+  margin-left: 2%;
   cursor: pointer;
   transition: color 0.3s;
 }
@@ -92,33 +92,32 @@
 }
 
 .post-content {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .post-title {
   font-size: 1.125em;
   font-weight: bold;
-  margin: 0 0 5px 0;
+  margin: 0 0 1% 0;
 }
 
 .post-body {
-  margin: 15px;
+  margin: 2%;
   color: #333;
-  margin-right: 30px;
+  margin-right: 6%;
 }
-
 
 .post-footer {
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: flex-end; /* Align to the right */
+  flex-direction: column;
+  align-items: flex-end;
   position: absolute;
-  bottom: 10px;
-  right: 10px;
-  font-size: 0.75em; /* Small font size */
+  bottom: 2%;
+  right: 2%;
+  font-size: 0.75em;
   color: #999;
 }
 
 .post-footer span {
-  margin-top: 2px; /* Add spacing between lines */
+  margin-top: 2%;
 }
