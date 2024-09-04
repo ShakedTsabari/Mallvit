@@ -108,3 +108,16 @@
   .search__icon path {
     fill: white;
   }
+
+  @media screen and (max-width: 768px) {
+    .store-card {
+        width: 200px;
+    } 
+    
+  }
+
+  @media screen and (min-width: 1024px) {
+    .store-card {
+        width: 300px;
+    } 
+  }

@@ -252,7 +252,7 @@
     display: flex;
     width: 360px;
     height: 250px;
-    position: relative;
+    position: fixed;
     inset: auto;
     background: linear-gradient(180deg, #2F2929 0%, #111 100%);
     box-shadow: 0px 4.76599px 5.56032px 0px rgba(0, 0, 0, 0.20);
@@ -322,7 +322,7 @@
   }
   
   #bthn.bthn-banner-mobile .bthn-title-wrap svg {
-    position: relative;
+    position: fixed;
     width: 306px;
     height: 44px;
   }
