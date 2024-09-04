@@ -1,7 +1,7 @@
 .hero-section-mall {
   position: relative;
   width: 100%;
-  height: 50vh; /* Full viewport height */
+  height: 50vh; 
   overflow: hidden;
   text-align: center;
   color: white;
@@ -9,7 +9,7 @@
 }
 
 .home-hero-section {
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
 }
 
 .hero-text-mall {
@@ -23,67 +23,69 @@
 .home-hero-text {
   text-align: center;
   width: 80%;
-  top: 30%; /* Adjusted to make space for details below */
+  top: 30%; 
   transform: translate(-50%, -30%);
 }
 
 .hero-heading-mall {
-  font-size: 8vw; /* Changed from 80px to 8vw for responsiveness */
+  font-size: 5vw; 
   font-weight: bold;
   margin: 0;
   margin-top: 10%;
 }
 
 .hero-description-mall {
-  font-size: 3vw; /* Changed from 30px to 3vw for responsiveness */
-  margin: 2% 0; /* Changed margin to percentage */
+  font-size: 2vw; 
+  margin: 2% 0; 
 }
 
 .home-hero-details-container {
   display: flex;
   justify-content: center;
-  gap: 10%; /* Changed from 200px to 10% for responsiveness */
-  margin-top: 2%; /* Changed from 20px to 2% for responsiveness */
+  gap: 10%;
+  margin-top: 2%; 
+  margin-bottom: 2%; 
 }
 
 .home-hero-details {
   background: rgba(0, 0, 0, 0.6);
-  padding: 5%; /* Changed padding to percentage */
+  padding: 4%; 
   margin-top: 5%;
-  border-radius: 8px;
-  width: 30%; /* Changed from 400px to 30% for responsiveness */
+  margin-bottom: 6%;
+  border-radius: 6%;
+  width: 30%;
   text-align: center;
   position: relative;
-  font-size: 2vw; /* Changed from 24px to 2vw for responsiveness */
+  font-size: 1.5vw; 
 }
 
 .home-hero-hours,
 .home-hero-address {
   position: relative;
-  padding-top: 5%; /* Changed from 10px to percentage */
+  padding-top: 5%; 
 }
 
 .home-hero-hours h3,
 .home-hero-address h3 {
-  margin: 2% 0; /* Changed margin to percentage */
+  margin: 2% 0; 
   text-align: center;
-  margin-bottom: 5%; /* Changed from 30px to percentage */
+  margin-bottom: 5%; 
 }
 
 .home-hero-hours p,
 .home-hero-address p {
-  margin: 1% 0; /* Changed margin to percentage */
+  margin: 2% 0; 
 }
 
 .hero-hour-item {
-  margin: 1% 0; /* Changed margin to percentage */
+  margin: 2% 0; 
 }
 
 .icon {
   position: absolute;
-  top: 2%; /* Changed from 10px to percentage */
-  left: 2%; /* Changed from 10px to percentage */
-  font-size: 3vw; /* Changed from 35px to 3vw for responsiveness */
+  top: 2%;
+  left: 2%; 
+  font-size: 3vw; 
 }
 
 .hero-image-mall {
