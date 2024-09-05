@@ -1,20 +1,19 @@
 .post-card-container {
   perspective: 1000px;
+
 }
 
 .post-card {
   background: white;
   border: 0.1em solid #ddd;
   border-radius: 8px;
-  padding: 1%;
+  padding: 2%;
   margin: 1% 0;
   box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   max-width: 92%;
   width: 92%;
-  height: 80%;
-  max-height: 90%;
   cursor: pointer;
   transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
   position: relative;
@@ -109,7 +108,7 @@
   margin-right: 6%;
 }
 
-.post-footer {
+.post-footer { 
   display: flex;
   flex-direction: column;
   align-items: flex-end;
