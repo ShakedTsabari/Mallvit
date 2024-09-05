@@ -3,16 +3,14 @@
   background: linear-gradient(180deg, #2F2929 0%, #111 100%);
   display: inline-block;
   position: fixed;
-  bottom: 1%;
+  bottom: 3%;
   left: 5%;
   box-shadow: 0 0.4em 0.6em rgba(0, 0, 0, 0.20);
-  padding: 0.2%;
-  border-radius: 10px;
+  padding: 1%;
+  border-radius: 5%;
   z-index: 9999;
   direction: ltr;
   box-sizing: content-box;
-  height: 18vh; 
-
 }
   
   #bthn[lang=he] {
