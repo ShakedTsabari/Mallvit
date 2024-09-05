@@ -3,9 +3,8 @@
   background: linear-gradient(180deg, #2F2929 0%, #111 100%);
   display: inline-block;
   position: fixed;
-  bottom: 3%;
+  bottom: 1%;
   left: 5%;
-  top: 3%;
   box-shadow: 0 0.4em 0.6em rgba(0, 0, 0, 0.20);
   padding: 0.3%;
   border-radius: 5%;
