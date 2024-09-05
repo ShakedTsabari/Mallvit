@@ -118,14 +118,14 @@
   }
   
   #bthn #bthnTitle {
-    font-size: 22px;
+    font-size: 1vw; 
     margin-top: 3px;
   }
   
   #bthn #bthnSubtitle {
     margin-bottom: 1px;
     display: block;
-    font-size: 12px;
+    font-size: 0.8vw; 
     font-style: normal;
     font-weight: 600;
     line-height: 115%;
@@ -133,7 +133,10 @@
     letter-spacing: 0.18px;
     text-transform: uppercase;
     text-align: center;
-    width: 180px;
+    width: 100%;
+    padding-top: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
   
   #bthn[lang=he] #bthnSubtitle {
