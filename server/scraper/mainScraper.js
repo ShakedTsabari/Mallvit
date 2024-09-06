@@ -71,4 +71,4 @@ async function main() {
     console.log('All mallsGroups have been scraped.');
 }
 
-main();
+//main();
