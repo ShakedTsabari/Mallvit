@@ -23,8 +23,8 @@ Ensure you have the following software installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/alalus/Mallvit3.git
-   cd Mallvit3
+   git clone https://github.com/ShakedTsabari/Mallvit.git
+   cd Mallvit
 2. **Setting up the server:**
    ```bash
    cd server
